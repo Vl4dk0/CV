@@ -12,11 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
       initializePopups();
     } catch (error) {
       console.error("Could not load CV data:", error);
-      document.body.innerHTML = "<p>Error loading CV data.</p>";
+      document.body.innerHTML = "<h1>Error loading CV data.</h1>";
     }
   }
 
-  // NEW Helper function to parse text and create links
   function parseTextAndCreateLinks(paragraphElement, text) {
     const linkRegex = /\blink:(\S+)\b/g; // Matches "link:URL"
     let lastIndex = 0;
@@ -36,14 +35,13 @@ document.addEventListener("DOMContentLoaded", () => {
       // Create and add the link
       const url = match[1];
       const a = document.createElement("a");
-      // Ensure URL has a protocol for href
       a.href =
         url.startsWith("http://") || url.startsWith("https://")
           ? url
           : `http://${url}`;
-      a.textContent = url; // Use the URL as the link text
-      a.target = "_blank"; // Open link in a new tab
-      a.rel = "noopener noreferrer"; // Security best practice
+      a.textContent = url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
       paragraphElement.appendChild(a);
 
       lastIndex = linkRegex.lastIndex;
@@ -72,17 +70,16 @@ document.addEventListener("DOMContentLoaded", () => {
     popupContentDiv.appendChild(closeButton);
 
     const h2 = document.createElement("h2");
-    h2.textContent = item.popupTitle || item.summary || item.institution; // Fallback title
+    h2.textContent = item.popupTitle || item.summary || item.institution;
     popupContentDiv.appendChild(h2);
 
     const detailsTextDiv = document.createElement("div");
     detailsTextDiv.className = "popup-details-text";
     if (item.popupDetailsText) {
-      const paragraphsTextArray = item.popupDetailsText.split(/\n\s*\n/); // Split by one or more newlines
+      const paragraphsTextArray = item.popupDetailsText.split(/\n\s*\n/);
       paragraphsTextArray.forEach((paraText) => {
         if (paraText.trim()) {
           const p = document.createElement("p");
-          // Use the new parsing function here
           parseTextAndCreateLinks(p, paraText.trim());
           detailsTextDiv.appendChild(p);
         }
