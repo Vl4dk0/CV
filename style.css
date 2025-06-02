@@ -99,19 +99,11 @@ section h3 {
   font-size: 0.9em;
 }
 
-.contact a {
-  color: #007bff;
-  text-decoration: none;
-}
-.contact a:hover {
-  text-decoration: underline;
-}
-
 .skills ul,
 .achievements ul,
 .previous-experience ul {
   list-style-type: none;
-  padding-left: 0;
+  padding-left: 5px;
 }
 
 .skills li,
@@ -158,11 +150,11 @@ section h3 {
   font-weight: 600;
 }
 
-.achievements a {
+a {
   color: #007bff;
   text-decoration: none;
 }
-.achievements a:hover {
+a:hover {
   text-decoration: underline;
 }
 
@@ -173,18 +165,17 @@ section h3 {
   text-decoration: none;
   position: relative;
   transition:
-    font-size 0.1s ease-in-out,
+    font-weight 0.1s ease-in-out,
     transform 0.1s ease-in-out;
 }
 
 .interactive-item:hover {
-  font-size: 1.02em;
-  rotate: -0.7deg;
+  transform: scale(1.02) rotate(-0.8deg);
+  font-weight: bolder;
 }
 
 /* Popup Overlay Styling */
 .popup-overlay {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -192,15 +183,26 @@ section h3 {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 0.1s ease-in-out,
+    visibility 0.1s ease-in-out;
+}
+
+.popup-overlay.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 /* Popup Styling */
 .popup {
-  display: none;
   position: fixed;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0.95);
   background-color: #fff;
   padding: 25px;
   border-radius: 8px;
@@ -209,6 +211,20 @@ section h3 {
   width: 80%;
   max-width: 600px;
   max-height: 80vh;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 0.1s ease-in-out,
+    visibility 0.1s ease-in-out,
+    transform 0.1s ease-in-out;
+}
+
+.popup.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+  pointer-events: auto;
 }
 
 .popup-content {
@@ -242,10 +258,11 @@ section h3 {
   color: #aaa;
   cursor: pointer;
   line-height: 1;
+  transition: color 0.1s ease-in-out;
 }
 
 .close-button:hover {
-  color: #333;
+  color: #ff0000;
 }
 
 /* Responsive adjustments */
@@ -259,7 +276,7 @@ section h3 {
     width: 100%;
   }
   header h1 {
-    font-size: 2em; /* Further adjust for small screens if needed */
+    font-size: 2em;
   }
   .popup {
     width: 90%;

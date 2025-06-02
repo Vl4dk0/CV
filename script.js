@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Helper function to create a popup DOM element
   function createPopupElement(item) {
     const popupDiv = document.createElement("div");
-    popupDiv.id = `popup-${item.id}`; // Generic popup ID prefix
+    popupDiv.id = `popup-${item.id}`;
     popupDiv.className = "popup";
 
     const popupContentDiv = document.createElement("div");
@@ -222,34 +222,38 @@ document.addEventListener("DOMContentLoaded", () => {
     function openPopup(popupId) {
       const popup = popupsContainer.querySelector(`#${popupId}`);
       if (popup) {
-        popup.style.display = "block";
-        if (popupOverlay) popupOverlay.style.display = "block";
+        popup.classList.add("active");
+        if (popupOverlay) {
+          popupOverlay.classList.add("active");
+        }
         document.body.style.overflow = "hidden";
       }
     }
 
     function closeAllPopups() {
       if (popupsContainer) {
-        popupsContainer.querySelectorAll(".popup").forEach((popup) => {
-          popup.style.display = "none";
+        popupsContainer.querySelectorAll(".popup.active").forEach((popup) => {
+          popup.classList.remove("active"); // ADD
         });
       }
-      if (popupOverlay) popupOverlay.style.display = "none";
+      if (popupOverlay) {
+        popupOverlay.classList.remove("active");
+      }
       document.body.style.overflow = "auto";
     }
 
     interactiveItems.forEach((item) => {
-      // Check if there's actually a popup target defined before adding listener
       if (item.dataset.popupTarget) {
         item.addEventListener("click", (event) => {
-          // Prevent click if clicking on a link inside an interactive item
           if (event.target.tagName === "A") {
             return;
           }
           event.preventDefault();
           const popupId = item.getAttribute("data-popup-target");
           if (popupId) {
-            closeAllPopups();
+            // It's good practice to ensure no other popups are trying to open simultaneously
+            // or to close any that might be stuck in a transition.
+            // The current closeAllPopups handles removing 'active' from all.
             openPopup(popupId);
           }
         });
