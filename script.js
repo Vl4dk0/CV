@@ -12,8 +12,48 @@ document.addEventListener("DOMContentLoaded", () => {
       initializePopups();
     } catch (error) {
       console.error("Could not load CV data:", error);
-      document.body.innerHTML =
-        "<p>Error loading CV data. Please try again later.</p>";
+      document.body.innerHTML = "<p>Error loading CV data.</p>";
+    }
+  }
+
+  // NEW Helper function to parse text and create links
+  function parseTextAndCreateLinks(paragraphElement, text) {
+    const linkRegex = /\blink:(\S+)\b/g; // Matches "link:URL"
+    let lastIndex = 0;
+    let match;
+
+    // Clear existing content of the paragraph element before appending new nodes
+    paragraphElement.innerHTML = "";
+
+    while ((match = linkRegex.exec(text)) !== null) {
+      // Add text before the link
+      if (match.index > lastIndex) {
+        paragraphElement.appendChild(
+          document.createTextNode(text.substring(lastIndex, match.index)),
+        );
+      }
+
+      // Create and add the link
+      const url = match[1];
+      const a = document.createElement("a");
+      // Ensure URL has a protocol for href
+      a.href =
+        url.startsWith("http://") || url.startsWith("https://")
+          ? url
+          : `http://${url}`;
+      a.textContent = url; // Use the URL as the link text
+      a.target = "_blank"; // Open link in a new tab
+      a.rel = "noopener noreferrer"; // Security best practice
+      paragraphElement.appendChild(a);
+
+      lastIndex = linkRegex.lastIndex;
+    }
+
+    // Add any remaining text after the last link
+    if (lastIndex < text.length) {
+      paragraphElement.appendChild(
+        document.createTextNode(text.substring(lastIndex)),
+      );
     }
   }
 
@@ -38,11 +78,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const detailsTextDiv = document.createElement("div");
     detailsTextDiv.className = "popup-details-text";
     if (item.popupDetailsText) {
-      const paragraphs = item.popupDetailsText.split(/\n\s*\n/);
-      paragraphs.forEach((paraText) => {
+      const paragraphsTextArray = item.popupDetailsText.split(/\n\s*\n/); // Split by one or more newlines
+      paragraphsTextArray.forEach((paraText) => {
         if (paraText.trim()) {
           const p = document.createElement("p");
-          p.textContent = paraText.trim();
+          // Use the new parsing function here
+          parseTextAndCreateLinks(p, paraText.trim());
           detailsTextDiv.appendChild(p);
         }
       });
@@ -108,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
       educationList.innerHTML = "";
       data.education.forEach((edu) => {
         const itemDiv = document.createElement("div");
-        itemDiv.className = "education-item interactive-item"; // Make whole item interactive
+        itemDiv.className = "education-item interactive-item";
         itemDiv.id = `edu-item-${edu.id}`;
         itemDiv.dataset.popupTarget = `popup-${edu.id}`;
 
@@ -117,7 +158,7 @@ document.addEventListener("DOMContentLoaded", () => {
         itemDiv.appendChild(h3);
 
         const detailsDiv = document.createElement("div");
-        detailsDiv.className = "education-details-summary"; // For non-popup details
+        detailsDiv.className = "education-details-summary";
         if (edu.details) {
           edu.details.forEach((detailLine) => {
             const p = document.createElement("p");
@@ -233,7 +274,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function closeAllPopups() {
       if (popupsContainer) {
         popupsContainer.querySelectorAll(".popup.active").forEach((popup) => {
-          popup.classList.remove("active"); // ADD
+          popup.classList.remove("active");
         });
       }
       if (popupOverlay) {
@@ -251,9 +292,6 @@ document.addEventListener("DOMContentLoaded", () => {
           event.preventDefault();
           const popupId = item.getAttribute("data-popup-target");
           if (popupId) {
-            // It's good practice to ensure no other popups are trying to open simultaneously
-            // or to close any that might be stuck in a transition.
-            // The current closeAllPopups handles removing 'active' from all.
             openPopup(popupId);
           }
         });
