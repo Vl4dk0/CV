@@ -15,8 +15,7 @@ header {
 }
 
 header h1 {
-  /* Reduced font size */
-  font-size: 2.2em; /* Was 2.8em */
+  font-size: 2.2em;
   font-weight: 300;
   letter-spacing: 2px;
   margin-bottom: 5px;
@@ -40,11 +39,11 @@ header hr {
 }
 
 header hr.header-line-above {
-  width: 60%;
+  width: 50%;
   margin-bottom: 15px;
 }
 header hr.header-line-below {
-  width: 80%;
+  width: 60%;
   margin-top: 15px;
 }
 
@@ -94,8 +93,6 @@ section h3 {
   color: #444;
 }
 
-/* ... (keep existing styles for .contact, .skills, .education, .about-me, .achievements) ... */
-
 .contact p,
 .education p {
   margin: 5px 0;
@@ -113,7 +110,6 @@ section h3 {
 .skills ul,
 .achievements ul,
 .previous-experience ul {
-  /* Added .previous-experience ul */
   list-style-type: none;
   padding-left: 0;
 }
@@ -121,7 +117,6 @@ section h3 {
 .skills li,
 .achievements li,
 .previous-experience li {
-  /* Added .previous-experience li */
   margin-bottom: 8px;
   font-size: 0.9em;
   padding-left: 15px;
@@ -129,20 +124,11 @@ section h3 {
 }
 
 .achievements li::before,
-.previous-experience li::before {
-  /* Added .previous-experience li::before */
-  content: "-";
-  position: absolute;
-  left: 0;
-  color: #555;
-}
+.previous-experience li::before,
 .skills li::before {
-  content: "•";
+  content: "●";
   position: absolute;
   left: 0;
-  color: #555;
-  font-size: 1.2em;
-  line-height: 0.8em;
 }
 
 .education-item {
@@ -186,45 +172,31 @@ section h3 {
   color: inherit;
   text-decoration: none;
   position: relative;
-  padding-left: 15px; /* Keep consistent with other list items */
-  display: inline-block; /* Helps with transform if you add it */
   transition:
-    font-weight 0.1s ease-in-out,
     font-size 0.1s ease-in-out,
-    transform 0.1s ease-in-out; /* Smooth transition for hover effects */
+    transform 0.1s ease-in-out;
 }
 
 .interactive-item:hover {
-  /* text-decoration: underline; */ /* REMOVE underline */
-  /* color: #003d80; */ /* REMOVE hover color change if not desired */
-  font-weight: bolder; /* Make text bolder */
-  font-size: 1em; /* Make text slightly larger (adjust as needed) */
-  /* Optional: a very slight visual lift or shift */
-  /* transform: translateY(-1px); */
+  font-size: 1.02em;
+  rotate: -0.7deg;
 }
 
-/* Ensure the ::before pseudo-element for the dash (-) is not affected by the color change if you removed the blue */
-.previous-experience li.interactive-item::before {
-  content: "-";
-  position: absolute;
-  left: 0;
-  color: #555; /* Or your desired color for the dash */
-}
 /* Popup Overlay Styling */
 .popup-overlay {
-  display: none; /* Hidden by default */
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
-  z-index: 999; /* Below popup, above content */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }
 
 /* Popup Styling */
 .popup {
-  display: none; /* Hidden by default */
+  display: none;
   position: fixed;
   left: 50%;
   top: 50%;
@@ -233,15 +205,15 @@ section h3 {
   padding: 25px;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  z-index: 1000; /* Above overlay */
+  z-index: 1000;
   width: 80%;
   max-width: 600px;
-  max-height: 80vh; /* Max height to prevent overflow on small screens */
+  max-height: 80vh;
 }
 
 .popup-content {
   max-height: calc(80vh - 50px); /* Adjust based on padding */
-  overflow-y: auto; /* Makes content scrollable */
+  overflow-y: auto; /* scrollable */
   padding-right: 15px; /* Space for scrollbar */
 }
 

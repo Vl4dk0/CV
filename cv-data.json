@@ -1,5 +1,5 @@
 {
-  "documentTitle": "Vladimír Jančár - CV",
+  "documentTitle": "Vladimír Jančár - Interactive CV",
   "sectionTitles": {
     "contact": "Contact Information",
     "skills": "Core Competencies",
@@ -17,36 +17,57 @@
     "addressLines": ["Družstevná 503/10", "072 22 Strážske", "Košice region"]
   },
   "skills": [
-    "Programming",
-    "Mathematics",
-    "Algorithms",
-    "Problem Solving",
-    "Web Development",
-    "Teamwork",
-    "Fast Learner",
-    "Adaptability"
+    {
+      "id": "skillProg",
+      "summary": "Programming",
+      "popupTitle": "Programming Experience",
+      "popupDetailsText": "I have been programming since my freshman year in high school. My journey started with Python, and I quickly expanded to C++ for competitive programming. During the lockdown, I delved into web development with JavaScript, TypeScript, HTML, and CSS. In college, I've furthered my skills in Java and Go.\n\nYou can find some of my recent projects on my GitHub: Vl4dk0 (github.com/Vl4dk0)."
+    },
+    {
+      "id": "skillMath",
+      "summary": "Mathematics",
+      "popupTitle": "Mathematical Background",
+      "popupDetailsText": "Mathematics has always been a strong suit and a passion. I've consistently performed well in mathematical competitions and believe it provides a crucial foundation for logical thinking and problem-solving in computer science."
+    },
+    {
+      "id": "skillEng",
+      "summary": "English Language (B2)",
+      "popupTitle": "English Proficiency",
+      "popupDetailsText": "I studied English in school from the 2nd grade of primary school. I successfully completed my maturity exams (Maturita) with a result in the >85th percentile, achieving a B2 level of proficiency according to the CEFR."
+    }
   ],
   "education": [
     {
-      "id": "edu1",
-      "institution": "Gymnasium P. Horova",
+      "id": "edu0",
+      "institution": "Primary School Strážske",
       "details": [],
-      "dates": "2019 - 2023"
+      "dates": "2010 - 2019",
+      "popupTitle": "Primary School Strážske",
+      "popupDetailsText": "Attended primary school in Strážske, where I developed foundational academic skills and first discovered my interest in logical puzzles and problem-solving."
+    },
+    {
+      "id": "edu1",
+      "institution": "Gymnasium P. Horova, Michalovce",
+      "details": ["Focus on Mathematics and Informatics"],
+      "dates": "2019 - 2023",
+      "popupTitle": "Gymnasium P. Horova",
+      "popupDetailsText": "During my time at Gymnasium P. Horova, I specialized in subjects that deepened my understanding of mathematics and informatics. This period was crucial for participating in various Olympiads and competitions, solidifying my passion for programming."
     },
     {
       "id": "edu2",
-      "institution": "Comenius University",
+      "institution": "Comenius University, Bratislava",
       "details": [
         "Faculty of Mathematics, Physics and Informatics",
         "Applied Informatics"
       ],
-      "dates": "2023 - present"
+      "dates": "2023 - present",
+      "popupTitle": "Comenius University - Applied Informatics",
+      "popupDetailsText": "Currently pursuing a degree in Applied Informatics, where I am expanding my knowledge in various areas of computer science, including software development, algorithms, and data structures. I am actively engaging in challenging coursework and projects."
     }
   ],
   "aboutMe": [
-    "I started programming as a freshman in high school. The turning point came when I entered the Zenit competition in programming and later the Olympiad in Informatics.",
-    "I programmed in Python, but gradually started using C++ as competitions started to demand it. During the lockdown period I also learned to program in JavaScript/TypeScript, HTML and CSS. In college, I learned how to program in Java and GO, and improved my skill in Python, C++, JS.",
-    "It is because of these experiences that I know myself to be a fast learner and adapt quickly in a new environment."
+    "Highly motivated and adaptable informatics student with a strong foundation in programming and problem-solving, honed through years of competitive mathematics and informatics.",
+    "Seeking a challenging part-time or internship opportunity where I can contribute to innovative projects, further develop my technical skills, and learn from experienced professionals. Particularly interested in [mention specific areas like web development, backend systems, data science, etc. if you have preferences]."
   ],
   "experience": [
     {
@@ -63,26 +84,36 @@
     }
   ],
   "achievements": {
-    "introText": "Since the 5th grade of primary school I have regularly placed in the top positions in various mathematical competitions (e.g. Math Olympiad, Math Kangaroo (Matematický klokan) or Pythagoriad (Pytagoriáda)). Thanks to a good foundation in mathematics, I learned to program and solve algorithmic problems very quickly and easily, which is why I started to compete in programming as well.",
+    "introText": "Since the 5th grade of primary school I have regularly placed in the top positions in various mathematical competitions. Thanks to a good foundation in mathematics, I learned to program and solve algorithmic problems very quickly and easily, which is why I started to compete in programming as well.",
     "subsections": [
       {
         "id": "achieveSub1",
         "title": "My greatest accomplishments in high school:",
         "items": [
-          "Qualifying for the national round of Math Olympiad",
-          "Obtaining 172 points at the KSP seminar (top 10 of 150+)",
-          "2nd place at the regional round of Zenit in programming (Kosice region)(10th Nation-wide)",
-          ">96th percentile in Maturita written part of mathematics",
-          "Python Cup 1st place",
-          "3rd place National round Palma-Strom."
+          {
+            "id": "achieveHS1",
+            "summary": "Qualifying for the national round of Math Olympiad",
+            "popupTitle": "Math Olympiad National Round",
+            "popupDetailsText": "Qualifying for the national round of the Math Olympiad was a significant personal achievement. It involved months of preparation, tackling complex problems, and it was an honor to compete at that level. This experience greatly sharpened my analytical and problem-solving abilities."
+          },
+          {
+            "id": "achieveHS2",
+            "summary": "Obtaining 172 points at the KSP seminar (top 10 of 150+)",
+            "popupTitle": "KSP Programming Seminar",
+            "popupDetailsText": "KSP (Korešpondenčný Seminár z Programovania) is a prestigious programming correspondence seminar. Securing a top 10 position among over 150 participants was a result of consistent effort in solving algorithmic challenges and coding solutions, primarily in C++."
+          }
         ]
       },
       {
         "id": "achieveSub2",
         "title": "Interesting achievements at university:",
         "items": [
-          "1.05 grade point average (Where 1.0 is the best theoretical average)",
-          "Most points during my first two semesters in programming and mathematical subjects (within year group)"
+          {
+            "id": "achieveUni1",
+            "summary": "1.05 grade point average (Where 1.0 is best)",
+            "popupTitle": "Academic Excellence at University",
+            "popupDetailsText": "Maintaining a 1.05 GPA in my initial semesters reflects my dedication to my studies and my ability to grasp complex concepts in informatics and mathematics quickly. (Note: In Slovakia, 1.0 is the best possible grade)."
+          }
         ]
       }
     ]
