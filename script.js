@@ -101,8 +101,24 @@ document.addEventListener("DOMContentLoaded", () => {
     setTextContent("experience-title", data.sectionTitles?.experience);
     setTextContent("achievements-title", data.sectionTitles?.achievements);
     setTextContent("education-title", data.sectionTitles?.education);
-
     setTextContent("contact-phone", data.contact?.phone);
+
+    function shouldBeInteractive(item) {
+      const hasTitle = item.popupTitle && item.popupTitle.trim() !== "";
+      const hasDetails =
+        item.popupDetailsText && item.popupDetailsText.trim() !== "";
+
+      console.log(
+        `Item ${item.id} interactive:`,
+        hasTitle,
+        item.popupTitle,
+        hasDetails,
+        item.popupDetailsText,
+      );
+
+      return hasTitle && hasDetails;
+    }
+
     const emailLink = document.getElementById("contact-email-link");
     const emailTextSpan = document.getElementById("contact-email-text");
     if (emailLink && data.contact?.emailHref)
@@ -122,7 +138,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const popupsContainer = document.getElementById("popups-container");
-    if (popupsContainer) popupsContainer.innerHTML = ""; // Clear existing popups
+    if (popupsContainer) popupsContainer.innerHTML = "";
 
     // Populate Skills
     const skillsList = document.getElementById("skills-list");
@@ -130,13 +146,15 @@ document.addEventListener("DOMContentLoaded", () => {
       skillsList.innerHTML = "";
       data.skills.forEach((skill) => {
         const li = document.createElement("li");
-        li.className = "interactive-item";
-        li.dataset.popupTarget = `popup-${skill.id}`;
         li.textContent = skill.summary;
-        skillsList.appendChild(li);
-        if (skill.popupDetailsText) {
+
+        if (shouldBeInteractive(skill)) {
+          li.className = "interactive-item";
+          li.dataset.popupTarget = `popup-${skill.id}`;
           popupsContainer.appendChild(createPopupElement(skill));
         }
+
+        skillsList.appendChild(li);
       });
     }
 
@@ -146,9 +164,15 @@ document.addEventListener("DOMContentLoaded", () => {
       educationList.innerHTML = "";
       data.education.forEach((edu) => {
         const itemDiv = document.createElement("div");
-        itemDiv.className = "education-item interactive-item";
+        itemDiv.className = "education-item";
+
+        if (shouldBeInteractive(edu)) {
+          itemDiv.classList.add("interactive-item");
+          itemDiv.dataset.popupTarget = `popup-${edu.id}`;
+          popupsContainer.appendChild(createPopupElement(edu));
+        }
+
         itemDiv.id = `edu-item-${edu.id}`;
-        itemDiv.dataset.popupTarget = `popup-${edu.id}`;
 
         const h3 = document.createElement("h3");
         h3.textContent = edu.institution;
@@ -171,10 +195,6 @@ document.addEventListener("DOMContentLoaded", () => {
         datesP.appendChild(strongDates);
         itemDiv.appendChild(datesP);
         educationList.appendChild(itemDiv);
-
-        if (edu.popupDetailsText) {
-          popupsContainer.appendChild(createPopupElement(edu));
-        }
       });
     }
 
@@ -195,13 +215,15 @@ document.addEventListener("DOMContentLoaded", () => {
       experienceList.innerHTML = "";
       data.experience.forEach((exp) => {
         const li = document.createElement("li");
-        li.className = "interactive-item";
-        li.dataset.popupTarget = `popup-${exp.id}`;
         li.textContent = exp.summary;
-        experienceList.appendChild(li);
-        if (exp.popupDetailsText) {
+
+        if (shouldBeInteractive(exp)) {
+          li.className = "interactive-item";
+          li.dataset.popupTarget = `popup-${exp.id}`;
           popupsContainer.appendChild(createPopupElement(exp));
         }
+
+        experienceList.appendChild(li);
       });
     }
 
@@ -227,13 +249,15 @@ document.addEventListener("DOMContentLoaded", () => {
           if (sub.items) {
             sub.items.forEach((item) => {
               const li = document.createElement("li");
-              li.className = "interactive-item";
-              li.dataset.popupTarget = `popup-${item.id}`;
               li.textContent = item.summary;
-              ul.appendChild(li);
-              if (item.popupDetailsText) {
+
+              if (shouldBeInteractive(item)) {
+                li.className = "interactive-item";
+                li.dataset.popupTarget = `popup-${item.id}`;
                 popupsContainer.appendChild(createPopupElement(item));
               }
+
+              ul.appendChild(li);
             });
           }
           subDiv.appendChild(ul);

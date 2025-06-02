@@ -1,5 +1,5 @@
 {
-  "documentTitle": "Vladimír Jančár - Interactive CV",
+  "documentTitle": "Vladimír Jančár",
   "sectionTitles": {
     "contact": "Contact Information",
     "skills": "Core Competencies",
@@ -14,44 +14,84 @@
     "phone": "+421 903 979 659",
     "emailHref": "mailto:jvladko@gmail.com",
     "emailText": "jvladko@gmail.com",
-    "addressLines": ["Družstevná 503/10", "072 22 Strážske", "Košice region"]
+    "addressLines": ["Družstevná 503/10", "Strážske (072 22)", "Košice region"]
   },
   "skills": [
     {
       "id": "skillProg",
       "summary": "Programming",
       "popupTitle": "Programming Experience",
-      "popupDetailsText": "I have been programming since my freshman year in high school. My journey started with Python, and I quickly expanded to C++ for competitive programming. During the lockdown, I delved into web development with JavaScript, TypeScript, HTML, and CSS. In college, I've furthered my skills in Java and Go.\n\nYou can find some of my recent projects on my GitHub: link:www.github.com/Vl4dk0."
+      "popupDetailsText": "My programming journey began in freshman year of high school, sparked by the Zenit competition. I started with Python, then quickly adopted C++ for its performance in competitive programming, including the Informatics Olympiad (twice succeeded in regionals, both of times very close to nationals). This honed my skills in optimization, graph theory, dynamic programming, and more. I also explored LeetCode for programming challenges.\n\nIn university, I've expanded my toolkit with Java, Go (concurrency), Haskell (functional), C (system programming), CL (Specification and Verification paradigm, Uni's special) and web technologies (HTML, CSS, JS, PHP). I applied these to solve diverse problems, from competitive algorithms to practical automation scripts in excel or other tools that make life easier/better.\n\nMy GitHub: link:www.github.com/Vl4dk0 showcases some of my work."
     },
     {
       "id": "skillMath",
       "summary": "Mathematics",
       "popupTitle": "Mathematical Background",
-      "popupDetailsText": "Mathematics has always been a strong suit and a passion. I've consistently performed well in mathematical competitions and believe it provides a crucial foundation for logical thinking and problem-solving in computer science."
+      "popupDetailsText": "My passion for mathematics was ignited in 5th grade with the Math Olympiad. Since then, I've actively competed in major Slovak math contests (Math olympiad, Klokan, Naboj, and more). Since 7th grade in primary school I often studied advanced topics independently, even those covered later at university. This deep engagement with math has been fundamental to my problem-solving skills and love for programming."
     },
+    {
+      "id": "skillAlgo",
+      "summary": "Algorithms",
+      "popupTitle": "Algorithmic Problem Solving",
+      "popupDetailsText": "My experience in competitive programming (Math Olympiad, Informatics Olympiad, KSP, ...) has provided extensive practice in designing and implementing efficient algorithms or data structures. I'm comfortable with areas like optimization, graph theory, probability, geometry, dynamic programming and pretty much any other common problem solving technique. I utilized LeetCode to broaden my exposure to common algorithmic patterns."
+    },
+    {
+      "id": "skillLearn",
+      "summary": "Very Fast Learner",
+      "popupTitle": "Learning Agility & Adaptability",
+      "popupDetailsText": "My journey through various academic competitions (Math, History, Chemistry, Geography) and the necessity to learn and understand programming languages (Python to C++ for speed in contests, then learning Java, Go, Haskell, etc., at university, Django, CSS, JavaScrip, etc., at work) demonstrates my ability to learn new concepts and tools rapidly. I enjoy being challenged and like the feeling of mastering new skill."
+    },
+    {
+      "id": "skillResilience",
+      "summary": "Resilience & Perseverance",
+      "popupTitle": "Resilience and Dedication",
+      "popupDetailsText": "My experience with challenging math and programming seminars similar to KSP, where I dedicated significant effort (sometimes sacrificing sleep and food) to solve complex problems and ultimately succeeded (top 10 twice in a row), taught me the value of perseverance. I'm not just about talent; I'm about enduring hardships to achieve a goal. This dedication led to my acceptance at Matfyz with a motivational scholarship."
+    },
+    {
+      "id": "skillAutomation",
+      "summary": "Automation & Scripting",
+      "popupTitle": "Practical Automation",
+      "popupDetailsText": "I enjoy identifying opportunities for automation.\n\nFor example, I developed TypeScript scripts to automate repetitive data checking and summarization tasks in Excel for my mother, saving her significant time.\n\nOr created tools that helped me save huge amounts of time with my homeworks. For example a program that would parse the online editor to a text file and integrating tools that my friends made that bruteforced their ways to find closed tableaus in seconds, then automatically reparsing it back to online editor format.\n\nThis highlights my ability to apply programming skills to solve real-world problems efficiently."
+    },
+    {
+      "id": "skillHumor",
+      "summary": "Humor",
+      "popupTitle": "Sense of Humor",
+      "popupDetailsText": "I appreciate basically any type of humor and find it nearly impossible to be offended by a joke. I believe this contributes to a positive and resilient team atmosphere. Importantly, I also understand the importance of context and know when to be lighthearted and when to be serious and focused."
+    },
+
     {
       "id": "skillEng",
       "summary": "English Language (B2)",
       "popupTitle": "English Proficiency",
-      "popupDetailsText": "I studied English in school from the 2nd grade of primary school. I successfully completed my maturity exams (Maturita) with a result in the >85th percentile, achieving a B2 level of proficiency according to the CEFR."
+      "popupDetailsText": "I have studied English in school since the 2nd grade of primary school. I successfully completed my maturity exams (Maturita) with a result in the >85th percentile, achieving a B2 level of proficiency according to the CEFR."
+    },
+    {
+      "id": "skillRus",
+      "summary": "Russian Language (B1)",
+      "popupTitle": "English Proficiency",
+      "popupDetailsText": "I have studied Russian in school since the 5th grade of primary school. I continued to study it in high school, where I achieved a B1 level of proficiency according to the CEFR. Although I didn't expect it, it turned out to be very handy, as it is easier for me to communicate with my ukrainian fellow students."
     }
   ],
   "education": [
     {
       "id": "edu0",
       "institution": "Primary School Strážske",
-      "details": [],
+      "details": ["Consistent top grades"],
       "dates": "2010 - 2019",
-      "popupTitle": "Primary School Strážske",
-      "popupDetailsText": "Attended primary school in Strážske, where I developed foundational academic skills and first discovered my interest in logical puzzles and problem-solving."
+      "popupTitle": "Primary School Strážske - Foundations & Passions",
+      "popupDetailsText": "Throughout my time at Primary School Strážske, I consistently achieved top grades (straight 1s). It was here, particularly from 5th grade onwards, that I discovered my deep interest and aptitude for mathematics, sparked by my participation in the Math Olympiad. This period also marked the beginning of my involvement in competitive volleyball, where our team achieved national success, including a 3rd place finish in the U15 Nationals."
     },
     {
       "id": "edu1",
       "institution": "Gymnasium P. Horova, Michalovce",
-      "details": ["Focus on Mathematics and Informatics"],
+      "details": [
+        "In class with focus on Mathematics and Informatics",
+        "Consistent top grades"
+      ],
       "dates": "2019 - 2023",
-      "popupTitle": "Gymnasium P. Horova",
-      "popupDetailsText": "During my time at Gymnasium P. Horova, I specialized in subjects that deepened my understanding of mathematics and informatics. This period was crucial for participating in various Olympiads and competitions, solidifying my passion for programming."
+      "popupTitle": "Gymnasium P. Horova - Igniting Programming Passion",
+      "popupDetailsText": "At Gymnasium P. Horova, I continued to excel academically, maintaining top grades while focusing on Mathematics and Informatics. This is where my passion for programming truly ignited, largely thanks to participating in the Zenit competition and to my willing teachers. I realized programming was like 'math, but better,' leading me to dive into Python and later C++. I also continued playing volleyball throughout high school, balancing academics with team sports. This period was instrumental in developing my problem-solving skills through various Olympiads and programming challenges."
     },
     {
       "id": "edu2",
@@ -62,29 +102,29 @@
       ],
       "dates": "2023 - present",
       "popupTitle": "Comenius University - Applied Informatics",
-      "popupDetailsText": "Currently pursuing a degree in Applied Informatics, where I am expanding my knowledge in various areas of computer science, including software development, algorithms, and data structures. I am actively engaging in challenging coursework and projects."
+      "popupDetailsText": "At Matfyz (Comenius University), I'm in the Applied Informatics program, maintaining a GPA of ~1.04 over two years. The challenging curriculum 'forces' me to continuously learn and solve complex problems. I've gained practical experience in web development (HTML, CSS, JS, PHP), concurrency (Go), functional programming (Haskell), specification-verification (CL), system programming (C), and further honed problem-solving in Python, Java, and C++.\n\n This school has also taught me a lot about advanced probability and hypthesis testing. Utilized my knowledge in math analysis and linear algebra and by good mentorship showed me how to write formal proofs, with which I struggled for a long time."
     }
   ],
   "aboutMe": [
     "Highly motivated and adaptable informatics student with a strong foundation in programming and problem-solving, honed through years of competitive mathematics and informatics.",
-    "Seeking a challenging part-time or internship opportunity where I can contribute to innovative projects, further develop my technical skills, and learn from experienced professionals. Particularly interested in [mention specific areas like web development, backend systems, data science, etc. if you have preferences]."
+    "Seeking a challenging part-time or internship opportunity where I can contribute to innovative projects, further develop my technical skills, and learn from experienced professionals. I am not searching for something specific. I really enjoy anything involving programming and thinking s.a. Web development, Data science, AI, Game development, Automations, Math."
   ],
   "experience": [
     {
       "id": "exp1",
-      "summary": "SmartBase s.r.o, Junior, django - fullstack, 2024-2025",
-      "popupTitle": "SmartBase s.r.o - Junior Developer",
-      "popupDetailsText": "In SmartBase s.r.o I worked as a Junior developer on various projects s.a. <some websites>.\n\nAt first I only worked on frontend, html, css and javascript related tasks. But after first month I got to work on various tasks on backend as well. i.e. I worked on tasks s.a. integrating payment API or fixing bug with loading very high quality pictures when not necessary over mobile data.\n\nI learned a lot and they were quite nice to me. But I unfortunately didn't have time to work enough hours because of school."
+      "summary": "Azteka, Pizza delivery, Summer 2022",
+      "popupTitle": "Azteka - Pizza Delivery Boy",
+      "popupDetailsText": "This job has nothing to do with jobs I am looking for, but it was my first job and I learned a lot about myself from it. I learned how to communicate with frustrated customers, how to work in a team, and how to plan my time. I also learned about myself, that I can finish the job I don't like to do. I won't collapse under pressure."
     },
     {
       "id": "exp2",
-      "summary": "Azteka, Pizza delivery, part-time, Summer 2020",
-      "popupTitle": "Azteka - Pizza Delivery",
-      "popupDetailsText": "During the summer of 2020, I worked part-time at Azteka delivering pizzas.\n\nThis role helped me develop time management and customer service skills. It was a great way to understand local businesses and interact with a diverse range of people."
+      "summary": "SmartBase s.r.o, Junior, Fullstack developer, 2024-2025",
+      "popupTitle": "SmartBase s.r.o - Junior Django Fullstack developer",
+      "popupDetailsText": "At SmartBase s.r.o (June 2024 - April 2025), I worked as a Junior Fullstack Developer on e-commerce projects like link:alo.sk, link:argus.sk, and link:najlekaren.sk. Initially focused on frontend tasks (HTML, CSS, JavaScript from Figma templates), I quickly transitioned to backend responsibilities as well. Key backend tasks included integrating payment APIs and optimizing image loading to reduce mobile data consumption.\n\nI greatly valued the learning experience and the team environment. We parted ways amicably as my university commitments required more time than I could dedicate to the role, and for me, studies come first."
     }
   ],
   "achievements": {
-    "introText": "Since the 5th grade of primary school I have regularly placed in the top positions in various mathematical competitions. Thanks to a good foundation in mathematics, I learned to program and solve algorithmic problems very quickly and easily, which is why I started to compete in programming as well.",
+    "introText": "",
     "subsections": [
       {
         "id": "achieveSub1",
@@ -98,9 +138,33 @@
           },
           {
             "id": "achieveHS2",
-            "summary": "Obtaining 172 points at the KSP seminar (top 10 of 150+)",
+            "summary": "top 10 of 150+ on KSP seminar",
             "popupTitle": "KSP Programming Seminar",
-            "popupDetailsText": "KSP (Korešpondenčný Seminár z Programovania) is a prestigious programming correspondence seminar. Securing a top 10 position among over 150 participants was a result of consistent effort in solving algorithmic challenges and coding solutions, primarily in C++."
+            "popupDetailsText": "KSP (Korešpondenčný Seminár z Programovania) was a turning point. To qualify, I dedicated immense effort to solving difficult problems, often working through the night. Achieving a top 10 rank twice in a row wasn't just about skill; it was a testament to my ability to endure and persevere. This success directly contributed to my acceptance into Matfyz with a motivational scholarship. I am now a proud member of KSP team, where I prepare problems for contests."
+          },
+          {
+            "id": "achieveHSZenit",
+            "summary": "2nd place, Zenit regional (10th Nation-wide)",
+            "popupTitle": "Zenit Programming Competition",
+            "popupDetailsText": "This was a key competition that sparked my interest in competitive programming. In my last year of high school I achieved 2nd place in the regional round of the Zenit competition in programming (Košice region), which also corresponded to a 10th place finish Nation-wide. That was a great success for me"
+          },
+          {
+            "id": "achieveHSMaturitaMath",
+            "summary": ">96th percentile in Maturita (Mathematics)",
+            "popupTitle": "Maturita Exam - Mathematics",
+            "popupDetailsText": "Scored in the >96th percentile in the written part of the Maturita (Slovak school-leaving exam) in Mathematics, demonstrating a strong proficiency in the subject.\n\nHowever I was not satisfied with my result, as I was aiming for 100% and I missed it by 3 points. This experience taught me the importance of attention to detail."
+          },
+          {
+            "id": "achieveHSPythonCup",
+            "summary": "Python Cup 1st place",
+            "popupTitle": "Python Cup Victory",
+            "popupDetailsText": "This was about creating three games in Python tkinter module. There were over 40 winners, and for unknown reasons not sorted by time. The contest was supposed to be fun rather than prestigeous, but you still had to score 100% to be 1st/winner."
+          },
+          {
+            "id": "achieveHSPalmaStrom",
+            "summary": "3rd place National round Palma-Strom",
+            "popupTitle": "Palma-Strom National Round",
+            "popupDetailsText": "This is a pair programming competition where you solve 4 hard problems in 4 hours. I participated with my friend and we achieved 3rd place in the national round, which was a great achievement for us."
           }
         ]
       },
@@ -113,6 +177,24 @@
             "summary": "1.05 grade point average (Where 1.0 is best)",
             "popupTitle": "Academic Excellence at University",
             "popupDetailsText": "Maintaining a 1.05 GPA in my initial semesters reflects my dedication to my studies and my ability to grasp complex concepts in informatics and mathematics quickly. (Note: In Slovakia, 1.0 is the best possible grade)."
+          },
+          {
+            "id": "achieveUniMostPoints",
+            "summary": "Most points in programming & math subjects (1st year)",
+            "popupTitle": "Top Performance in University Coursework",
+            "popupDetailsText": "Achieved the most points within my year group during my first two semesters in core programming and mathematical subjects at Comenius University, indicating a strong start and quick grasp of university-level material."
+          }
+        ]
+      },
+      {
+        "id": "achieveSubPersonal",
+        "title": "Other Interests & Achievements",
+        "items": [
+          {
+            "id": "achieveVolleyball",
+            "summary": "U15 Volleyball (3rd in Nationals U15)",
+            "popupTitle": "Volleyball – Teamwork & Dedication",
+            "popupDetailsText": "I've actively played volleyball since 5th grade in primary school, competing at a national level. Our team achieved 3rd place in the U15 Nationals one year and 6th the following. This sport has taught me valuable lessons in teamwork, discipline, respect (coach) and maintaining an active lifestyle."
           }
         ]
       }
