@@ -1,0 +1,196 @@
+/* Basic Reset & Body Styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.8em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+header .tagline {
+  font-size: 0.9em;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #555;
+  text-transform: uppercase;
+}
+
+header hr {
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px auto;
+}
+
+header hr.header-line-above {
+  width: 60%;
+  margin-bottom: 15px;
+}
+
+header hr.header-line-below {
+  width: 80%;
+  margin-top: 15px;
+}
+
+/* Main Content Layout (Two Columns) */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.right-column {
+  flex: 2;
+  min-width: 300px;
+}
+
+/* Section Styling */
+section {
+  margin-bottom: 25px;
+}
+
+section h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+section h3 {
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+/* Specific Section Styling */
+.contact p,
+.education p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+.contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.skills ul,
+.achievements ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills li,
+.achievements li {
+  margin-bottom: 8px;
+  font-size: 0.9em;
+  padding-left: 15px;
+  position: relative;
+}
+
+.achievements li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+  color: #555;
+}
+
+.skills li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #555;
+  font-size: 1.2em;
+  line-height: 0.8em;
+}
+
+.education-item {
+  margin-bottom: 15px;
+}
+
+.education-item h3 {
+  margin-bottom: 3px;
+  font-size: 1em;
+}
+
+.education-item p {
+  margin: 2px 0;
+  font-size: 0.9em;
+}
+
+.education-item p strong {
+  font-weight: 600;
+}
+
+.about-me p,
+.achievements p {
+  font-size: 0.95em;
+  margin-bottom: 15px;
+}
+
+.about-me strong,
+.achievements strong {
+  font-weight: 600;
+}
+
+.achievements a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.achievements a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments (basic example) */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+    flex: none;
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 2.2em;
+  }
+}
