@@ -1,0 +1,90 @@
+{
+  "documentTitle": "Vladimír Jančár - CV",
+  "sectionTitles": {
+    "contact": "Contact Information",
+    "skills": "Core Competencies",
+    "education": "Educational Background",
+    "aboutMe": "About Me",
+    "experience": "Professional Experience",
+    "achievements": "Key Achievements"
+  },
+  "headerName": "VLADIMÍR JANČÁR",
+  "headerTagline": "I CAN SOLVE RUBIK'S CUBE BLINDFOLDED",
+  "contact": {
+    "phone": "+421 903 979 659",
+    "emailHref": "mailto:jvladko@gmail.com",
+    "emailText": "jvladko@gmail.com",
+    "addressLines": ["Družstevná 503/10", "072 22 Strážske", "Košice region"]
+  },
+  "skills": [
+    "Programming",
+    "Mathematics",
+    "Algorithms",
+    "Problem Solving",
+    "Web Development",
+    "Teamwork",
+    "Fast Learner",
+    "Adaptability"
+  ],
+  "education": [
+    {
+      "id": "edu1",
+      "institution": "Gymnasium P. Horova",
+      "details": [],
+      "dates": "2019 - 2023"
+    },
+    {
+      "id": "edu2",
+      "institution": "Comenius University",
+      "details": [
+        "Faculty of Mathematics, Physics and Informatics",
+        "Applied Informatics"
+      ],
+      "dates": "2023 - present"
+    }
+  ],
+  "aboutMe": [
+    "I started programming as a freshman in high school. The turning point came when I entered the Zenit competition in programming and later the Olympiad in Informatics.",
+    "I programmed in Python, but gradually started using C++ as competitions started to demand it. During the lockdown period I also learned to program in JavaScript/TypeScript, HTML and CSS. In college, I learned how to program in Java and GO, and improved my skill in Python, C++, JS.",
+    "It is because of these experiences that I know myself to be a fast learner and adapt quickly in a new environment."
+  ],
+  "experience": [
+    {
+      "id": "exp1",
+      "summary": "SmartBase s.r.o, Junior, django - fullstack, 2024-2025",
+      "popupTitle": "SmartBase s.r.o - Junior Developer",
+      "popupDetailsText": "In SmartBase s.r.o I worked as a Junior developer on various projects s.a. <some websites>.\n\nAt first I only worked on frontend, html, css and javascript related tasks. But after first month I got to work on various tasks on backend as well. i.e. I worked on tasks s.a. integrating payment API or fixing bug with loading very high quality pictures when not necessary over mobile data.\n\nI learned a lot and they were quite nice to me. But I unfortunately didn't have time to work enough hours because of school."
+    },
+    {
+      "id": "exp2",
+      "summary": "Azteka, Pizza delivery, part-time, Summer 2020",
+      "popupTitle": "Azteka - Pizza Delivery",
+      "popupDetailsText": "During the summer of 2020, I worked part-time at Azteka delivering pizzas.\n\nThis role helped me develop time management and customer service skills. It was a great way to understand local businesses and interact with a diverse range of people."
+    }
+  ],
+  "achievements": {
+    "introText": "Since the 5th grade of primary school I have regularly placed in the top positions in various mathematical competitions (e.g. Math Olympiad, Math Kangaroo (Matematický klokan) or Pythagoriad (Pytagoriáda)). Thanks to a good foundation in mathematics, I learned to program and solve algorithmic problems very quickly and easily, which is why I started to compete in programming as well.",
+    "subsections": [
+      {
+        "id": "achieveSub1",
+        "title": "My greatest accomplishments in high school:",
+        "items": [
+          "Qualifying for the national round of Math Olympiad",
+          "Obtaining 172 points at the KSP seminar (top 10 of 150+)",
+          "2nd place at the regional round of Zenit in programming (Kosice region)(10th Nation-wide)",
+          ">96th percentile in Maturita written part of mathematics",
+          "Python Cup 1st place",
+          "3rd place National round Palma-Strom."
+        ]
+      },
+      {
+        "id": "achieveSub2",
+        "title": "Interesting achievements at university:",
+        "items": [
+          "1.05 grade point average (Where 1.0 is the best theoretical average)",
+          "Most points during my first two semesters in programming and mathematical subjects (within year group)"
+        ]
+      }
+    ]
+  }
+}

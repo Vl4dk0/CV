@@ -3,130 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vladimír Jančár - CV</title>
+    <title>{{DOCUMENT_TITLE}}</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <header>
-      <h1>VLADIMÍR JANČÁR</h1>
+      <h1 id="header-name">{{HEADER_NAME}}</h1>
       <hr class="header-line-above" />
-      <p class="tagline">I CAN SOLVE RUBIKS CUBE BLINDFOLDED</p>
+      <p class="tagline" id="header-tagline">{{HEADER_TAGLINE}}</p>
       <hr class="header-line-below" />
     </header>
 
     <div class="main-content">
       <aside class="left-column">
         <section class="contact">
-          <h2>CONTACT</h2>
-          <p>+421 903 979 659</p>
-          <p><a href="mailto:jvladko@gmail.com">jvladko@gmail.com</a></p>
-          <p>Družstevná 503/10,<br />072 22 Strážske,<br />Košice region</p>
+          <h2 id="contact-title">{{SECTION_TITLE_CONTACT}}</h2>
+          <p id="contact-phone">{{CONTACT_PHONE}}</p>
+          <p>
+            <a id="contact-email-link" href="mailto:{{CONTACT_EMAIL_HREF}}"
+              ><span id="contact-email-text">{{CONTACT_EMAIL_TEXT}}</span></a
+            >
+          </p>
+          <address id="contact-address">
+            <!-- JS will populate address lines from an array -->
+          </address>
         </section>
 
         <section class="skills">
-          <h2>SKILLS</h2>
-          <ul>
-            <li>Programming</li>
-            <li>Mathematics</li>
-            <li>Algorithms</li>
-            <li>Logical thinking</li>
-            <li>Humor</li>
-            <li>Sense of detail</li>
-            <li>Ability/Willingness to learn</li>
+          <h2 id="skills-title">{{SECTION_TITLE_SKILLS}}</h2>
+          <ul id="skills-list">
+            <!-- JS: <li>{{SKILL_NAME}}</li> -->
           </ul>
         </section>
 
         <section class="education">
-          <h2>EDUCATION</h2>
-          <div class="education-item">
-            <h3>Gymnasium P. Horova</h3>
-            <p><strong>2019 - 2023</strong></p>
-          </div>
-          <div class="education-item">
-            <h3>Comenius University,</h3>
-            <p>Faculty of Mathematics, <br />Physics and Informatics</p>
-            <p>Applied Informatics</p>
-            <p><strong>2023 - present</strong></p>
+          <h2 id="education-title">{{SECTION_TITLE_EDUCATION}}</h2>
+          <div id="education-list">
+            <!--
+              JS for each education item:
+              <div class="education-item" id="edu-item-{{ITEM_UNIQUE_ID}}">
+                <h3 id="edu-institution-{{ITEM_UNIQUE_ID}}">{{EDU_INSTITUTION_NAME}}</h3>
+                <div class="education-details" id="edu-details-{{ITEM_UNIQUE_ID}}">
+                  JS for each detail line: <p>{{EDU_DETAIL_LINE}}</p>
+                </div>
+                <p><strong id="edu-dates-{{ITEM_UNIQUE_ID}}">{{EDU_DATES}}</strong></p>
+              </div>
+            -->
           </div>
         </section>
       </aside>
 
       <main class="right-column">
         <section class="about-me">
-          <h2>ABOUT ME</h2>
-          <p>
-            I started programming as a <strong>freshman</strong> in high school.
-            The turning point came when I entered the
-            <strong>Zenit</strong> competition in
-            <strong>programming</strong> and later the
-            <strong>Olympiad in Informatics</strong>. I programmed in
-            <strong>Python</strong>, but gradually started using
-            <strong>C++</strong> as competitions started to demand it. During
-            the lockdown period I also learned to program in
-            <strong>JavaScript/TypeScript, HTML</strong> and
-            <strong>CSS</strong>. In college, I learned how to program in
-            <strong>Java</strong> and <strong>GO</strong>, and improved my skill
-            in <strong>Python, C++, JS</strong>. It is because of these
-            experiences that I know myself to be a
-            <strong>fast learner</strong> and <strong>adapt quickly</strong> in
-            a new environment.
-          </p>
+          <h2 id="about-me-title">{{SECTION_TITLE_ABOUT_ME}}</h2>
+          <div id="about-me-content">
+            <!-- JS: <p>{{ABOUT_ME_PARAGRAPH}}</p> for each paragraph in an array -->
+          </div>
+        </section>
+
+        <section class="previous-experience">
+          <h2 id="experience-title">{{SECTION_TITLE_EXPERIENCE}}</h2>
+          <ul id="experience-list">
+            <!--
+              JS for each experience item:
+              <li class="interactive-item" data-popup-target="exp-popup-{{ITEM_UNIQUE_ID}}">
+                {{EXP_SUMMARY_TEXT}}
+              </li>
+            -->
+          </ul>
         </section>
 
         <section class="achievements">
-          <h2>ACHIEVEMENTS</h2>
-          <p>
-            Since the 5th grade of primary school I have regularly placed in the
-            <strong>top positions</strong> in various mathematical competitions
-            (e.g. Math Olympiad, Math Kangaroo (Matematický klokan) or
-            Pythagoriad (Pytagoriáda)). Thanks to a
-            <strong>good foundation</strong> in mathematics, I learned to
-            <strong>program</strong> and solve
-            <strong>algorithmic problems</strong> very
-            <strong>quickly and easily</strong>, which is why I started to
-            <strong>compete</strong> in <strong>programming</strong> as well.
-          </p>
+          <h2 id="achievements-title">{{SECTION_TITLE_ACHIEVEMENTS}}</h2>
+          <div id="achievements-content">
+            <!--
+              JS for intro: <p id="achievements-intro-text">{{ACHIEVEMENTS_INTRO_TEXT}}</p> (if exists)
 
-          <h3>My greatest accomplishments in high school:</h3>
-          <ul>
-            <li>
-              Qualifying for the <strong>national round</strong> of
-              <a href="#">Math Olympiad</a>
-            </li>
-            <li>
-              Obtaining <strong>172 points</strong> at the
-              <a href="#">KSP</a> seminar (<strong>top 10</strong> of 150+)
-            </li>
-            <li>
-              <strong>2nd place</strong> at the
-              <strong>regional round</strong> of <a href="#">Zenit</a> in
-              programming (Kosice region)(10<sup>th</sup> Nation-wide)
-            </li>
-            <li>
-              <strong>&gt;96th percentile</strong> in
-              <strong>Maturita</strong> written part of
-              <strong>mathematics</strong>
-            </li>
-            <li>Python Cup <strong>1st place</strong></li>
-            <li><strong>3rd place National round</strong> Palma-Strom.</li>
-          </ul>
-
-          <h3>Interesting achievements at university:</h3>
-          <ul>
-            <li>
-              <strong>1.05</strong> grade point average (Where 1.0 is the best
-              theoretical average)
-            </li>
-            <li>
-              <strong>Most points</strong> during my first two
-              <strong>semesters</strong> in <strong>programming</strong> and
-              <strong>mathematical</strong> subjects (within year group)
-            </li>
-          </ul>
+              JS for each subsection:
+              <div class="achievement-subsection" id="achieve-sub-{{SUB_UNIQUE_ID}}">
+                <h3 id="achieve-subsection-title-{{SUB_UNIQUE_ID}}">{{ACHIEVEMENT_SUBSECTION_TITLE}}</h3>
+                <ul id="achieve-subsection-list-{{SUB_UNIQUE_ID}}">
+                  JS for each item: <li>{{ACHIEVEMENT_ITEM_TEXT}}</li>
+                </ul>
+              </div>
+            -->
+          </div>
         </section>
       </main>
     </div>
+
+    <!-- Popup Overlay -->
+    <div id="popup-overlay" class="popup-overlay"></div>
+
+    <!-- Container for Dynamically Generated Popups -->
+    <div id="popups-container">
+      <!--
+        JS for each experience popup:
+        <div id="exp-popup-{{ITEM_UNIQUE_ID}}" class="popup">
+          <div class="popup-content">
+            <span class="close-button">&times;</span>
+            <h2 id="exp-popup-title-{{ITEM_UNIQUE_ID}}">{{EXP_POPUP_TITLE}}</h2>
+            <div class="popup-details-text" id="exp-popup-details-{{ITEM_UNIQUE_ID}}">
+              JS will parse {{EXP_POPUP_DETAILS_TEXT}} and create <p> tags here
+            </div>
+          </div>
+        </div>
+      -->
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
