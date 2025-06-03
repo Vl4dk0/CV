@@ -2,9 +2,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const dataUrl = "cv-data-en.json";
   const hintPopup = document.getElementById("interactive-hint");
   const closeHintButton = document.getElementById("close-hint-button");
+  closedHint = false;
 
   function showHint() {
-    if (hintPopup && localStorage.getItem("cvHintDismissed") !== "true") {
+    if (hintPopup && !closedHint) {
       hintPopup.classList.remove("hidden");
     } else if (hintPopup) {
       hintPopup.classList.add("hidden");
@@ -15,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function dismissHint() {
     if (hintPopup) {
       hintPopup.classList.add("hidden");
-      localStorage.setItem("cvHintDismissed", "true");
+      closedHint = true;
       setTimeout(() => {
         if (hintPopup.classList.contains("hidden")) {
           hintPopup.style.display = "none";
