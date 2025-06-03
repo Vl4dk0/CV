@@ -1,6 +1,34 @@
+// TODO: create hints for the user so that reader knows he can click on items to see more details
 document.addEventListener("DOMContentLoaded", () => {
-  const dataUrl = "cv-data-sk.json";
+  const dataUrl = "cv-data-en.json";
+  const hintPopup = document.getElementById("interactive-hint"); // Get hint element
+  const closeHintButton = document.getElementById("close-hint-button"); // Get close button
 
+  // --- Hint Popup Logic ---
+  function showHint() {
+    if (hintPopup && localStorage.getItem("cvHintDismissed") !== "true") {
+      hintPopup.classList.remove("hidden");
+    } else if (hintPopup) {
+      hintPopup.classList.add("hidden");
+      hintPopup.style.display = "none";
+    }
+  }
+
+  function dismissHint() {
+    if (hintPopup) {
+      hintPopup.classList.add("hidden");
+      localStorage.setItem("cvHintDismissed", "true");
+      setTimeout(() => {
+        if (hintPopup.classList.contains("hidden")) {
+          hintPopup.style.display = "none";
+        }
+      }, 200);
+    }
+  }
+
+  if (closeHintButton) {
+    closeHintButton.addEventListener("click", dismissHint);
+  }
   async function loadCVData() {
     try {
       const response = await fetch(dataUrl);
@@ -10,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const data = await response.json();
       populateCV(data);
       initializePopups();
+      showHint();
     } catch (error) {
       console.error("Could not load CV data:", error);
       document.body.innerHTML =
