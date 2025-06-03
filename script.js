@@ -16,46 +16,81 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  function parseTextAndCreateLinks(paragraphElement, text) {
-    const linkRegex = /\blink:(\S+)\b/g; // Matches "link:URL"
-    let lastIndex = 0;
+  function applyTextFormatting(paragraphElement, text) {
+    paragraphElement.innerHTML = ""; // Clear existing content
+
+    const linkRegex = /\blink:(\S+)\b/g;
+    const boldRegex = /\bbold:\((.+?)\)/g;
+
+    const matches = [];
     let match;
 
-    // Clear existing content of the paragraph element before appending new nodes
-    paragraphElement.innerHTML = "";
-
+    // Collect link matches
+    linkRegex.lastIndex = 0; // Ensure regex starts fresh
     while ((match = linkRegex.exec(text)) !== null) {
-      // Add text before the link
-      if (match.index > lastIndex) {
+      matches.push({
+        type: "link",
+        index: match.index,
+        length: match[0].length,
+        content: match[1], // The URL
+      });
+    }
+
+    // Collect bold matches
+    boldRegex.lastIndex = 0; // Ensure regex starts fresh
+    while ((match = boldRegex.exec(text)) !== null) {
+      matches.push({
+        type: "bold",
+        index: match.index,
+        length: match[0].length,
+        content: match[1],
+      });
+    }
+
+    // Sort matches by their starting index to process them in order
+    matches.sort((a, b) => a.index - b.index);
+
+    let currentIndex = 0;
+    for (const currentMatch of matches) {
+      // Add text before the current match
+      if (currentMatch.index > currentIndex) {
         paragraphElement.appendChild(
-          document.createTextNode(text.substring(lastIndex, match.index)),
+          document.createTextNode(
+            text.substring(currentIndex, currentMatch.index),
+          ),
         );
       }
 
-      // Create and add the link
-      const url = match[1];
-      const a = document.createElement("a");
-      a.href =
-        url.startsWith("http://") || url.startsWith("https://")
-          ? url
-          : `http://${url}`;
-      a.textContent = url;
-      a.target = "_blank";
-      a.rel = "noopener noreferrer";
-      paragraphElement.appendChild(a);
-
-      lastIndex = linkRegex.lastIndex;
+      // Process the match
+      if (currentMatch.type === "link") {
+        const url = currentMatch.content;
+        const a = document.createElement("a");
+        a.href =
+          url.startsWith("http://") || url.startsWith("https://")
+            ? url
+            : `http://${url}`;
+        a.textContent = url; // Link text is the URL itself
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        paragraphElement.appendChild(a);
+      } else if (currentMatch.type === "bold") {
+        const boldText = currentMatch.content;
+        const strong = document.createElement("strong");
+        strong.textContent = boldText;
+        paragraphElement.appendChild(strong);
+      }
+      // Update currentIndex to the end of the processed match
+      currentIndex = currentMatch.index + currentMatch.length;
     }
 
-    // Add any remaining text after the last link
-    if (lastIndex < text.length) {
+    // Add any remaining text after the last match
+    if (currentIndex < text.length) {
       paragraphElement.appendChild(
-        document.createTextNode(text.substring(lastIndex)),
+        document.createTextNode(text.substring(currentIndex)),
       );
     }
   }
 
-  // Helper function to create a popup DOM element
   function createPopupElement(item) {
     const popupDiv = document.createElement("div");
     popupDiv.id = `popup-${item.id}`;
@@ -80,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
       paragraphsTextArray.forEach((paraText) => {
         if (paraText.trim()) {
           const p = document.createElement("p");
-          parseTextAndCreateLinks(p, paraText.trim());
+          applyTextFormatting(p, paraText.trim());
           detailsTextDiv.appendChild(p);
         }
       });
@@ -107,15 +142,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const hasTitle = item.popupTitle && item.popupTitle.trim() !== "";
       const hasDetails =
         item.popupDetailsText && item.popupDetailsText.trim() !== "";
-
-      console.log(
-        `Item ${item.id} interactive:`,
-        hasTitle,
-        item.popupTitle,
-        hasDetails,
-        item.popupDetailsText,
-      );
-
       return hasTitle && hasDetails;
     }
 
@@ -153,7 +179,6 @@ document.addEventListener("DOMContentLoaded", () => {
           li.dataset.popupTarget = `popup-${skill.id}`;
           popupsContainer.appendChild(createPopupElement(skill));
         }
-
         skillsList.appendChild(li);
       });
     }
@@ -165,14 +190,13 @@ document.addEventListener("DOMContentLoaded", () => {
       data.education.forEach((edu) => {
         const itemDiv = document.createElement("div");
         itemDiv.className = "education-item";
+        itemDiv.id = `edu-item-${edu.id}`;
 
         if (shouldBeInteractive(edu)) {
           itemDiv.classList.add("interactive-item");
           itemDiv.dataset.popupTarget = `popup-${edu.id}`;
           popupsContainer.appendChild(createPopupElement(edu));
         }
-
-        itemDiv.id = `edu-item-${edu.id}`;
 
         const h3 = document.createElement("h3");
         h3.textContent = edu.institution;
@@ -204,7 +228,7 @@ document.addEventListener("DOMContentLoaded", () => {
       aboutMeContent.innerHTML = "";
       data.aboutMe.forEach((paragraph) => {
         const p = document.createElement("p");
-        p.textContent = paragraph;
+        applyTextFormatting(p, paragraph.trim());
         aboutMeContent.appendChild(p);
       });
     }
@@ -222,7 +246,6 @@ document.addEventListener("DOMContentLoaded", () => {
           li.dataset.popupTarget = `popup-${exp.id}`;
           popupsContainer.appendChild(createPopupElement(exp));
         }
-
         experienceList.appendChild(li);
       });
     }
@@ -231,9 +254,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const achievementsContent = document.getElementById("achievements-content");
     if (achievementsContent && data.achievements && popupsContainer) {
       achievementsContent.innerHTML = "";
-      if (data.achievements.introText) {
+      if (data.achievements.introText && data.achievements.introText.trim()) {
         const introP = document.createElement("p");
-        introP.textContent = data.achievements.introText;
+        applyTextFormatting(introP, data.achievements.introText.trim());
         achievementsContent.appendChild(introP);
       }
       if (data.achievements.subsections) {
@@ -256,7 +279,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 li.dataset.popupTarget = `popup-${item.id}`;
                 popupsContainer.appendChild(createPopupElement(item));
               }
-
               ul.appendChild(li);
             });
           }
