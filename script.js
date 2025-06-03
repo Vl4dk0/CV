@@ -157,12 +157,13 @@ document.addEventListener("DOMContentLoaded", () => {
     setTextContent("header-tagline", data.headerTagline);
 
     setTextContent("contact-title", data.sectionTitles?.contact);
+    setTextContent("contact-phone", data.contact?.phone);
     setTextContent("skills-title", data.sectionTitles?.skills);
+    setTextContent("education-title", data.sectionTitles?.education);
     setTextContent("about-me-title", data.sectionTitles?.aboutMe);
     setTextContent("experience-title", data.sectionTitles?.experience);
     setTextContent("achievements-title", data.sectionTitles?.achievements);
-    setTextContent("education-title", data.sectionTitles?.education);
-    setTextContent("contact-phone", data.contact?.phone);
+    setTextContent("projects-title", data.sectionTitles?.projcets);
 
     function shouldBeInteractive(item) {
       const hasTitle = item.popupTitle && item.popupTitle.trim() !== "";
@@ -257,6 +258,26 @@ document.addEventListener("DOMContentLoaded", () => {
         applyTextFormatting(p, paragraph.trim());
         aboutMeContent.appendChild(p);
       });
+    }
+
+    // Populate Projects
+    const projectsList = document.getElementById("projects-list");
+    if (projectsList && data.projects && popupsContainer) {
+      console.log("Populating projects list...");
+      projectsList.innerHTML = "";
+      data.projects.forEach((proj) => {
+        const li = document.createElement("li");
+        li.textContent = proj.summary;
+
+        if (shouldBeInteractive(proj)) {
+          li.className = "project-item";
+          li.dataset.popupTarget = `popup-${proj.id}`;
+          popupsContainer.appendChild(createPopupElement(proj));
+        }
+        projectsList.appendChild(li);
+      });
+    } else {
+      console.warn("No projects data found or popups container is missing.");
     }
 
     // Populate Experience

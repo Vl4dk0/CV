@@ -31,70 +31,39 @@
               ><span id="contact-email-text">{{CONTACT_EMAIL_TEXT}}</span></a
             >
           </p>
-          <address id="contact-address">
-            <!-- JS will populate address lines from an array -->
-          </address>
+          <address id="contact-address"></address>
         </section>
 
         <section class="skills">
           <h2 id="skills-title">{{SECTION_TITLE_SKILLS}}</h2>
-          <ul id="skills-list">
-            <!-- JS: <li>{{SKILL_NAME}}</li> -->
-          </ul>
+          <ul id="skills-list"></ul>
         </section>
 
         <section class="education">
           <h2 id="education-title">{{SECTION_TITLE_EDUCATION}}</h2>
-          <div id="education-list">
-            <!--
-              JS for each education item:
-              <div class="education-item" id="edu-item-{{ITEM_UNIQUE_ID}}">
-                <h3 id="edu-institution-{{ITEM_UNIQUE_ID}}">{{EDU_INSTITUTION_NAME}}</h3>
-                <div class="education-details" id="edu-details-{{ITEM_UNIQUE_ID}}">
-                  JS for each detail line: <p>{{EDU_DETAIL_LINE}}</p>
-                </div>
-                <p><strong id="edu-dates-{{ITEM_UNIQUE_ID}}">{{EDU_DATES}}</strong></p>
-              </div>
-            -->
-          </div>
+          <div id="education-list"></div>
         </section>
       </aside>
 
       <main class="right-column">
         <section class="about-me">
           <h2 id="about-me-title">{{SECTION_TITLE_ABOUT_ME}}</h2>
-          <div id="about-me-content">
-            <!-- JS: <p>{{ABOUT_ME_PARAGRAPH}}</p> for each paragraph in an array -->
-          </div>
+          <div id="about-me-content"></div>
+        </section>
+
+        <section class="interesting-projects">
+          <h2 id="projects-title">{{SECTION_TITLE_PROJECTS}}</h2>
+          <ul id="projects-list"></ul>
         </section>
 
         <section class="previous-experience">
           <h2 id="experience-title">{{SECTION_TITLE_EXPERIENCE}}</h2>
-          <ul id="experience-list">
-            <!--
-              JS for each experience item:
-              <li class="interactive-item" data-popup-target="exp-popup-{{ITEM_UNIQUE_ID}}">
-                {{EXP_SUMMARY_TEXT}}
-              </li>
-            -->
-          </ul>
+          <ul id="experience-list"></ul>
         </section>
 
         <section class="achievements">
           <h2 id="achievements-title">{{SECTION_TITLE_ACHIEVEMENTS}}</h2>
-          <div id="achievements-content">
-            <!--
-              JS for intro: <p id="achievements-intro-text">{{ACHIEVEMENTS_INTRO_TEXT}}</p> (if exists)
-
-              JS for each subsection:
-              <div class="achievement-subsection" id="achieve-sub-{{SUB_UNIQUE_ID}}">
-                <h3 id="achieve-subsection-title-{{SUB_UNIQUE_ID}}">{{ACHIEVEMENT_SUBSECTION_TITLE}}</h3>
-                <ul id="achieve-subsection-list-{{SUB_UNIQUE_ID}}">
-                  JS for each item: <li>{{ACHIEVEMENT_ITEM_TEXT}}</li>
-                </ul>
-              </div>
-            -->
-          </div>
+          <div id="achievements-content"></div>
         </section>
       </main>
     </div>
@@ -103,20 +72,7 @@
     <div id="popup-overlay" class="popup-overlay"></div>
 
     <!-- Container for Dynamically Generated Popups -->
-    <div id="popups-container">
-      <!--
-        JS for each experience popup:
-        <div id="exp-popup-{{ITEM_UNIQUE_ID}}" class="popup">
-          <div class="popup-content">
-            <span class="close-button">&times;</span>
-            <h2 id="exp-popup-title-{{ITEM_UNIQUE_ID}}">{{EXP_POPUP_TITLE}}</h2>
-            <div class="popup-details-text" id="exp-popup-details-{{ITEM_UNIQUE_ID}}">
-              JS will parse {{EXP_POPUP_DETAILS_TEXT}} and create <p> tags here
-            </div>
-          </div>
-        </div>
-      -->
-    </div>
+    <div id="popups-container"></div>
 
     <script src="script.js"></script>
   </body>
