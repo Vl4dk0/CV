@@ -1,0 +1,196 @@
+{
+  "documentTitle": "Vladimír Jančár",
+  "sectionTitles": {
+    "contact": "Contact Information",
+    "skills": "Core Competencies",
+    "education": "Educational Background",
+    "aboutMe": "About Me",
+    "experience": "Professional Experience",
+    "achievements": "Key Achievements"
+  },
+  "headerName": "VLADIMÍR JANČÁR",
+  "headerTagline": "I CAN SOLVE RUBIK'S CUBE BLINDFOLDED",
+  "contact": {
+    "phone": "+421 903 979 659",
+    "emailHref": "mailto:jvladko@gmail.com",
+    "emailText": "jvladko@gmail.com",
+    "addressLines": ["Družstevná 503/10", "Strážske (072 22)", "Košice region"]
+  },
+  "skills": [
+    {
+      "id": "skillProg",
+      "summary": "Programming",
+      "popupTitle": "Programming Experience",
+      "popupDetailsText": "My programming journey began in my freshman year of high school, sparked by the bold:(Zenit competition). I started with bold:(Python), then quickly adopted bold:(C++) for its performance in competitive programming, including the bold:(Informatics Olympiad) (twice succeeded in regionals, both times bold:(very close to nationals)). This honed my skills in bold:(optimization), bold:(graph theory), bold:(dynamic programming), and more. I also explored bold:(LeetCode) for additional programming challenges.\n\nIn university, I've expanded my toolkit with bold:(Java), bold:(Go) (concurrency), bold:(Haskell) (functional programming), bold:(C) (system programming), bold:(CL) (a Specification and Verification paradigm, a university special), and web technologies (bold:(HTML), bold:(CSS), bold:(JS), bold:(PHP)). I have applied these skills to solve diverse problems, from competitive algorithms to practical automation scripts in Excel or other tools that make life easier or better.\n\nMy GitHub: link:www.github.com/Vl4dk0 showcases some of my work."
+    },
+    {
+      "id": "skillMath",
+      "summary": "Mathematics",
+      "popupTitle": "Mathematical Background",
+      "popupDetailsText": "My passion for mathematics was ignited in 5th grade with the bold:(Math Olympiad). Since then, I've actively competed in major Slovak math contests (bold:(Math Olympiad), bold:(Klokan), bold:(Naboj), and more). Since the 7th grade in primary school, I often studied bold:(advanced topics independently), even those covered later at university. To this very day I explore math in my free time. Recently I've been particularly interested in bold:(formal proofs) and bold:(advanced probability)."
+    },
+    {
+      "id": "skillAlgo",
+      "summary": "Algorithms",
+      "popupTitle": "Algorithmic Problem Solving",
+      "popupDetailsText": "My experience in competitive programming (bold:(Math Olympiad), bold:(Informatics Olympiad), bold:(KSP), etc.) has provided extensive practice in designing and implementing bold:(efficient algorithms and data structures). I'm comfortable with areas like bold:(optimization), bold:(graph theory), bold:(probability), bold:(geometry), bold:(dynamic programming), and pretty much any other common problem-solving technique. I utilized bold:(LeetCode) to broaden my exposure to common algorithmic patterns."
+    },
+    {
+      "id": "skillLearn",
+      "summary": "Very Fast Learner",
+      "popupTitle": "Learning Agility & Adaptability",
+      "popupDetailsText": "My journey through various academic competitions (Math, History, Chemistry, Geography) and the necessity to learn and understand programming languages (bold:(Python) to bold:(C++) for speed in contests, then learning bold:(Java), bold:(Go), bold:(Haskell), etc., at university, bold:(Django), bold:(CSS), bold:(JavaScript), etc., at work) demonstrate my ability to bold:(learn new concepts and tools rapidly). I enjoy being challenged and like the feeling of bold:(mastering a new skill)."
+    },
+    {
+      "id": "skillResilience",
+      "summary": "Resilience & Perseverance",
+      "popupTitle": "Resilience and Dedication",
+      "popupDetailsText": "My experience with challenging math and programming seminars, similar to bold:(KSP), where I dedicated significant effort (sometimes sacrificing sleep and food) to solve complex problems and ultimately succeeded (a bold:(top 10 rank twice in a row in KSP)), taught me the value of perseverance. It's not just about talent for me; it's about bold:(enduring hardships to achieve a goal). This dedication led to my acceptance at bold:(Matfyz) with a bold:(motivational scholarship).\n\nI also competed in KMS or STROM, where I was successful as well (around 30th-50th place), but it wasn't as great of a success as KSP."
+    },
+    {
+      "id": "skillAutomation",
+      "summary": "Automation & Scripting",
+      "popupTitle": "Practical Automation",
+      "popupDetailsText": "I enjoy identifying opportunities for automation.\n\nFor example, I developed bold:(TypeScript scripts) to automate repetitive data checking and summarization tasks in Excel for my mother, bold:(saving her significant time).\n\nOr created tools that helped me save huge amounts of time with my homework. For example, a program that would parse the online editor to a text file and integrating tools that my friends made that brute-forced their way to find closed tableaus in seconds, then automatically re-parsing it back into the online editor format. Saving around half and hour for each tableau I didn't have to solve by hand.\n\nThis highlights my ability to apply programming skills to bold:(solve real-world problems efficiently)."
+    },
+    {
+      "id": "skillHumor",
+      "summary": "Humor",
+      "popupTitle": "Sense of Humor",
+      "popupDetailsText": "I appreciate almost any type of humor and find it nearly impossible to feel offended by a joke. I believe this contributes to a bold:(positive and resilient team atmosphere). Importantly, I also understand the importance of context and know when to be lighthearted and when to be serious and focused."
+    },
+    {
+      "id": "skillEng",
+      "summary": "English Language (B2)",
+      "popupTitle": "English Proficiency",
+      "popupDetailsText": "I have studied English in school since the 2nd grade of primary school. I successfully completed my maturity exams (bold:(Maturita)) with a result in the bold:(>85th percentile), achieving a bold:(B2 level) of proficiency according to the CEFR."
+    },
+    {
+      "id": "skillRus",
+      "summary": "Russian Language (B1)",
+      "popupTitle": "Russian Proficiency",
+      "popupDetailsText": "I have studied Russian in school since the 5th grade of primary school. I continued to study it in high school, where I achieved a bold:(B1 level) of proficiency according to the CEFR. Although I didn't expect it, it turned out to be very handy, as it is easier for me to communicate with my Ukrainian fellow students."
+    }
+  ],
+  "education": [
+    {
+      "id": "edu0",
+      "institution": "Primary School Strážske",
+      "details": ["Consistent top grades"],
+      "dates": "2010 - 2019",
+      "popupTitle": "Primary School Strážske - Foundations & Passions",
+      "popupDetailsText": "Throughout my time at Primary School Strážske, I consistently achieved bold:(top grades (straight 1s)). It was here, particularly from 5th grade onwards, that I discovered my deep interest and aptitude for mathematics, sparked by my participation in the bold:(Math Olympiad). This period also marked the beginning of my involvement in competitive volleyball, where our team achieved national success, including a bold:(3rd place finish in the U15 Nationals)."
+    },
+    {
+      "id": "edu1",
+      "institution": "Gymnasium P. Horova, Michalovce",
+      "details": [
+        "In a class focused on Mathematics and Informatics",
+        "Consistent top grades"
+      ],
+      "dates": "2019 - 2023",
+      "popupTitle": "Gymnasium P. Horova - Igniting Programming Passion",
+      "popupDetailsText": "At Gymnasium P. Horova, I continued to excel academically, bold:(maintaining top grades) while focusing on Mathematics and Informatics. This is where my passion for programming truly ignited, largely thanks to participating in the bold:(Zenit competition) and to my dedicated teachers. I realized programming was like bold:('math, but better,') leading me to dive into bold:(Python) and later bold:(C++). I also continued playing volleyball throughout high school, balancing academics with team sports. This period was instrumental in developing my problem-solving skills through various Olympiads and programming challenges."
+    },
+    {
+      "id": "edu2",
+      "institution": "Comenius University, Bratislava",
+      "details": [
+        "Faculty of Mathematics, Physics and Informatics",
+        "Applied Informatics"
+      ],
+      "dates": "2023 - present",
+      "popupTitle": "Comenius University - Applied Informatics",
+      "popupDetailsText": "At bold:(Matfyz (Comenius University)), I am in the Applied Informatics program, maintaining a bold:(GPA of ~1.04 over two years). The challenging curriculum 'forces' me to continuously learn and solve complex problems. I've gained practical experience in web development (bold:(HTML), bold:(CSS), bold:(JS), bold:(PHP)), concurrency (bold:(Go)), functional programming (bold:(Haskell)), specification-verification (bold:(CL)), system programming (bold:(C)), and further honed my problem-solving skills in bold:(Python), bold:(Java), and bold:(C++).\n\nThis school has also taught me a great deal about bold:(advanced probability) and bold:(hypothesis testing). It has allowed me to utilize my knowledge in bold:(mathematical analysis) and bold:(linear algebra), and through good mentorship, I've learned how to bold:(write formal proofs), an area with which I previously struggled."
+    }
+  ],
+  "aboutMe": [
+    "bold:(Highly motivated and adaptable informatics student) with a strong foundation in programming and problem-solving, honed through years of competitive mathematics and informatics.",
+    "Seeking a part-time or internship opportunity where I can contribute to innovative projects, further develop my technical skills, and learn from experienced professionals. I am not searching for a specific type of role. I would genuinely enjoy any role involving programming and critical thinking, such as bold:(Web Development), bold:(Data Science), bold:(AI), bold:(Game Development), bold:(Automation), or bold:(applied Mathematics)."
+  ],
+  "experience": [
+    {
+      "id": "exp1",
+      "summary": "Azteka, Pizza delivery, Summer 2022",
+      "popupTitle": "Azteka - Pizza Delivery Boy",
+      "popupDetailsText": "While this role is different from the positions I am currently seeking, it was my bold:(first job) and I learned a lot about myself from it. I learned how to bold:(communicate with frustrated customers), how to bold:(work in a team), and how to bold:(plan my time effectively). I also learned about myself that I can finish a job even if I don't particularly enjoy it. bold:(I won't collapse under pressure)."
+    },
+    {
+      "id": "exp2",
+      "summary": "SmartBase s.r.o, Junior, Fullstack developer, 2024-2025",
+      "popupTitle": "SmartBase s.r.o - Junior Django Fullstack developer",
+      "popupDetailsText": "At SmartBase s.r.o (June 2024 - April 2025), I worked as a bold:(Junior Fullstack Developer) on e-commerce projects like link:alo.sk, link:argus.sk, and link:najlekaren.sk. Initially focused on frontend tasks (HTML, CSS, JavaScript from Figma templates), I quickly transitioned to backend responsibilities as well. Key backend tasks included bold:(integrating payment APIs) and bold:(optimizing image loading) to reduce users' mobile data consumption.\n\nI greatly valued the learning experience and the team environment. We parted ways amicably as my university commitments required more time than I could dedicate to the role, and for me, bold:(studies come first)."
+    }
+  ],
+  "achievements": {
+    "introText": "Since the 5th grade of primary school I have regularly placed in bold:(top positions) in various mathematical competitions (e.g. Math Olympiad, Math Kangaroo (Matematický klokan) or Pythagoriad (Pytagoriáda)). Thanks to a bold:(good foundation in mathematics), I learned to bold:(program) and solve bold:(algorithmic problems very quickly and easily), which is why I started to bold:(compete in programming) as well.",
+    "subsections": [
+      {
+        "id": "achieveSub1",
+        "title": "My greatest accomplishments in High School:",
+        "items": [
+          {
+            "id": "achieveHS1",
+            "summary": "Qualifying for the national round of Math Olympiad",
+            "popupTitle": "Math Olympiad National Round",
+            "popupDetailsText": "Qualifying for the bold:(national round of the Math Olympiad) was a bold:(significant personal achievement). It involved months of preparation, tackling complex problems, and it was an honor to compete at that level. This experience greatly sharpened my analytical and problem-solving abilities."
+          },
+          {
+            "id": "achieveHS2",
+            "summary": "Top 10 (of 150+) in KSP Seminar",
+            "popupTitle": "KSP Programming Seminar",
+            "popupDetailsText": "bold:(KSP (Korešpondenčný Seminár z Programovania)) was a turning point. To qualify, I dedicated immense effort to solving difficult problems, often working through the night. Achieving a bold:(top 10 rank twice in a row) wasn't just about skill; it was a testament to my ability to endure and persevere. This success directly contributed to my acceptance into bold:(Matfyz) with a bold:(motivational scholarship). I am now a proud member of the KSP team, where I help prepare problems for contests."
+          },
+          {
+            "id": "achieveHSZenit",
+            "summary": "2nd place, Zenit regional (10th nationwide)",
+            "popupTitle": "Zenit Programming Competition",
+            "popupDetailsText": "This was a key competition that sparked my interest in competitive programming. In my last year of high school, I achieved bold:(2nd place in the regional round) of the Zenit competition in programming (Košice region), which also corresponded to a bold:(10th place finish nationwide). This was a great success for me."
+          },
+          {
+            "id": "achieveHSMaturitaMath",
+            "summary": ">96th percentile in Maturita (Mathematics)",
+            "popupTitle": "Maturita Exam - Mathematics",
+            "popupDetailsText": "Scored in the bold:(>96th percentile) in the written part of the bold:(Maturita (Slovak school-leaving exam)) in Mathematics, demonstrating a strong proficiency in the subject.\n\nHowever, I was not entirely satisfied with my result, as I was aiming for 100% and I missed it by 3 points. This experience taught me the importance of attention to detail."
+          },
+          {
+            "id": "achieveHSPythonCup",
+            "summary": "Python Cup 1st place",
+            "popupTitle": "Python Cup Victory",
+            "popupDetailsText": "This competition involved creating three games using Python's Tkinter module. There were over 40 winners, who, for unknown reasons, were not sorted by completion time. The contest was intended to be fun rather than prestigious, but achieving a bold:(100% score) was necessary to be recognized as a winner."
+          },
+          {
+            "id": "achieveHSPalmaStrom",
+            "summary": "3rd place National round Palma-Strom",
+            "popupTitle": "Palma-Strom National Round",
+            "popupDetailsText": "This is a pair-programming competition focused on solving four challenging problems within four hours. I participated with my friend, and we achieved bold:(3rd place in the national round), which was a great achievement for us."
+          }
+        ]
+      },
+      {
+        "id": "achieveSub2",
+        "title": "University:",
+        "items": [
+          {
+            "id": "achieveUni1",
+            "summary": "1.04 grade point average (Where 1.0 is best)",
+            "popupTitle": "Academic Excellence at University",
+            "popupDetailsText": "Maintaining a bold:(1.04 GPA) in my initial semesters reflects my dedication to my studies and my ability to grasp complex concepts in informatics and mathematics quickly. (Note: In Slovakia, 1.0 is the best possible grade)."
+          }
+        ]
+      },
+      {
+        "id": "achieveSubPersonal",
+        "title": "Other Interests & Achievements",
+        "items": [
+          {
+            "id": "achieveVolleyball",
+            "summary": "U15 Volleyball (3rd in Nationals)",
+            "popupTitle": "Volleyball – Teamwork & Dedication",
+            "popupDetailsText": "I've actively played volleyball since 5th grade in primary school, competing at a national level. Our team achieved bold:(3rd place in the U15 Nationals) one year and 6th the following. This sport has taught me valuable lessons in bold:(teamwork), bold:(discipline), bold:(respect) (particularly for our coach), and maintaining an active lifestyle."
+          }
+        ]
+      }
+    ]
+  }
+}
