@@ -21,7 +21,7 @@
       "id": "skillProg",
       "summary": "Programming",
       "popupTitle": "Programming Experience",
-      "popupDetailsText": "My programming journey began in my freshman year of high school, sparked by the bold:(Zenit competition). I started with bold:(Python), then quickly adopted bold:(C++) for its performance in competitive programming, including the bold:(Informatics Olympiad) (twice succeeded in regionals, both times bold:(very close to nationals)). This honed my skills in bold:(optimization), bold:(graph theory), bold:(dynamic programming), and more. I also explored bold:(LeetCode) for additional programming challenges.\n\nIn university, I've expanded my toolkit with bold:(Java), bold:(Go) (concurrency), bold:(Haskell) (functional programming), bold:(C) (system programming), bold:(CL) (a Specification and Verification paradigm, a university special), and web technologies (bold:(HTML), bold:(CSS), bold:(JS), bold:(PHP)). I have applied these skills to solve diverse problems, from competitive algorithms to practical automation scripts in Excel or other tools that make life easier or better.\n\nMy GitHub: link:www.github.com/Vl4dk0 showcases some of my work."
+      "popupDetailsText": "My programming journey began in my freshman year of high school, sparked by the bold:(Zenit competition). I started with bold:(Python), then quickly adopted bold:(C++) for its performance in competitive programming, including the bold:(Informatics Olympiad) (twice succeeded in regionals, both times bold:(very close to nationals)). This honed my skills in bold:(optimization), bold:(graph theory) or generally in bold:(logical thinking). I also played with bold:(LeetCode) for additional programming challenges.\n\nIn university, I've expanded my toolkit with bold:(Java), bold:(Go) (concurrency), bold:(Haskell) (functional programming), bold:(C) (system programming), bold:(CL) (a Specification and Verification paradigm, a university special), and web technologies (bold:(HTML), bold:(CSS), bold:(JS), bold:(PHP)). I have applied these skills to solve diverse problems, from competitive algorithms to practical automation scripts in Excel or other tools that make life easier or better."
     },
     {
       "id": "skillMath",
@@ -33,7 +33,7 @@
       "id": "skillAlgo",
       "summary": "Algorithms",
       "popupTitle": "Algorithmic Problem Solving",
-      "popupDetailsText": "My experience in competitive programming (bold:(Math Olympiad), bold:(Informatics Olympiad), bold:(KSP), etc.) has provided extensive practice in designing and implementing bold:(efficient algorithms and data structures). I'm comfortable with areas like bold:(optimization), bold:(graph theory), bold:(probability), bold:(geometry), bold:(dynamic programming), and pretty much any other common problem-solving technique. I utilized bold:(LeetCode) to broaden my exposure to common algorithmic patterns."
+      "popupDetailsText": "My experience from competitive programming (bold:(Math Olympiad), bold:(Informatics Olympiad), bold:(KSP), etc.) has provided extensive practice in designing and implementing bold:(efficient algorithms, data structures or strategies). I'm comfortable with areas like bold:(optimization), bold:(graph theory), bold:(probability), bold:(geometry), bold:(dynamic programming), and pretty much any other common problem-solving technique."
     },
     {
       "id": "skillLearn",
@@ -51,7 +51,7 @@
       "id": "skillAutomation",
       "summary": "Automation & Scripting",
       "popupTitle": "Practical Automation",
-      "popupDetailsText": "I enjoy identifying opportunities for automation.\n\nFor example, I developed bold:(TypeScript scripts) to automate repetitive data checking and summarization tasks in Excel for my mother, bold:(saving her significant time).\n\nOr created tools that helped me save huge amounts of time with my homework. For example, a program that would parse the online editor to a text file and integrating tools that my friends made that brute-forced their way to find closed tableaus in seconds, then automatically re-parsing it back into the online editor format. Saving around half and hour for each tableau I didn't have to solve by hand.\n\nThis highlights my ability to apply programming skills to bold:(solve real-world problems efficiently)."
+      "popupDetailsText": "I enjoy identifying opportunities for automation.\n\nFor example, I developed bold:(TypeScript scripts) to automate repetitive data checking and summarization tasks in Excel for my mother, bold:(saving her significant time).\n\nOr created tools that helped me save huge amounts of time with my homework. For example, a program that would parse the online editor, designed by our teachers, to a text file and integrating tools that have found closed tableaus or formalizations in seconds, then automatically re-parsing it back into the required online editor format. Saving around half and hour for each tableau I didn't have to solve by hand.\n\nThis highlights my ability to apply programming skills to bold:(solve real-world problems efficiently)."
     },
     {
       "id": "skillHumor",
