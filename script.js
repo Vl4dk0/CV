@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setTextContent("about-me-title", data.sectionTitles?.aboutMe);
     setTextContent("experience-title", data.sectionTitles?.experience);
     setTextContent("achievements-title", data.sectionTitles?.achievements);
-    setTextContent("projects-title", data.sectionTitles?.projcets);
+    setTextContent("projects-title", data.sectionTitles?.projects);
 
     function shouldBeInteractive(item) {
       const hasTitle = item.popupTitle && item.popupTitle.trim() !== "";
@@ -192,6 +192,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const popupsContainer = document.getElementById("popups-container");
     if (popupsContainer) popupsContainer.innerHTML = "";
+
+    // Set hint text
+    const hintText = document.getElementById("interactive-hint-p");
+    if (hintText && data.hintText) {
+      applyTextFormatting(hintText, data.hintText.trim());
+    }
 
     // Populate Skills
     const skillsList = document.getElementById("skills-list");
@@ -270,7 +276,7 @@ document.addEventListener("DOMContentLoaded", () => {
         li.textContent = proj.summary;
 
         if (shouldBeInteractive(proj)) {
-          li.className = "project-item";
+          li.className = "interactive-item";
           li.dataset.popupTarget = `popup-${proj.id}`;
           popupsContainer.appendChild(createPopupElement(proj));
         }

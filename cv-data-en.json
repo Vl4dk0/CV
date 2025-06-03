@@ -7,10 +7,11 @@
     "aboutMe": "About Me",
     "experience": "Professional Experience",
     "achievements": "Key Achievements",
-    "projects": "Cool stuff I've worked on"
+    "projects": "Stuff I've worked on"
   },
   "headerName": "VLADIMÍR JANČÁR",
   "headerTagline": "I CAN SOLVE RUBIK'S CUBE BLINDFOLDED",
+  "hintText": "bold:(Hint:) Click on items (skill, achievement, education, ...) to see more details!",
   "contact": {
     "phone": "+421 903 979 659",
     "emailHref": "mailto:jvladko@gmail.com",
@@ -106,33 +107,40 @@
     }
   ],
   "aboutMe": [
-    "bold:(Highly motivated and adaptable informatics student) with a strong foundation in math and problem-solving, honed through years of competitive math and informatics.",
-    "Seeking a part-time or internship opportunity where I can contribute to innovative projects, further develop my technical skills, and learn from experienced professionals. I am not searching for a specific type of role. I would genuinely enjoy any role involving programming and critical thinking, such as bold:(Web Development), bold:(Data Science), bold:(AI), bold:(Game Development), bold:(Automation), bold:(applied Mathematics), or even bold:(Research/Science)."
+    "Born 30.04.2004, Gender: Male, Nationality: Slovak",
+    "bold:(Informatics student) with a strong foundation in math and problem-solving, honed through years of competing in math and informatics.",
+    "Seeking a part-time or internship opportunity where I can contribute to innovative projects, further develop my technical skills, and learn from experienced professionals. I am not searching for a specific type of role. I would genuinely enjoy any role involving programming and critical thinking, such as bold:(Web Development), bold:(Data Science), bold:(AI), bold:(Game Development), bold:(Automation), bold:(applied Mathematics), or even bold:(Research/Science). I prefer working from office to working from home."
   ],
   "projects": [
     {
       "id": "proj1",
-      "summary": "Project 1",
-      "popupTitle": "Project 1",
-      "popupDetailsText": "Project 1"
+      "summary": "Graph Neural Networks - Partial automorphism extendability",
+      "popupTitle": "GNNs - My bachelor thesis",
+      "popupDetailsText": "This is my bachelor thesis, which I am currently working on. It involves the use of Graph Neural Networks (GNNs) to solve the problem of partial automorphism extendability. The goal is to develop a GNN model that can predict whether a given partial automorphism can be extended to a full automorphism given graph and some partial automorphism. This project combines my interests in graph theory and machine learning. There is no dataset available for this, so I had to create one from scratch. It was okay. Regarding GNN and whether or not this AI will or will not be able to predict the extendability, I am not sure yet. I am still in the process of training the model and evaluating its performance."
     },
     {
       "id": "proj2",
-      "summary": "Project 1",
-      "popupTitle": "Project 1",
-      "popupDetailsText": "Project 1"
+      "summary": "Pocket Maturita - app that has helped hundreds of students prepare for Maturita",
+      "popupTitle": "Maturita App - High School project",
+      "popupDetailsText": "I worked on this in team in high school. It was my first collaborative project. I understood that the hardest part was to actually fill in the data needed to create an app for study. There was no ChatGPT back then :D. Regarding the development there sure were complications, but they were there mostly because we were beginners."
     },
     {
       "id": "proj3",
-      "summary": "Project 1",
-      "popupTitle": "Project 1",
-      "popupDetailsText": "Project 1"
+      "summary": "Excel - Office scripts for accounting specialist that saved hours",
+      "popupTitle": "Excel Automation - Office Scripts",
+      "popupDetailsText": "I created several automation scripts in Excel using Office Scripts for my mother, who is an accounting specialist. These scripts automate tasks that require a lot of focus and stamina, while not being really interesting to do (i.e. checking if all data are correct, or creating summaries), significantly reducing the time she spends on these tasks. This project not only improved my skills in Excel and scripting, but also showed me that if I put myself into something, I can do it."
     },
     {
       "id": "proj4",
-      "summary": "Project 1",
-      "popupTitle": "Project 1",
-      "popupDetailsText": "Project 1"
+      "summary": "Catan Board Generator that generates balanced boards",
+      "popupTitle": "Catan Board Generator",
+      "popupDetailsText": "Whenever I won a game of Catan, I had to listen to my friends complaining that the board was unbalanced, that it was pure luck, etc. So I decided to create a Catan Board Generator that generates balanced boards. It is basic backtracking algorithm that generates boards until it finds a balanced one based on some rules, that I try to check optimally. I use it as PWA on my phone.\n\nGithub: link:github.com/Vl4dk0/CatanBoardGenerator\n\nWebsite: link:catanboardgen.netlify.app"
+    },
+    {
+      "id": "proj5",
+      "summary": "API for PONG game that allows you to create your own Racket-controlling AI",
+      "popupTitle": "Project for school",
+      "popupDetailsText": "I had a great teacher in high school, who asked me to teach students for 2 lessons when she was absent. I decided to follow some tutorial to create a PONG game in python and then created an API so that you could program a Bot that will play. I then explained the topic of classes and inheritance. We then ran a tournament of our bots.\n\nGithub: link:github.com/Vl4dk0/pOnG"
     }
   ],
   "experience": [
@@ -178,13 +186,13 @@
             "id": "achieveHSMaturitaMath",
             "summary": ">96th percentile in Maturita (Math)",
             "popupTitle": "Maturita Exam - Math",
-            "popupDetailsText": "Scored in the bold:(>96th percentile) in the written part of the bold:(Maturita (Slovak school-leaving exam)) in Math, demonstrating a strong proficiency in the subject.\n\nHowever, I was not entirely satisfied with my result, as I was aiming for 100% and I missed it by 3 points. This experience taught me the importance of attention to detail."
+            "popupDetailsText": "Scored in the bold:(>96th percentile) in the written part of the bold:(Maturita (Slovak school-leaving exam)) in Math, demonstrating a strong proficiency in the subject.\n\nHowever, I was not entirely satisfied with my result, as I was aiming for 100% and I missed it by 3 points. This experience taught me the importance of double-checking, as all the mistakes came from incorrectly rewriting/misspelling data from the statement."
           },
           {
             "id": "achieveHSPythonCup",
             "summary": "Python Cup 1st place",
             "popupTitle": "Python Cup Victory",
-            "popupDetailsText": "This competition involved creating three games using Python's Tkinter module. There were over 40 winners, who, for unknown reasons, were not sorted by completion time. The contest was intended to be fun rather than prestigious, but achieving a bold:(100% score) was necessary to be recognized as a winner."
+            "popupDetailsText": "This competition involved creating three games using Python's Tkinter module. There were over 40 winners, that (for unknown reasons) were not sorted by submition time. The contest was intended to be fun rather than prestigious, but achieving a bold:(100% score) was necessary to be recognized as a winner."
           },
           {
             "id": "achieveHSPalmaStrom",

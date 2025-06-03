@@ -151,25 +151,19 @@ section h3 {
   font-size: 0.9em;
 }
 
-.skills ul,
-.achievements ul,
-.previous-experience ul {
+ul {
   list-style-type: none;
   padding-left: 5px;
 }
 
-.skills li,
-.achievements li,
-.previous-experience li {
+li {
   margin-bottom: 8px;
   font-size: 0.9em;
   padding-left: 15px;
   position: relative;
 }
 
-.achievements li::before,
-.previous-experience li::before,
-.skills li::before {
+li::before {
   content: "●";
   position: absolute;
   left: 0;
