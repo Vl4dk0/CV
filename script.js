@@ -1,10 +1,8 @@
-// TODO: create hints for the user so that reader knows he can click on items to see more details
 document.addEventListener("DOMContentLoaded", () => {
   const dataUrl = "cv-data-en.json";
-  const hintPopup = document.getElementById("interactive-hint"); // Get hint element
-  const closeHintButton = document.getElementById("close-hint-button"); // Get close button
+  const hintPopup = document.getElementById("interactive-hint");
+  const closeHintButton = document.getElementById("close-hint-button");
 
-  // --- Hint Popup Logic ---
   function showHint() {
     if (hintPopup && localStorage.getItem("cvHintDismissed") !== "true") {
       hintPopup.classList.remove("hidden");
@@ -29,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (closeHintButton) {
     closeHintButton.addEventListener("click", dismissHint);
   }
+
   async function loadCVData() {
     try {
       const response = await fetch(dataUrl);
@@ -56,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let match;
 
     // Collect link matches
-    linkRegex.lastIndex = 0; // Ensure regex starts fresh
+    linkRegex.lastIndex = 0;
     while ((match = linkRegex.exec(text)) !== null) {
       matches.push({
         type: "link",
@@ -67,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Collect bold matches
-    boldRegex.lastIndex = 0; // Ensure regex starts fresh
+    boldRegex.lastIndex = 0;
     while ((match = boldRegex.exec(text)) !== null) {
       matches.push({
         type: "bold",
@@ -77,12 +76,11 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
 
-    // Sort matches by their starting index to process them in order
+    // Sort matches by starting index
     matches.sort((a, b) => a.index - b.index);
 
     let currentIndex = 0;
     for (const currentMatch of matches) {
-      // Add text before the current match
       if (currentMatch.index > currentIndex) {
         paragraphElement.appendChild(
           document.createTextNode(
@@ -91,7 +89,6 @@ document.addEventListener("DOMContentLoaded", () => {
         );
       }
 
-      // Process the match
       if (currentMatch.type === "link") {
         const url = currentMatch.content;
         const a = document.createElement("a");
@@ -99,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
           url.startsWith("http://") || url.startsWith("https://")
             ? url
             : `http://${url}`;
-        a.textContent = url; // Link text is the URL itself
+        a.textContent = url;
         a.target = "_blank";
         a.rel = "noopener noreferrer";
         paragraphElement.appendChild(a);
@@ -109,11 +106,9 @@ document.addEventListener("DOMContentLoaded", () => {
         strong.textContent = boldText;
         paragraphElement.appendChild(strong);
       }
-      // Update currentIndex to the end of the processed match
       currentIndex = currentMatch.index + currentMatch.length;
     }
 
-    // Add any remaining text after the last match
     if (currentIndex < text.length) {
       paragraphElement.appendChild(
         document.createTextNode(text.substring(currentIndex)),
