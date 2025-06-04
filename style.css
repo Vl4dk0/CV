@@ -63,13 +63,10 @@ html {
   top: 20px;
   left: 20px;
   z-index: 1000;
-  gap: 10px;
+  gap: 8px;
 }
 
 .hint-popup {
-  /* position: fixed; */
-  /* top: 20px; */
-  /* left: 20px; */
   background-color: #eef6ff;
   color: #334e68;
   padding: 15px 20px;
