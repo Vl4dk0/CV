@@ -26,11 +26,16 @@ document.addEventListener("DOMContentLoaded", () => {
       currentLangDisplay = "SK";
       otherLangDisplay = "EN";
     }
-    languageToggleButton.innerHTML = `
-      <span class="current-lang">${currentLangDisplay}</span>
-      <span class="separator">|</span>
-      <span class="other-lang">${otherLangDisplay}</span>
-    `;
+    // if @media (max-width: 768px) only show current language
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      languageToggleButton.innerHTML = `<span class="current-lang">${currentLangDisplay}</span>`;
+    } else {
+      languageToggleButton.innerHTML = `
+        <span class="current-lang">${currentLangDisplay}</span>
+        <span class="separator">|</span>
+        <span class="other-lang">${otherLangDisplay}</span>
+      `;
+    }
   }
 
   function setLanguage(lang) {
@@ -474,7 +479,6 @@ document.addEventListener("DOMContentLoaded", () => {
         closeAllPopups();
       }
     });
-    console.log("Interactive CV popups initialized!");
   }
 
   setLanguage(currentLang);

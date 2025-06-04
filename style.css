@@ -457,5 +457,6 @@ a:hover {
   .language-toggle {
     padding: 5px 8px;
     font-size: 0.7em;
+    right: 10px;
   }
 }

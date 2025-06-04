@@ -11,8 +11,8 @@
   },
   "headerName": "VLADIMÍR JANČÁR",
   "headerTagline": "I CAN SOLVE RUBIK'S CUBE BLINDFOLDED",
-  "hintText": "bold:(Hint:) Many items in this CV are interactive! Click on them to discover more details.",
-  "languageHintText": "bold:(Tip:) Jazyk tohto životopisu zmeníte kliknutím na tlačidlo v pravom hornom rohu.",
+  "hintText": "💡 Many bold:(items in this CV are interactive!) Click them to discover more details.",
+  "languageHintText": "💡 bold:(Jazyk životopisu zmeníte) kliknutím na tlačidlo v pravom hornom rohu.",
   "contact": {
     "phone": "+421 903 979 659",
     "emailHref": "mailto:jvladko@gmail.com",
@@ -108,7 +108,7 @@
     }
   ],
   "aboutMe": [
-    "Born 30.04.2004, Gender: Male, Nationality: Slovak",
+    "Born: 30.04.2004, Gender: Male, Nationality: Slovak",
     "bold:(Informatics student) with a strong foundation in math and problem-solving, honed through years of competing in math and informatics.",
     "Seeking a part-time or internship opportunity where I can contribute to innovative projects, further develop my technical skills, and learn from experienced professionals. I am not searching for a specific type of role. I would genuinely enjoy any role involving programming and critical thinking, such as bold:(Web Development), bold:(Data Science), bold:(AI), bold:(Game Development), bold:(Automation), bold:(applied Mathematics), or even bold:(Research/Science). I prefer working from office to working from home."
   ],
