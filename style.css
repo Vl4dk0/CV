@@ -8,6 +8,53 @@ body {
   color: #333;
 }
 
+html {
+  overflow-y: scroll;
+}
+
+/* Language Switcher Styling */
+.language-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1002;
+  background-color: #f8f9fa;
+  color: #495057;
+  padding: 8px 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85em;
+  transition:
+    background-color 0.1s ease-in-out,
+    box-shadow 0.1s ease-in-out;
+  user-select: none;
+  border: 1px solid #dee2e6;
+}
+
+.language-toggle:hover {
+  background-color: #e9ecef;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+}
+
+.language-toggle .current-lang {
+  color: #212529;
+}
+
+.language-toggle .separator {
+  margin: 0 5px;
+  color: #adb5bd;
+}
+
+.language-toggle .other-lang {
+  color: #6c757d;
+}
+
+.hidden {
+  display: none;
+}
+
 /* Hint Popup Styling */
 .hint-popup {
   position: fixed;

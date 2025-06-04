@@ -1,17 +1,17 @@
 {
   "documentTitle": "Vladimír Jančár",
   "sectionTitles": {
-    "contact": "Contact Information",
-    "skills": "Core Competencies",
-    "education": "Educational Background",
-    "aboutMe": "About Me",
-    "experience": "Professional Experience",
-    "achievements": "Key Achievements",
-    "projects": "Stuff I've worked on"
+    "contact": "Kontakt",
+    "skills": "Skills",
+    "education": "Vzdelanie",
+    "aboutMe": "O mne",
+    "experience": "Pracovné skúsenosti",
+    "achievements": "Úspechy",
+    "projects": "Na čom som pracoval"
   },
   "headerName": "VLADIMÍR JANČÁR",
-  "headerTagline": "I CAN SOLVE RUBIK'S CUBE BLINDFOLDED",
-  "hintText": "bold:(Hint:) Click on items (skill, achievement, education, ...) to see more details!",
+  "headerTagline": "Viem poskladať rubikovú kocku naslepo",
+  "hintText": "bold:(Hint:) Kliknite na text pre zobrazenie detailov!",
   "contact": {
     "phone": "+421 903 979 659",
     "emailHref": "mailto:jvladko@gmail.com",
@@ -21,26 +21,26 @@
   "skills": [
     {
       "id": "skillProg",
-      "summary": "Programming",
-      "popupTitle": "Programming Experience",
+      "summary": "Programovanie",
+      "popupTitle": "Skúsenosti s programovaním",
       "popupDetailsText": "My programming journey began in my freshman year of high school, sparked by the bold:(Zenit competition). I started with bold:(Python), then quickly adopted bold:(C++) for its performance in competitive programming, including the bold:(Informatics Olympiad) (twice succeeded in regionals, both times bold:(very close to nationals)). This honed my skills in bold:(optimization), bold:(graph theory) or generally in bold:(logical thinking). I also played with bold:(LeetCode) for additional programming challenges.\n\nIn university, I've expanded my toolkit with bold:(Java), bold:(Go) (concurrency), bold:(Haskell) (functional programming), bold:(C) (system programming), bold:(CL) (a Specification and Verification paradigm, a university special), and web technologies (bold:(HTML), bold:(CSS), bold:(JS), bold:(PHP)). I have applied these skills to solve diverse problems, from competitive algorithms to practical automation scripts in Excel or other tools that make life easier or better."
     },
     {
       "id": "skillMath",
-      "summary": "Mathematics",
-      "popupTitle": "Mathematical Background",
+      "summary": "Matematika",
+      "popupTitle": "Matematický background",
       "popupDetailsText": "My passion for math was ignited in 5th grade with the bold:(Math Olympiad). Since then, I've actively competed in major Slovak math contests (bold:(Math Olympiad), bold:(Klokan), bold:(Naboj), and more). Since the 7th grade in primary school, I often studied bold:(advanced topics independently), even those covered later at university. To this very day I explore math in my free time. Recently I've been particularly interested in bold:(Game theory), bold:(Probability) and bold:(Graph thoery)."
     },
     {
       "id": "skillAlgo",
-      "summary": "Algorithms",
-      "popupTitle": "Algorithmic Problem Solving",
+      "summary": "Algoritmické myslenie",
+      "popupTitle": "Algoritmické myslenie",
       "popupDetailsText": "My experience from competitive programming (bold:(Math Olympiad), bold:(Informatics Olympiad), bold:(KSP), etc.) has provided extensive practice in designing and implementing bold:(efficient algorithms, data structures or strategies). I'm comfortable with areas like bold:(optimization), bold:(graph theory), bold:(probability), bold:(geometry), bold:(dynamic programming), and pretty much any other common problem-solving technique."
     },
     {
       "id": "skillLearn",
-      "summary": "Very Fast Learner",
-      "popupTitle": "Learning Agility & Adaptability",
+      "summary": "Učím sa veľmi rýchlo",
+      "popupTitle": "Rýchle učenie a adaptabilita",
       "popupDetailsText": "My journey through various academic competitions (Math, History, Chemistry, Geography) and the necessity to learn and understand programming languages (bold:(Python) to bold:(C++) for speed in contests, then learning bold:(Java), bold:(Go), bold:(Haskell), etc., at university, bold:(Django), bold:(CSS), bold:(JavaScript), etc., at work) demonstrate my ability to bold:(learn new concepts and tools rapidly). I enjoy being challenged and like the feeling of bold:(mastering a new skill)."
     },
     {

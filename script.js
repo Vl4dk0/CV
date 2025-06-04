@@ -1,8 +1,48 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const dataUrl = "cv-data-en.json";
+  const DEFAULT_LANG = "en";
+  const LANG_STORAGE_KEY = "cvPreferredLanguage";
+  let currentLang = localStorage.getItem(LANG_STORAGE_KEY) || DEFAULT_LANG;
+
   const hintPopup = document.getElementById("interactive-hint");
   const closeHintButton = document.getElementById("close-hint-button");
+  const languageToggleButton = document.getElementById(
+    "language-toggle-button",
+  );
+
   closedHint = false;
+  function updateLanguageToggleText() {
+    if (!languageToggleButton) return;
+
+    let currentLangDisplay, otherLangDisplay;
+    if (currentLang === "en") {
+      currentLangDisplay = "EN";
+      otherLangDisplay = "SK";
+    } else {
+      currentLangDisplay = "SK";
+      otherLangDisplay = "EN";
+    }
+    languageToggleButton.innerHTML = `
+      <span class="current-lang">${currentLangDisplay}</span>
+      <span class="separator">|</span>
+      <span class="other-lang">${otherLangDisplay}</span>
+    `;
+  }
+
+  function setLanguage(lang) {
+    currentLang = lang;
+    localStorage.setItem(LANG_STORAGE_KEY, lang);
+    document.documentElement.lang = lang;
+
+    updateLanguageToggleText();
+    loadCVData(lang);
+  }
+
+  if (languageToggleButton) {
+    languageToggleButton.addEventListener("click", () => {
+      const newLang = currentLang === "en" ? "sk" : "en";
+      setLanguage(newLang);
+    });
+  }
 
   function showHint() {
     if (hintPopup && !closedHint) {
@@ -29,7 +69,8 @@ document.addEventListener("DOMContentLoaded", () => {
     closeHintButton.addEventListener("click", dismissHint);
   }
 
-  async function loadCVData() {
+  async function loadCVData(lang = currentLang) {
+    const dataUrl = `cv-data-${lang}.json`;
     try {
       const response = await fetch(dataUrl);
       if (!response.ok) {
@@ -269,7 +310,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Populate Projects
     const projectsList = document.getElementById("projects-list");
     if (projectsList && data.projects && popupsContainer) {
-      console.log("Populating projects list...");
       projectsList.innerHTML = "";
       data.projects.forEach((proj) => {
         const li = document.createElement("li");
@@ -282,8 +322,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         projectsList.appendChild(li);
       });
-    } else {
-      console.warn("No projects data found or popups container is missing.");
     }
 
     // Populate Experience
@@ -363,6 +401,9 @@ document.addEventListener("DOMContentLoaded", () => {
         if (popupOverlay) {
           popupOverlay.classList.add("active");
         }
+        if (languageToggleButton) {
+          languageToggleButton.classList.add("hidden");
+        }
         document.body.style.overflow = "hidden";
       }
     }
@@ -375,6 +416,9 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       if (popupOverlay) {
         popupOverlay.classList.remove("active");
+      }
+      if (languageToggleButton) {
+        languageToggleButton.classList.remove("hidden");
       }
       document.body.style.overflow = "auto";
     }
@@ -416,5 +460,5 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("Interactive CV popups initialized!");
   }
 
-  loadCVData();
+  setLanguage(currentLang);
 });
