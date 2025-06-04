@@ -79,7 +79,7 @@
     {
       "id": "edu0",
       "institution": "Základná škola Strážske",
-      "details": ["Najlepšie známky"],
+      "details": [],
       "dates": "2010 - 2019",
       "popupTitle": "Základná škola Strážske",
       "popupDetailsText": "Počas Základnej školy som neustále dosahoval bold:(vynikajúce výsledky). Práve tu, obzvlášť od piateho ročníka, som objavil svoj záujem a nadanie na matematiku. Bolo to vďaka mojej účasti na bold:(Matematickej olympiáde). V tomto období som taktiež začal hrať volejbal, kde náš tím dosiahol celoštátne úspechy, vrátane bold:(3. miesta na Majstrovstvách Slovenska U15)."
@@ -87,10 +87,7 @@
     {
       "id": "edu1",
       "institution": "Gymnázium P. Horova, Michalovce",
-      "details": [
-        "V triede so zameraním na matematiku a informatiku",
-        "Najlepšie známky"
-      ],
+      "details": ["V triede so zameraním na matematiku a informatiku"],
       "dates": "2019 - 2023",
       "popupTitle": "Gymnázium P. Horova, Michalovce - Začiatok s programovaním",
       "popupDetailsText": "Na Gymnáziu som naďalej akademicky vynikal, bold:(udržiaval som si najlepšie známky). Práve tu som sa začal venovať programovaniu, do veľkej miery vďaka účasti na bold:(súťaži Zenit). Uvedomil som si, že programovanie je bold:('ako matematika, ale lepšie,'). Najprv som začal s bold:(Pythonom) a neskôr som prešiel na bold:(C++). Počas celej strednej školy som tiež pokračoval v hraní volejbalu. Toto obdobie bolo kľúčové pre rozvoj mojich zručností v riešení problémov prostredníctvom rôznych olympiád a iných súťaží alebo projektov."
@@ -123,7 +120,7 @@
       "id": "proj2",
       "summary": "Maturita vo vrecku - aplikácia, ktorá pomohla stovkám študentov pripraviť sa na maturitu zo Slovenčiny",
       "popupTitle": "Maturita vo vrecku - Projekt zo strednej školy",
-      "popupDetailsText": "Na tomto projekte som pracoval v tíme na bold:(strednej škole). Bol to môj bold:(prvý tímový projekt). Prekvapil som sa v tom, že bold:(najťažšou) časťou bolo bold:(získať dáta) potrebné na vytvorenie aplikácie na štúdium. Vtedy ešte žiaden 'bold:(ChatGPT)' nebol :D. Čo sa týka vývoja, určite sa vyskytli aj mnohé komplikácie, ale tie tam boli hlavne preto, že sme boli začiatočníci."
+      "popupDetailsText": "Na tomto projekte som pracoval v tíme na bold:(strednej škole). Bol to môj bold:(prvý tímový projekt). bold:(Najťažšou) časťou bolo bold:(získať dáta) potrebné na vytvorenie aplikácie na štúdium. Vtedy ešte žiaden 'bold:(ChatGPT)' nebol :D. Čo sa týka vývoja, určite sa vyskytli aj mnohé komplikácie, ale tie tam boli hlavne preto, že sme boli začiatočníci."
     },
     {
       "id": "proj3",
