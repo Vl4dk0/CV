@@ -147,7 +147,7 @@
       "id": "proj6",
       "summary": "Simulátor hodu mince v Unity na nájdenie 'férovej' mince",
       "popupTitle": "Simulovaný experiment pre Turnaj mladých fyzikov",
-      "popupDetailsText": "Zúčastnil som sa bold:(Turnaja mladých fyzikov), kde jednou z úloh bolo nájsť 'férovú' mincu. To znamená, že pravdepodobnosť padnutia hlavy, znaku aj bold:(hrany) je rovnaká! Bol to projekt v bold:(Unity) a bold:(C#), ktorý mi pomohol overiť si moje výpočty. Tiež som vytvoril bold:(algoritmus), ktorý hľadal rozmery takéhoto valca. Fungoval dobre a výsledky boli veľmi bold:(blízke teórii), ktorá vyšla v pomere 1 ku sqrt(3) (1 pre výšku a sqrt(3) pre priemer valca). Toto bol môj jediný projekt v Unity a v C#, takže by som nepovedal, že ich ovládam, no C# mi pripadá podobný Jave.\n\nMimochodom, v ten deň sme bold:(vyhrali) 1. miesto v bold:(krajskom kole) (Košice)."
+      "popupDetailsText": "Zúčastnil som sa bold:(Turnaja mladých fyzikov), kde jednou z úloh bolo nájsť 'férovú' mincu. To znamená, že pravdepodobnosť padnutia hlavy, znaku aj bold:(hrany) je rovnaká! Bol to projekt v bold:(Unity) a bold:(C#), ktorý mi pomohol overiť si moje výpočty. Tiež som vytvoril bold:(algoritmus), ktorý hľadal rozmery takéhoto valca. Fungoval dobre a výsledky boli veľmi bold:(blízke teórii), ktorá vyšla v pomere 1 ku √3 (1 pre výšku a √3 pre priemer valca). Toto bol môj jediný projekt v Unity a v C#, takže by som nepovedal, že ich ovládam, no C# mi pripadá podobný Jave.\n\nMimochodom, v ten deň sme bold:(vyhrali) 1. miesto v bold:(krajskom kole) (Košice)."
     }
   ],
   "experience": [

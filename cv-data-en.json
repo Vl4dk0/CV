@@ -147,7 +147,7 @@
       "id": "proj6",
       "summary": "Coin toss simulator in Unity to find the so-called 'fair' coin",
       "popupTitle": "Youth Physics Tournament simulated experiment",
-      "popupDetailsText": "I participated in the bold:(Youth Physics Tournament), where there was a task to find a 'fair' coin. Meaning there is bold:(equal probability) of heads, tails and bold:(edge)! It was a bold:(Unity) and bold:(C#) project that helped me check my calculations. I also created an bold:(algorithm) that would find the dimensions of such cylinder, and it bold:(worked well), results were very bold:(close to theoretical) answer, which came out to be 1:sqrt(3), 1 for height and sqrt(3) for diameter of a cylinder.\n\nThis was my only project in Unity and in C#, so I wouldn't say I am proficient in it yet. But C# feels similar to Java.\n\nBy the way, we bold:(won the regionals) (Kosice) that day."
+      "popupDetailsText": "I participated in the bold:(Youth Physics Tournament), where there was a task to find a 'fair' coin. Meaning there is bold:(equal probability) of heads, tails and bold:(edge)! It was a bold:(Unity) and bold:(C#) project that helped me check my calculations. I also created an bold:(algorithm) that would find the dimensions of such cylinder, and it bold:(worked well), results were very bold:(close to theoretical) answer, which came out to be 1:√3, 1 for height and √3 for diameter of a cylinder.\n\nThis was my only project in Unity and in C#, so I wouldn't say I am proficient in it yet. But C# feels similar to Java.\n\nBy the way, we bold:(won the regionals) (Kosice) that day."
     }
   ],
   "experience": [
