@@ -117,37 +117,37 @@
       "id": "proj1",
       "summary": "Graph Neural Networks - Rozšíriteľnosť čiastočného automorfizmu",
       "popupTitle": "GNNs - Moja téma na bakalársku prácu",
-      "popupDetailsText": "Toto je moja bakalárska práca, na ktorej momentálne pracujem. Zahŕňa použitie grafových neurónových sietí (GNN) na riešenie problému rozšíriteľnosti čiastočného automorfizmu. Cieľom je vyvinúť GNN model, ktorý dokáže predpovedať, či daný čiastočný automorfizmus môže byť rozšírený na úplný automorfizmus pre daný graf a nejaký čiastočný automorfizmus. Tento projekt spája moje záujmy v teórii grafov a strojovom učení. Pre tento problém neexistuje žiaden dostupný dataset, takže som si ho musel vytvoriť od základov sám. Šlo to v poriadku. Čo sa týka GNN a toho, či táto umelá inteligencia bude alebo nebude schopná predpovedať rozšíriteľnosť, si zatiaľ nie som istý. Stále som v procese trénovania modelu a hodnotenia jeho výkonnosti."
+      "popupDetailsText": "Toto je moja bakalárska práca, na ktorej momentálne pracujem. Zahŕňa použitie bold:(grafových neurónových sietí) (GNN) na riešenie problému rozšíriteľnosti čiastočného automorfizmu. Cieľom je vyvinúť GNN model, ktorý dokáže bold:(predpovedať), či daný čiastočný automorfizmus môže byť bold:(rozšírený na úplný automorfizmus) pre daný graf a nejaký čiastočný automorfizmus. Tento projekt spája moje záujmy v bold:(teórii grafov) a bold:(strojovom učení). Pre tento problém bold:(neexistuje) žiaden dostupný bold:(dataset), takže som si ho musel bold:(vytvoriť) od základov sám. Šlo to v poriadku. Čo sa týka GNN a toho, či táto umelá inteligencia bude alebo nebude schopná predpovedať rozšíriteľnosť, si zatiaľ nie som istý. Stále som bold:(v procese trénovania) modelu a hodnotenia jeho výkonnosti."
     },
     {
       "id": "proj2",
       "summary": "Maturita vo vrecku - aplikácia, ktorá pomohla stovkám študentov pripraviť sa na maturitu zo Slovenčiny",
       "popupTitle": "Maturita vo vrecku - Projekt zo strednej školy",
-      "popupDetailsText": "Na tomto projekte som pracoval v tíme na strednej škole. Bol to môj prvý tímový projekt. Prekvapil som sa v tom, že najťažšou časťou bolo v naplniť dáta potrebné na vytvorenie aplikácie na štúdium. Vtedy ešte žiaden 'ChatGPT' nebol :D. Čo sa týka vývoja, určite sa vyskytli aj mnohé komplikácie, ale tie tam boli hlavne preto, že sme boli začiatočníci."
+      "popupDetailsText": "Na tomto projekte som pracoval v tíme na bold:(strednej škole). Bol to môj bold:(prvý tímový projekt). Prekvapil som sa v tom, že bold:(najťažšou) časťou bolo bold:(získať dáta) potrebné na vytvorenie aplikácie na štúdium. Vtedy ešte žiaden 'bold:(ChatGPT)' nebol :D. Čo sa týka vývoja, určite sa vyskytli aj mnohé komplikácie, ale tie tam boli hlavne preto, že sme boli začiatočníci."
     },
     {
       "id": "proj3",
       "summary": "Excel - Office skripty pre účtovníka, ktoré ušetrili hodiny práce.",
       "popupTitle": "Excel Automation - Office Scripts",
-      "popupDetailsText": "Vytvoril som niekoľko automatizačných skriptov v Exceli pomocou Office Scripts pre môjho príbuzného, ktorý je špecialista na účtovníctvo. Tieto skripty automatizujú úlohy, ktoré si vyžadujú veľa sústredenia a výdrže, pričom nie sú vôbec zaujímavé (t.j. kontrola správnosti všetkých dát alebo vytváranie súhrnov). Skripty výrazne skracujú čas, ktorý týmto úloham musí venovať. Tento projekt zlepšil moje zručnosti v Exceli a skriptovaní."
+      "popupDetailsText": "Vytvoril som bold:(niekoľko) automatizačných skriptov v bold:(Exceli) pomocou Office Scripts pre môjho príbuzného, ktorý je bold:(skúseným účtovníkom). Tieto skripty automatizujú úlohy, ktoré si bold:(vyžadujú) veľa bold:(sústredenia) a bold:(výdrže), pričom bold:(nie sú) vôbec bold:(zaujímavé) (t.j. kontrola správnosti všetkých dát alebo vytváranie súhrnov). Skripty výrazne bold:(skracujú čas), ktorý týmto úloham musí venovať. Tento projekt zlepšil moje zručnosti v bold:(Exceli) a bold:(skriptovaní)."
     },
     {
       "id": "proj4",
       "summary": "Generátor vyvážených máp pre hru Catan",
       "popupTitle": "Catan Board Generator",
-      "popupDetailsText": "Vždy, keď som vyhral partiu Katanu, musel som počúvať kamarátov: 'Herný plán bol nevyvážený!', alebo 'To bolo čisté šťastie!'. Tak som sa rozhodol vytvoriť bold:(Generátor), ktorý generuje vyvážené herné plány. Je to základný backtracking, ktorý generuje herné plány, a�������� kým nenájde vyvážený na základe určitých pravidiel, ktoré sa snažím čo najoptimálnejšie kontrolovať. Používam to ako PWA na svojom mobile.\n\nGithub: link:github.com/Vl4dk0/CatanBoardGenerator\n\nWebstránka: link:catanboardgen.netlify.app"
+      "popupDetailsText": "Vždy, keď som vyhral partiu bold:(Catanu), musel som počúvať kamarátov: 'Herný plán bol bold:(nevyvážený)!', alebo 'To bolo čisté šťastie!'. Tak som sa rozhodol vytvoriť bold:(Generátor), ktorý generuje bold:(vyvážené) herné plány. Je to základný bold:(backtracking), ktorý generuje herné plány, až kým nenájde vyvážený na základe určitých bold:(pravidiel), ktoré sa snažím čo najoptimálnejšie kontrolovať. Používam to ako bold:(PWA) na svojom mobile.\n\nGithub: link:github.com/Vl4dk0/CatanBoardGenerator\n\nWebstránka: link:catanboardgen.netlify.app"
     },
     {
       "id": "proj5",
       "summary": "API pre hru PONG, ktoré umožňuje vytvárať Botov (AI), ktorí budú ovládať raketu",
       "popupTitle": "Projekt na hodinu informatiky na strednej škole",
-      "popupDetailsText": "Na strednej škole som mal skvelú učite�����ku, ktorá ma poprosila, aby som za ňu odučil dve hodiny, keď chýbala. Rozhodol som sa pod��a jedného tutoriálu vytvoriť hru PONG v Pythone a k nej som spravil API, aby si každý mohol naprogramovať Bota, ktorý bude môcť ovládať raketku. Potom som na tom vysvetľoval tému tried a dedičnosti. Nakoniec sme si v triede spravili turnaj medzi našimi Botmi.\n\nGithub: link:github.com/Vl4dk0/pOnG"
+      "popupDetailsText": "Na strednej škole som mal skvelú učiteľku, ktorá ma poprosila, aby som za ňu bold:(odučil dve hodiny), keď chýbala. Rozhodol som sa podľa jedného tutoriálu vytvoriť hru bold:(PONG) v Pythone a k nej som spravil bold:(API), aby si každý mohol naprogramovať bold:(Bota/AI), ktorý bude môcť ovládať raketku. Potom som na tom vysvetľoval tému bold:(tried) a bold:(dedičnosti). Nakoniec sme si v triede spravili bold:(turnaj) medzi našimi Botmi.\n\nGithub: link:github.com/Vl4dk0/pOnG"
     },
     {
       "id": "proj6",
       "summary": "Simulátor hodu mince v Unity na nájdenie 'férovej' mince",
       "popupTitle": "Simulovaný experiment pre Turnaj mladých fyzikov",
-      "popupDetailsText": "Zúčastnil som sa Turnaja mladých fyzikov, kde jednou z úloh bolo nájsť 'férovú' mincu. To znamená, že pravdepodobnosť padnutia hlavy, znaku aj bold:(hrany) je rovnaká! Bol to projekt v Unity a C#, ktorý mi pomohol overiť si moje matematické výpočty. Tiež som vytvoril algoritmus, ktorý našiel rozmery takéhoto valca. Fungoval dobre a výsledky boli veľmi blízke teoretickej odpovedi, ktorá vyšla v pomere 1 ku sqrt(3) (1 pre výšku a sqrt(3) pre priemer valca). Toto bol môj jediný projekt v Unity a v C#, takže by som zatiaľ nepovedal, že ich ovládam. Ale C# mi pripadá podobný Jave.\n\nMimochodom, v ten deň sme vyhrali 1. miesto v krajskom kole (Košice)."
+      "popupDetailsText": "Zúčastnil som sa bold:(Turnaja mladých fyzikov), kde jednou z úloh bolo nájsť 'férovú' mincu. To znamená, že pravdepodobnosť padnutia hlavy, znaku aj bold:(hrany) je rovnaká! Bol to projekt v bold:(Unity) a bold:(C#), ktorý mi pomohol overiť si moje výpočty. Tiež som vytvoril bold:(algoritmus), ktorý hľadal rozmery takéhoto valca. Fungoval dobre a výsledky boli veľmi bold:(blízke teórii), ktorá vyšla v pomere 1 ku sqrt(3) (1 pre výšku a sqrt(3) pre priemer valca). Toto bol môj jediný projekt v Unity a v C#, takže by som nepovedal, že ich ovládam, no C# mi pripadá podobný Jave.\n\nMimochodom, v ten deň sme bold:(vyhrali) 1. miesto v bold:(krajskom kole) (Košice)."
     }
   ],
   "experience": [

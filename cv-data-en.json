@@ -117,37 +117,37 @@
       "id": "proj1",
       "summary": "Graph Neural Networks - Partial automorphism extendability",
       "popupTitle": "GNNs - My bachelor thesis",
-      "popupDetailsText": "This is my bachelor thesis, which I am currently working on. It involves the use of Graph Neural Networks (GNNs) to solve the problem of partial automorphism extendability. The goal is to develop a GNN model that can predict whether a given partial automorphism can be extended to a full automorphism given graph and some partial automorphism. This project combines my interests in graph theory and machine learning. There is no dataset available for this, so I had to create one from scratch. It was okay. Regarding GNN and whether or not this AI will or will not be able to predict the extendability, I am not sure yet. I am still in the process of training the model and evaluating its performance."
+      "popupDetailsText": "This is my bachelor thesis, which I am currently working on. It involves the use of bold:(Graph Neural Networks) (GNNs) to solve the problem of partial automorphism extendability. The goal is to develop a bold:(GNN) model that can bold:(predict) whether a given partial automorphism can be extended to a bold:(full automorphism) given graph and some partial automorphism. This project combines my interests in bold:(graph theory) and bold:(machine learning). There is no bold:(dataset) available for this, so I had to bold:(create one from scratch). It was okay. Regarding GNN and whether or not this AI will or will not be able to predict the extendability, I am bold:(not sure yet). I am still in the process of bold:(training) the model and bold:(evaluating) its performance."
     },
     {
       "id": "proj2",
       "summary": "Pocket Maturita - app that has helped hundreds of students prepare for Maturita in Slovak language",
       "popupTitle": "Maturita App - High School project",
-      "popupDetailsText": "I worked on this in team in high school. It was my first collaborative project. I understood that the hardest part was to actually fill in the data needed to create an app for study. There was no ChatGPT back then :D. Regarding the development there sure were complications, but they were there mostly because we were beginners."
+      "popupDetailsText": "I worked on this in bold:(team) in high school. It was my bold:(first collaborative project). I understood that the hardest part was to actually bold:(obtain the data) needed to create an app for study. There was bold:(no ChatGPT) back then :D. Regarding the development there sure were complications, but they were there mostly because we were beginners."
     },
     {
       "id": "proj3",
       "summary": "Excel - Office scripts for accounting specialist that saved hours",
       "popupTitle": "Excel Automation - Office Scripts",
-      "popupDetailsText": "I created several automation scripts in Excel using Office Scripts for my relative, who is an accounting specialist. These scripts automate tasks that require a lot of focus and stamina, while not being really interesting to do (i.e. checking if all data are correct, or creating summaries), significantly reducing the time he spends on these tasks. This project not only improved my skills in Excel and scripting, but also showed me that if I put myself into something, I can do it."
+      "popupDetailsText": "I created bold:(several) automation scripts in bold:(Excel) using bold:(Office Scripts) for my relative, who is an bold:(accounting specialist). These scripts automate tasks that require a lot of focus and stamina, while bold:(not) being really bold:(interesting) to do (i.e. checking if all data are correct, or creating summaries), significantly reducing the time he spends on these tasks. This project improved my skills in bold:(Excel) and bold:(scripting)."
     },
     {
       "id": "proj4",
       "summary": "Catan Board Generator that generates balanced boards",
       "popupTitle": "Catan Board Generator",
-      "popupDetailsText": "Whenever I won a game of Catan, I had to listen to my friends complaining that the board was unbalanced, that it was pure luck, etc. So I decided to create a Catan Board Generator that generates balanced boards. It is basic backtracking algorithm that generates boards until it finds a balanced one based on some rules, that I try to check optimally. I use it as PWA on my phone.\n\nGithub: link:github.com/Vl4dk0/CatanBoardGenerator\n\nWebsite: link:catanboardgen.netlify.app"
+      "popupDetailsText": "Whenever I won a game of bold:(Catan), I had to listen to my friends bold:(complaining) that the bold:(board was unbalanced), that it was pure luck, etc. So I decided to create a bold:(Catan Board Generator) that generates bold:(balanced boards). It is basic bold:(backtracking algorithm) that generates boards until it finds a balanced one based on some bold:(rules), that I try to check optimally. I use it as bold:(PWA on my phone).\n\nGithub: link:github.com/Vl4dk0/CatanBoardGenerator\n\nWebsite: link:catanboardgen.netlify.app"
     },
     {
       "id": "proj5",
       "summary": "API for PONG game that allows you to create your own Racket-controlling AI",
       "popupTitle": "Project for school",
-      "popupDetailsText": "I had a great teacher in high school, who asked me to teach students for 2 lessons when she was absent. I decided to follow some tutorial to create a PONG game in python and then created an API so that you could program a Bot that will play. I then explained the topic of classes and inheritance. We then ran a tournament of our bots.\n\nGithub: link:github.com/Vl4dk0/pOnG"
+      "popupDetailsText": "I had a great teacher in high school, who asked me to bold:(teach Python to my classmates for 2 lessons) when she was absent. I decided to follow some tutorial to create a bold:(PONG) game in python and then created an bold:(API) so that you could program a bold:(Bot/AI) that will control one of the rackets. I then explained the topic of bold:(classes) and bold:(inheritance). We then ran a tournament of our bots.\n\nGithub: link:github.com/Vl4dk0/pOnG"
     },
     {
       "id": "proj6",
       "summary": "Coin toss simulator in Unity to find the so-called 'fair' coin",
       "popupTitle": "Youth Physics Tournament simulated experiment",
-      "popupDetailsText": "I participated in the Youth Physics Tournament, where there was a task to find a 'fair' coin. Meaning there is equal probability of heads, tails and bold:(edge)! It was a Unity+C# project that helped me check my math. I also created an algorithm that would find the dimesntions of such cylinder, and it worked well, results were very close to theoretical answer, which came out to be 1:sqrt(3), 1 for height and sqrt(3) for diameter of a cylinder.\n\nThis was my only project in Unity and in C#, so I wouldn't say I am proficient in it yet. But C# feels similar to Java.\n\nBy the way, we won the regionals (Kosice) that day."
+      "popupDetailsText": "I participated in the bold:(Youth Physics Tournament), where there was a task to find a 'fair' coin. Meaning there is bold:(equal probability) of heads, tails and bold:(edge)! It was a bold:(Unity) and bold:(C#) project that helped me check my calculations. I also created an bold:(algorithm) that would find the dimensions of such cylinder, and it bold:(worked well), results were very bold:(close to theoretical) answer, which came out to be 1:sqrt(3), 1 for height and sqrt(3) for diameter of a cylinder.\n\nThis was my only project in Unity and in C#, so I wouldn't say I am proficient in it yet. But C# feels similar to Java.\n\nBy the way, we bold:(won the regionals) (Kosice) that day."
     }
   ],
   "experience": [
