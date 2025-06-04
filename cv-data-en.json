@@ -62,7 +62,7 @@
     {
       "id": "edu0",
       "institution": "Primary School Strážske",
-      "details": ["Consistent top grades"],
+      "details": [],
       "dates": "2010 - 2019",
       "popupTitle": "Primary School Strážske - Foundations & Passions",
       "popupDetailsText": "Throughout my time at Primary School Strážske, I consistently achieved bold:(top grades (straight 1s)). It was here, particularly from 5th grade onwards, that I discovered my deep interest and aptitude for math, sparked by my participation in the bold:(Math Olympiad). This period also marked the beginning of my involvement in competitive volleyball, where our team achieved national success, including a bold:(3rd place finish in the U15 Nationals)."
@@ -70,10 +70,7 @@
     {
       "id": "edu1",
       "institution": "Gymnasium P. Horova, Michalovce",
-      "details": [
-        "In a class focused on Math and Informatics",
-        "Consistent top grades"
-      ],
+      "details": ["In a class focused on Math and Informatics"],
       "dates": "2019 - 2023",
       "popupTitle": "Gymnasium P. Horova - Igniting Programming Passion",
       "popupDetailsText": "At Gymnasium P. Horova, I continued to excel academically, bold:(maintaining top grades) while focusing on Math and Informatics. This is where my passion for programming truly ignited, largely thanks to participating in the bold:(Zenit competition) and to my dedicated teachers. I realized programming was like bold:('math, but better,') leading me to dive into bold:(Python) and later bold:(C++). I also continued playing volleyball throughout high school, balancing academics with team sports. This period was instrumental in developing my problem-solving skills through various Olympiads and programming challenges."
