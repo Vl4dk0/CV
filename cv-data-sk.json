@@ -66,7 +66,7 @@
       "id": "skillEng",
       "summary": "English Language (B2)",
       "popupTitle": "English Language",
-      "popupDetailsText": "Angličtinu som sa v škole učil od druhého ročníka základnej školy. Úspešne som zložil maturitnú skúšku (bold:(Maturita)) s výsledkom niekde nad bold:(85. percentilom). Moja úroveň bola bold:(B2) podľa SERR (Spoločného európskeho referenčného rámca)."
+      "popupDetailsText": "Angličtinu som sa v škole učil od druhého ročníka základnej školy. Úspešne som zložil maturitnú skúšku (bold:(Maturita)) s výsledkom niekde medzi bold:(top 15% maturantov) (>85. percentil). Moja úroveň bola bold:(B2) podľa SERR (Spoločného európskeho referenčného rámca)."
     },
     {
       "id": "skillRus",
@@ -141,7 +141,7 @@
       "id": "proj5",
       "summary": "API pre hru PONG, ktoré umožňuje vytvárať Botov (AI), ktorí budú ovládať raketu",
       "popupTitle": "Projekt na hodinu informatiky na strednej škole",
-      "popupDetailsText": "Na strednej škole som mal skvelú učite���ku, ktorá ma poprosila, aby som za ňu odučil dve hodiny, keď chýbala. Rozhodol som sa pod��a jedného tutoriálu vytvoriť hru PONG v Pythone a k nej som spravil API, aby si každý mohol naprogramovať Bota, ktorý bude môcť ovládať raketku. Potom som na tom vysvetľoval tému tried a dedičnosti. Nakoniec sme si v triede spravili turnaj medzi našimi Botmi.\n\nGithub: link:github.com/Vl4dk0/pOnG"
+      "popupDetailsText": "Na strednej škole som mal skvelú učite�����ku, ktorá ma poprosila, aby som za ňu odučil dve hodiny, keď chýbala. Rozhodol som sa pod��a jedného tutoriálu vytvoriť hru PONG v Pythone a k nej som spravil API, aby si každý mohol naprogramovať Bota, ktorý bude môcť ovládať raketku. Potom som na tom vysvetľoval tému tried a dedičnosti. Nakoniec sme si v triede spravili turnaj medzi našimi Botmi.\n\nGithub: link:github.com/Vl4dk0/pOnG"
     },
     {
       "id": "proj6",
