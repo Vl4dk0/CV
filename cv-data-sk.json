@@ -2,8 +2,9 @@
   "documentTitle": "Vladimír Jančár",
   "sectionTitles": {
     "contact": "Kontakt",
-    "skills": "Skills",
+    "skills": "Zručnosti",
     "education": "Vzdelanie",
+    "characteristics": "Vlastnosti",
     "aboutMe": "O mne",
     "experience": "Pracovné skúsenosti",
     "achievements": "Úspechy",
@@ -39,28 +40,10 @@
       "popupDetailsText": "Skúsenosti zo súťažného programovania (bold:(Matematická olympiáda), bold:(Informatická olympiáda), bold:(KSP), atď.) mi poskytli rozsiahlu prax v navrhovaní a implementácii bold:(efektívnych algoritmov, dátových štruktúr či stratégií). Nemám problém s oblasťami ako bold:(optimalizácia), bold:(teória grafov), bold:(teória pravdepodobnosti), bold:(geometria), bold:(dynamické programovanie) a v podstate s akoukoľvek inou bežnou technikou riešenia problémov ako binárne vyhľadávanie, backtracking, greedy, ..."
     },
     {
-      "id": "skillLearn",
-      "summary": "Učím sa veľmi rýchlo",
-      "popupTitle": "Rýchle učenie a adaptabilita",
-      "popupDetailsText": "Od mala súťažím (matematika, dejepis, chémia, geografia) a preto som sa musel učiť a vedieť rýchlo porozumieť novým programovacím jazykom (od bold:(Pythonu) po bold:(C++) kvôli rýchlosti v súťažiach, následne učenie sa bold:(Javy), bold:(Go), bold:(Haskellu) atď. na univerzite, a bold:(Djanga), bold:(CSS), bold:(JavaScriptu) atď. v práci). To demonštruje moju schopnosť bold:(rýchlo sa učiť nové koncepty a nástroje). Rád sa učím nové veci."
-    },
-    {
-      "id": "skillResilience",
-      "summary": "Odolnosť a vytrvalosť",
-      "popupTitle": "Odolnosť a vytrvalosť",
-      "popupDetailsText": "Moje skúsenosti s náročnými matematickými a programátorskými seminármi podobnými bold:(KSP), kde som venoval značné úsilie (niekedy na úkor spánku a jedla) riešeniu zložitých problémov a nakoniec dosiahol (bold:(dvakrát po sebe umiestnenie v top 10 v KSP)), ma naučili hodnote vytrvalosti. Zistil som, že mojou najsilnejšou stránkou nie je talent; ale to, že sa nevzdávam a dotiahnem veci do konca. Toto odhodlanie viedlo k môjmu prijatiu na bold:(Matfyz) s bold:(motivačným štipendiom).\n\nSúťažil som aj v KMS či STROMe, kde som bol tiež úspešný (okolo 30. – 50. miesta), ale nebol to až taký veľký úspech ako v KSP."
-    },
-    {
       "id": "skillAutomation",
       "summary": "Automatizácia",
       "popupTitle": "Automatizácia",
       "popupDetailsText": "Baví ma hľadať príležitosti na automatizáciu.\n\nNapríklad som pre rodinného príslušníka, účtovníka, vyvinul bold:(TypeScript skripty) na automatizáciu repetetívnych a vyčerpávajúcich úloh kontroly a sumarizácie dát v Exceli, bold:(čím som mu ušetril značné množstvo času).\n\nAlebo som si vytvoril nástroje, ktoré mi pomohli ušetriť čas pri domácich úlohách. Najzaujímaveší bol asi program, ktorý parsoval online editor (vytvorený našimi učiteľmi) do textového súboru, integroval nástroje, ktoré v priebehu sekúnd našli uzavreté tablá a formalizácie, a následne to automaticky reparsoval späť do požadovaného formátu online editora, pripravené na odovzdanie. Ušetril som tak približne pol hodinu za každé tablo, ktoré som nemusel riešiť ručne.\n\nTo dokazuje moju schopnosť aplikovať programátorské zručnosti na bold:(efektívne riešenie problémov z reálneho sveta)."
-    },
-    {
-      "id": "skillHumor",
-      "summary": "Humor",
-      "popupTitle": "Zmysel pre humor",
-      "popupDetailsText": "Ocením asi každý druh humoru a je pre mňa takmer nemožné, aby ma nejaký vtip urazil. Verím, že to prispieva k bold:(pozitívnej tímovej atmosfére). Avšak, tiež chápem význam kontextu a viem, kedy byť seriózny a kedy sa smiať."
     },
     {
       "id": "skillEng",
@@ -102,6 +85,26 @@
       "dates": "2023 - súčasnosť",
       "popupTitle": "Matfyz - Aplikovaná informatika",
       "popupDetailsText": "Na bold:(Matfyze) študujem program Aplikovaná informatika a za posledné dva roky si udržiavam bold:(vážený študijný priemer okolo 1,04). Náročný študijný plán ma 'núti' neustále sa učiť a riešiť komplexné problémy. Získal som praktické skúsenosti s webovým vývojom (bold:(HTML), bold:(CSS), bold:(JS), bold:(PHP)), konkurenciou (bold:(Go)), funkcionálnym programovaním (bold:(Haskell)), špecifikáciou a verifikáciou (bold:(CL)), systémovým programovaním (bold:(C)) a ďalej som si zdokonalil zručnosti v riešení problémov v jazykoch bold:(Python), bold:(Java) a bold:(C++).\n\nTáto škola ma tiež veľa naučila o bold:(pokročilej teórii pravdepodobnosti) a bold:(testovaní hypotéz). Umožnila mi využiť moje vedomosti z bold:(matematickej analýzy) a bold:(lineárnej algebry). V poslednom čase som sa naučil, ako bold:(písať formálne dôkazy), čo je oblasť, s ktorou som predtým zápasil."
+    }
+  ],
+  "characteristics": [
+    {
+      "id": "skillLearn",
+      "summary": "Učím sa veľmi rýchlo",
+      "popupTitle": "Rýchle učenie a adaptabilita",
+      "popupDetailsText": "Od mala súťažím (matematika, dejepis, chémia, geografia) a preto som sa musel učiť a vedieť rýchlo porozumieť novým programovacím jazykom (od bold:(Pythonu) po bold:(C++) kvôli rýchlosti v súťažiach, následne učenie sa bold:(Javy), bold:(Go), bold:(Haskellu) atď. na univerzite, a bold:(Djanga), bold:(CSS), bold:(JavaScriptu) atď. v práci). To demonštruje moju schopnosť bold:(rýchlo sa učiť nové koncepty a nástroje). Rád sa učím nové veci."
+    },
+    {
+      "id": "skillResilience",
+      "summary": "Odolnosť a vytrvalosť",
+      "popupTitle": "Odolnosť a vytrvalosť",
+      "popupDetailsText": "Moje skúsenosti s náročnými matematickými a programátorskými seminármi podobnými bold:(KSP), kde som venoval značné úsilie (niekedy na úkor spánku a jedla) riešeniu zložitých problémov a nakoniec dosiahol (bold:(dvakrát po sebe umiestnenie v top 10 v KSP)), ma naučili hodnote vytrvalosti. Zistil som, že mojou najsilnejšou stránkou nie je talent; ale to, že sa nevzdávam a dotiahnem veci do konca. Toto odhodlanie viedlo k môjmu prijatiu na bold:(Matfyz) s bold:(motivačným štipendiom).\n\nSúťažil som aj v KMS či STROMe, kde som bol tiež úspešný (okolo 30. – 50. miesta), ale nebol to až taký veľký úspech ako v KSP."
+    },
+    {
+      "id": "skillHumor",
+      "summary": "Zmysel pre humor",
+      "popupTitle": "Zmysel pre humor",
+      "popupDetailsText": "Ocením asi každý druh humoru a je pre mňa takmer nemožné, aby ma nejaký vtip urazil. Verím, že to prispieva k bold:(pozitívnej tímovej atmosfére). Avšak, tiež chápem význam kontextu a viem, kedy byť seriózny a kedy sa smiať."
     }
   ],
   "aboutMe": [

@@ -217,6 +217,10 @@ document.addEventListener("DOMContentLoaded", () => {
     setTextContent("contact-phone", data.contact?.phone);
     setTextContent("skills-title", data.sectionTitles?.skills);
     setTextContent("education-title", data.sectionTitles?.education);
+    setTextContent(
+      "characteristics-title",
+      data.sectionTitles?.characteristics,
+    );
     setTextContent("about-me-title", data.sectionTitles?.aboutMe);
     setTextContent("experience-title", data.sectionTitles?.experience);
     setTextContent("achievements-title", data.sectionTitles?.achievements);
@@ -315,6 +319,23 @@ document.addEventListener("DOMContentLoaded", () => {
         datesP.appendChild(strongDates);
         itemDiv.appendChild(datesP);
         educationList.appendChild(itemDiv);
+      });
+    }
+
+    // Populate Skills
+    const charList = document.getElementById("characteristics-list");
+    if (charList && data.characteristics && popupsContainer) {
+      charList.innerHTML = "";
+      data.characteristics.forEach((char) => {
+        const li = document.createElement("li");
+        li.textContent = char.summary;
+
+        if (shouldBeInteractive(char)) {
+          li.className = "interactive-item";
+          li.dataset.popupTarget = `popup-${char.id}`;
+          popupsContainer.appendChild(createPopupElement(char));
+        }
+        charList.appendChild(li);
       });
     }
 

@@ -4,6 +4,7 @@
     "contact": "Contact Information",
     "skills": "Core Competencies",
     "education": "Educational Background",
+    "characteristics": "Personal Characteristics",
     "aboutMe": "About Me",
     "experience": "Professional Experience",
     "achievements": "Achievements",
@@ -39,28 +40,10 @@
       "popupDetailsText": "My experience from competitive programming (bold:(Math Olympiad), bold:(Informatics Olympiad), bold:(KSP), etc.) has provided extensive practice in designing and implementing bold:(efficient algorithms, data structures or strategies). I'm comfortable with areas like bold:(optimization), bold:(graph theory), bold:(probability), bold:(geometry), bold:(dynamic programming), and pretty much any other common problem-solving technique like binary search, backtracking, greedy, ..."
     },
     {
-      "id": "skillLearn",
-      "summary": "Very Fast Learner",
-      "popupTitle": "Learning Agility & Adaptability",
-      "popupDetailsText": "My journey through various academic competitions (Math, History, Chemistry, Geography) and the necessity to learn and understand programming languages (bold:(Python) to bold:(C++) for speed in contests, then learning bold:(Java), bold:(Go), bold:(Haskell), etc., at university, bold:(Django), bold:(CSS), bold:(JavaScript), etc., at work) demonstrate my ability to bold:(learn new concepts and tools rapidly). I enjoy being challenged and like the feeling of bold:(mastering a new skill)."
-    },
-    {
-      "id": "skillResilience",
-      "summary": "Resilience & Dedication",
-      "popupTitle": "Resilience and Dedication",
-      "popupDetailsText": "My experience with challenging math and programming seminars, similar to bold:(KSP), where I dedicated significant effort (sometimes sacrificing sleep and food) to solve complex problems and ultimately succeeded (a bold:(top 10 rank twice in a row in KSP)), taught me the value of perseverance. It's not just about talent for me; it's about bold:(enduring hardships to achieve a goal). This dedication led to my acceptance at bold:(Matfyz) with a bold:(motivational scholarship).\n\nI also competed in KMS or STROM, where I was successful as well (around 30th-50th place), but it wasn't as great of a success as KSP."
-    },
-    {
       "id": "skillAutomation",
       "summary": "Automation & Scripting",
       "popupTitle": "Practical Automation",
       "popupDetailsText": "I enjoy identifying opportunities for automation.\n\nFor example, I developed bold:(TypeScript scripts) to automate repetitive data checking and summarization tasks in Excel for my relative who works as accountant, bold:(saving him significant time).\n\nOr created tools that helped me save huge amounts of time with my homework. For example, a program that would parse the online editor, designed by our teachers, to a text file and integrating tools that have found closed tableaus and formalizations in seconds, then automatically re-parsing it back into the required online editor format. Saving around half and hour for each tableau I didn't have to solve by hand.\n\nThis highlights my ability to apply programming skills to bold:(solve real-world problems efficiently)."
-    },
-    {
-      "id": "skillHumor",
-      "summary": "Humor",
-      "popupTitle": "Sense of Humor",
-      "popupDetailsText": "I appreciate almost any type of humor and find it nearly impossible to feel offended by a joke. I believe this contributes to a bold:(positive and resilient team atmosphere). Importantly, I also understand the importance of context and know when to be lighthearted and when to be serious and focused."
     },
     {
       "id": "skillEng",
@@ -105,6 +88,26 @@
       "dates": "2023 - present",
       "popupTitle": "Comenius University - Applied Informatics",
       "popupDetailsText": "At bold:(Matfyz (Comenius University)), I am in the Applied Informatics program, maintaining a bold:(GPA of ~1.04 over two years). The challenging curriculum 'forces' me to continuously learn and solve complex problems. I've gained practical experience in web development (bold:(HTML), bold:(CSS), bold:(JS), bold:(PHP)), concurrency (bold:(Go)), functional programming (bold:(Haskell)), specification-verification (bold:(CL)), system programming (bold:(C)), and further honed my problem-solving skills in bold:(Python), bold:(Java), and bold:(C++).\n\nThis school has also taught me a great deal about bold:(advanced probability) and bold:(hypothesis testing). It has allowed me to utilize my knowledge in bold:(mathematical analysis) and bold:(linear algebra). Most recently I've learned how to bold:(write formal proofs), an area with which I previously struggled."
+    }
+  ],
+  "characteristics": [
+    {
+      "id": "skillLearn",
+      "summary": "Very Fast Learner",
+      "popupTitle": "Learning Agility & Adaptability",
+      "popupDetailsText": "My journey through various academic competitions (Math, History, Chemistry, Geography) and the necessity to learn and understand programming languages (bold:(Python) to bold:(C++) for speed in contests, then learning bold:(Java), bold:(Go), bold:(Haskell), etc., at university, bold:(Django), bold:(CSS), bold:(JavaScript), etc., at work) demonstrate my ability to bold:(learn new concepts and tools rapidly). I enjoy being challenged and like the feeling of bold:(mastering a new skill)."
+    },
+    {
+      "id": "skillResilience",
+      "summary": "Resilience & Dedication",
+      "popupTitle": "Resilience and Dedication",
+      "popupDetailsText": "My experience with challenging math and programming seminars, similar to bold:(KSP), where I dedicated significant effort (sometimes sacrificing sleep and food) to solve complex problems and ultimately succeeded (a bold:(top 10 rank twice in a row in KSP)), taught me the value of perseverance. It's not just about talent for me; it's about bold:(enduring hardships to achieve a goal). This dedication led to my acceptance at bold:(Matfyz) with a bold:(motivational scholarship).\n\nI also competed in KMS or STROM, where I was successful as well (around 30th-50th place), but it wasn't as great of a success as KSP."
+    },
+    {
+      "id": "charHumor",
+      "summary": "Sense of Humor",
+      "popupTitle": "Sense of Humor",
+      "popupDetailsText": "I appreciate almost any type of humor and find it nearly impossible to feel offended by a joke. I believe this contributes to a bold:(positive and resilient team atmosphere). Importantly, I also understand the importance of context and know when to be lighthearted and when to be serious and focused."
     }
   ],
   "aboutMe": [
