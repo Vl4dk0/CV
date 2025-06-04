@@ -3,13 +3,18 @@ document.addEventListener("DOMContentLoaded", () => {
   const LANG_STORAGE_KEY = "cvPreferredLanguage";
   let currentLang = localStorage.getItem(LANG_STORAGE_KEY) || DEFAULT_LANG;
 
-  const hintPopup = document.getElementById("interactive-hint");
-  const closeHintButton = document.getElementById("close-hint-button");
+  const interactiveHint = document.getElementById("interactive-hint");
+  const closeHintInteractive = document.getElementById(
+    "close-hint-interactive",
+  );
+
+  const languageHint = document.getElementById("language-hint");
+  const closeHintLanguage = document.getElementById("close-hint-language");
+
   const languageToggleButton = document.getElementById(
     "language-toggle-button",
   );
 
-  closedHint = false;
   function updateLanguageToggleText() {
     if (!languageToggleButton) return;
 
@@ -44,29 +49,33 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  function showHint() {
-    if (hintPopup && !closedHint) {
-      hintPopup.classList.remove("hidden");
-    } else if (hintPopup) {
-      hintPopup.classList.add("hidden");
-      hintPopup.style.display = "none";
-    }
+  function showHint(hint) {
+    hint.classList.remove("hidden");
   }
 
-  function dismissHint() {
-    if (hintPopup) {
-      hintPopup.classList.add("hidden");
-      closedHint = true;
+  function dismissHint(hint) {
+    if (hint) {
+      hint.classList.add("hidden");
       setTimeout(() => {
-        if (hintPopup.classList.contains("hidden")) {
-          hintPopup.style.display = "none";
+        if (hint.classList.contains("hidden")) {
+          hint.style.display = "none";
         }
       }, 200);
     }
   }
 
-  if (closeHintButton) {
-    closeHintButton.addEventListener("click", dismissHint);
+  if (closeHintInteractive) {
+    closeHintInteractive.addEventListener(
+      "click",
+      dismissHint.bind(null, interactiveHint),
+    );
+  }
+
+  if (closeHintLanguage) {
+    closeHintLanguage.addEventListener(
+      "click",
+      dismissHint.bind(null, languageHint),
+    );
   }
 
   async function loadCVData(lang = currentLang) {
@@ -79,7 +88,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const data = await response.json();
       populateCV(data);
       initializePopups();
-      showHint();
+      showHint(languageHint);
+      showHint(interactiveHint);
     } catch (error) {
       console.error("Could not load CV data:", error);
       document.body.innerHTML =
@@ -238,6 +248,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const hintText = document.getElementById("interactive-hint-p");
     if (hintText && data.hintText) {
       applyTextFormatting(hintText, data.hintText.trim());
+    }
+
+    // Set language hint text
+    const languageHintText = document.getElementById("language-hint-p");
+    if (languageHintText && data.languageHintText) {
+      applyTextFormatting(languageHintText, data.languageHintText.trim());
     }
 
     // Populate Skills

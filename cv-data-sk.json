@@ -7,11 +7,12 @@
     "aboutMe": "O mne",
     "experience": "Pracovné skúsenosti",
     "achievements": "Úspechy",
-    "projects": "Na čom som pracoval"
+    "projects": "Zaujímavé projekty"
   },
   "headerName": "VLADIMÍR JANČÁR",
   "headerTagline": "Viem poskladať rubikovú kocku naslepo",
-  "hintText": "bold:(Hint:) Kliknite na text pre zobrazenie detailov!",
+  "hintText": "bold:(Tip:) Mnohé položky v tomto životopise sú interaktívne! Kliknite na ne a dozvite sa viac.",
+  "languageHintText": "bold:(Hint:) You can change the CV language by clicking the button in the top right corner.",
   "contact": {
     "phone": "+421 903 979 659",
     "emailHref": "mailto:jvladko@gmail.com",
@@ -23,206 +24,212 @@
       "id": "skillProg",
       "summary": "Programovanie",
       "popupTitle": "Skúsenosti s programovaním",
-      "popupDetailsText": "My programming journey began in my freshman year of high school, sparked by the bold:(Zenit competition). I started with bold:(Python), then quickly adopted bold:(C++) for its performance in competitive programming, including the bold:(Informatics Olympiad) (twice succeeded in regionals, both times bold:(very close to nationals)). This honed my skills in bold:(optimization), bold:(graph theory) or generally in bold:(logical thinking). I also played with bold:(LeetCode) for additional programming challenges.\n\nIn university, I've expanded my toolkit with bold:(Java), bold:(Go) (concurrency), bold:(Haskell) (functional programming), bold:(C) (system programming), bold:(CL) (a Specification and Verification paradigm, a university special), and web technologies (bold:(HTML), bold:(CSS), bold:(JS), bold:(PHP)). I have applied these skills to solve diverse problems, from competitive algorithms to practical automation scripts in Excel or other tools that make life easier or better."
+      "popupDetailsText": "Programovať som začal v prvom ročníku na strednej škole, a to vďaka účasti na bold:(súťaži Zenit). Začal som s bold:(Pythonom), potom som rýchlo prešiel na bold:(C++) kvôli jeho rýchlosti, ktorá bola nevyhnutná pre súťaže. Vrátane bold:(Informatickej olympiády) (dvakrát som bol úspešným riešiteľom v krajskom kole, v oboch prípadoch len kúsok od postupu na bold:(celoštátne kolo)). Súťažením som si zdokonalil zručnosti v bold:(optimalizácii), bold:(teórii grafov), a všeobecne v bold:(logickom myslení). Hral som sa aj s bold:(LeetCode)-om.\n\nNa vysokej škole som si rozšíril svoje 'portfólio' o bold:(Javu), bold:(Go) (konkurencia), bold:(Haskell) (funkcionálne programovanie), bold:(C) (systémové programovanie), bold:(CL) (špecifikačno-verifikačná paradigma, špecialita na univerzite) a webové technológie (bold:(HTML), bold:(CSS), bold:(JS), bold:(PHP)). Tieto zručnosti som aplikoval pri riešení rozmanitých problémov, od súťažných algoritmov až po praktické automatizačné skripty v Exceli alebo iných tooliek/pomôcok, ktoré mi uľahčujú alebo zlepšujú život."
     },
     {
       "id": "skillMath",
       "summary": "Matematika",
       "popupTitle": "Matematický background",
-      "popupDetailsText": "My passion for math was ignited in 5th grade with the bold:(Math Olympiad). Since then, I've actively competed in major Slovak math contests (bold:(Math Olympiad), bold:(Klokan), bold:(Naboj), and more). Since the 7th grade in primary school, I often studied bold:(advanced topics independently), even those covered later at university. To this very day I explore math in my free time. Recently I've been particularly interested in bold:(Game theory), bold:(Probability) and bold:(Graph thoery)."
+      "popupDetailsText": "Matematiku som si obľúbil asi v piatom ročníku vďaka bold:(Matematickej olympiáde). Odvtedy som sa aktívne zúčastňoval na najznámejších matematických súťažiach (bold:(Matematická olympiáda), bold:(Klokan), bold:(Náboj), atď). Už od siedmeho ročníka na základnej škole som si často samostatne študoval bold:(pokročilé témy), dokonca aj tie, ktoré sa preberali až na vysokej škole. Matematike sa venujem vo svojom voľnom čase dodnes. V poslednom čase ma obzvlášť zaujíma bold:(Teória hier), bold:(Teória pravdepodobnosti) a bold:(Teória grafov)."
     },
     {
       "id": "skillAlgo",
       "summary": "Algoritmické myslenie",
       "popupTitle": "Algoritmické myslenie",
-      "popupDetailsText": "My experience from competitive programming (bold:(Math Olympiad), bold:(Informatics Olympiad), bold:(KSP), etc.) has provided extensive practice in designing and implementing bold:(efficient algorithms, data structures or strategies). I'm comfortable with areas like bold:(optimization), bold:(graph theory), bold:(probability), bold:(geometry), bold:(dynamic programming), and pretty much any other common problem-solving technique."
+      "popupDetailsText": "Skúsenosti zo súťažného programovania (bold:(Matematická olympiáda), bold:(Informatická olympiáda), bold:(KSP), atď.) mi poskytli rozsiahlu prax v navrhovaní a implementácii bold:(efektívnych algoritmov, dátových štruktúr či stratégií). Nemám problém s oblasťami ako bold:(optimalizácia), bold:(teória grafov), bold:(teória pravdepodobnosti), bold:(geometria), bold:(dynamické programovanie) a v podstate s akoukoľvek inou bežnou technikou riešenia problémov ako binárne vyhľadávanie, backtracking, greedy, ..."
     },
     {
       "id": "skillLearn",
       "summary": "Učím sa veľmi rýchlo",
       "popupTitle": "Rýchle učenie a adaptabilita",
-      "popupDetailsText": "My journey through various academic competitions (Math, History, Chemistry, Geography) and the necessity to learn and understand programming languages (bold:(Python) to bold:(C++) for speed in contests, then learning bold:(Java), bold:(Go), bold:(Haskell), etc., at university, bold:(Django), bold:(CSS), bold:(JavaScript), etc., at work) demonstrate my ability to bold:(learn new concepts and tools rapidly). I enjoy being challenged and like the feeling of bold:(mastering a new skill)."
+      "popupDetailsText": "Od mala súťažím (matematika, dejepis, chémia, geografia) a preto som sa musel učiť a vedieť rýchlo porozumieť novým programovacím jazykom (od bold:(Pythonu) po bold:(C++) kvôli rýchlosti v súťažiach, následne učenie sa bold:(Javy), bold:(Go), bold:(Haskellu) atď. na univerzite, a bold:(Djanga), bold:(CSS), bold:(JavaScriptu) atď. v práci). To demonštruje moju schopnosť bold:(rýchlo sa učiť nové koncepty a nástroje). Rád sa učím nové veci."
     },
     {
       "id": "skillResilience",
-      "summary": "Resilience & Dedication",
-      "popupTitle": "Resilience and Dedication",
-      "popupDetailsText": "My experience with challenging math and programming seminars, similar to bold:(KSP), where I dedicated significant effort (sometimes sacrificing sleep and food) to solve complex problems and ultimately succeeded (a bold:(top 10 rank twice in a row in KSP)), taught me the value of perseverance. It's not just about talent for me; it's about bold:(enduring hardships to achieve a goal). This dedication led to my acceptance at bold:(Matfyz) with a bold:(motivational scholarship).\n\nI also competed in KMS or STROM, where I was successful as well (around 30th-50th place), but it wasn't as great of a success as KSP."
+      "summary": "Odolnosť a vytrvalosť",
+      "popupTitle": "Odolnosť a vytrvalosť",
+      "popupDetailsText": "Moje skúsenosti s náročnými matematickými a programátorskými seminármi podobnými bold:(KSP), kde som venoval značné úsilie (niekedy na úkor spánku a jedla) riešeniu zložitých problémov a nakoniec dosiahol (bold:(dvakrát po sebe umiestnenie v top 10 v KSP)), ma naučili hodnote vytrvalosti. Zistil som, že mojou najsilnejšou stránkou nie je talent; ale to, že sa nevzdávam a dotiahnem veci do konca. Toto odhodlanie viedlo k môjmu prijatiu na bold:(Matfyz) s bold:(motivačným štipendiom).\n\nSúťažil som aj v KMS či STROMe, kde som bol tiež úspešný (okolo 30. – 50. miesta), ale nebol to až taký veľký úspech ako v KSP."
     },
     {
       "id": "skillAutomation",
-      "summary": "Automation & Scripting",
-      "popupTitle": "Practical Automation",
-      "popupDetailsText": "I enjoy identifying opportunities for automation.\n\nFor example, I developed bold:(TypeScript scripts) to automate repetitive data checking and summarization tasks in Excel for my mother, bold:(saving her significant time).\n\nOr created tools that helped me save huge amounts of time with my homework. For example, a program that would parse the online editor, designed by our teachers, to a text file and integrating tools that have found closed tableaus or formalizations in seconds, then automatically re-parsing it back into the required online editor format. Saving around half and hour for each tableau I didn't have to solve by hand.\n\nThis highlights my ability to apply programming skills to bold:(solve real-world problems efficiently)."
+      "summary": "Automatizácia",
+      "popupTitle": "Automatizácia",
+      "popupDetailsText": "Baví ma hľadať príležitosti na automatizáciu.\n\nNapríklad som pre rodinného príslušníka, účtovníka, vyvinul bold:(TypeScript skripty) na automatizáciu repetetívnych a vyčerpávajúcich úloh kontroly a sumarizácie dát v Exceli, bold:(čím som mu ušetril značné množstvo času).\n\nAlebo som si vytvoril nástroje, ktoré mi pomohli ušetriť čas pri domácich úlohách. Najzaujímaveší bol asi program, ktorý parsoval online editor (vytvorený našimi učiteľmi) do textového súboru, integroval nástroje, ktoré v priebehu sekúnd našli uzavreté tablá a formalizácie, a následne to automaticky reparsoval späť do požadovaného formátu online editora, pripravené na odovzdanie. Ušetril som tak približne pol hodinu za každé tablo, ktoré som nemusel riešiť ručne.\n\nTo dokazuje moju schopnosť aplikovať programátorské zručnosti na bold:(efektívne riešenie problémov z reálneho sveta)."
     },
     {
       "id": "skillHumor",
       "summary": "Humor",
-      "popupTitle": "Sense of Humor",
-      "popupDetailsText": "I appreciate almost any type of humor and find it nearly impossible to feel offended by a joke. I believe this contributes to a bold:(positive and resilient team atmosphere). Importantly, I also understand the importance of context and know when to be lighthearted and when to be serious and focused."
+      "popupTitle": "Zmysel pre humor",
+      "popupDetailsText": "Ocením asi každý druh humoru a je pre mňa takmer nemožné, aby ma nejaký vtip urazil. Verím, že to prispieva k bold:(pozitívnej tímovej atmosfére). Avšak, tiež chápem význam kontextu a viem, kedy byť seriózny a kedy sa smiať."
     },
     {
       "id": "skillEng",
       "summary": "English Language (B2)",
-      "popupTitle": "English Proficiency",
-      "popupDetailsText": "I have studied English in school since the 2nd grade of primary school. I successfully completed my maturity exams (bold:(Maturita)) with a result in the bold:(>85th percentile), achieving a bold:(B2 level) of proficiency according to the CEFR."
+      "popupTitle": "English Language",
+      "popupDetailsText": "Angličtinu som sa v škole učil od druhého ročníka základnej školy. Úspešne som zložil maturitnú skúšku (bold:(Maturita)) s výsledkom niekde nad bold:(85. percentilom). Moja úroveň bola bold:(B2) podľa SERR (Spoločného európskeho referenčného rámca)."
     },
     {
       "id": "skillRus",
-      "summary": "Russian Language (B1)",
-      "popupTitle": "Russian Proficiency",
-      "popupDetailsText": "I have studied Russian in school since the 5th grade of primary school. I continued to study it in high school, where I achieved a bold:(B1 level) of proficiency according to the CEFR. Although I didn't expect it, it turned out to be very handy, as it is easier for me to communicate with my Ukrainian fellow students."
+      "summary": "Русский язык (B1)",
+      "popupTitle": "Русский язык",
+      "popupDetailsText": "Ruštinu som sa v škole učil od piateho ročníka základnej školy. Pokračoval som v jej štúdiu aj na strednej škole, kde som dosiahol úroveň bold:(B1) podľa SERR. Hoci som to nečakal, ukázalo sa to ako veľmi praktické, keďže je pre mňa jednoduchšie komunikovať s mojimi ukrajinskými spolužiakmi."
     }
   ],
   "education": [
     {
       "id": "edu0",
-      "institution": "Primary School Strážske",
-      "details": ["Consistent top grades"],
+      "institution": "Základná škola Strážske",
+      "details": ["Najlepšie známky"],
       "dates": "2010 - 2019",
-      "popupTitle": "Primary School Strážske - Foundations & Passions",
-      "popupDetailsText": "Throughout my time at Primary School Strážske, I consistently achieved bold:(top grades (straight 1s)). It was here, particularly from 5th grade onwards, that I discovered my deep interest and aptitude for math, sparked by my participation in the bold:(Math Olympiad). This period also marked the beginning of my involvement in competitive volleyball, where our team achieved national success, including a bold:(3rd place finish in the U15 Nationals)."
+      "popupTitle": "Základná škola Strážske",
+      "popupDetailsText": "Počas Základnej školy som neustále dosahoval bold:(vynikajúce výsledky). Práve tu, obzvlášť od piateho ročníka, som objavil svoj záujem a nadanie na matematiku. Bolo to vďaka mojej účasti na bold:(Matematickej olympiáde). V tomto období som taktiež začal hrať volejbal, kde náš tím dosiahol celoštátne úspechy, vrátane bold:(3. miesta na Majstrovstvách Slovenska U15)."
     },
     {
       "id": "edu1",
-      "institution": "Gymnasium P. Horova, Michalovce",
+      "institution": "Gymnázium P. Horova, Michalovce",
       "details": [
-        "In a class focused on Math and Informatics",
-        "Consistent top grades"
+        "V triede so zameraním na matematiku a informatiku",
+        "Najlepšie známky"
       ],
       "dates": "2019 - 2023",
-      "popupTitle": "Gymnasium P. Horova - Igniting Programming Passion",
-      "popupDetailsText": "At Gymnasium P. Horova, I continued to excel academically, bold:(maintaining top grades) while focusing on Math and Informatics. This is where my passion for programming truly ignited, largely thanks to participating in the bold:(Zenit competition) and to my dedicated teachers. I realized programming was like bold:('math, but better,') leading me to dive into bold:(Python) and later bold:(C++). I also continued playing volleyball throughout high school, balancing academics with team sports. This period was instrumental in developing my problem-solving skills through various Olympiads and programming challenges."
+      "popupTitle": "Gymnázium P. Horova, Michalovce - Začiatok s programovaním",
+      "popupDetailsText": "Na Gymnáziu som naďalej akademicky vynikal, bold:(udržiaval som si najlepšie známky). Práve tu som sa začal venovať programovaniu, do veľkej miery vďaka účasti na bold:(súťaži Zenit). Uvedomil som si, že programovanie je bold:('ako matematika, ale lepšie,'). Najprv som začal s bold:(Pythonom) a neskôr som prešiel na bold:(C++). Počas celej strednej školy som tiež pokračoval v hraní volejbalu. Toto obdobie bolo kľúčové pre rozvoj mojich zručností v riešení problémov prostredníctvom rôznych olympiád a iných súťaží alebo projektov."
     },
     {
       "id": "edu2",
-      "institution": "Comenius University, Bratislava",
+      "institution": "Univerzita Komenského, Bratislava",
       "details": [
-        "Matfyz (Faculty of Mathematics, Physics and Informatics)",
-        "Applied Informatics"
+        "Matfyz (Fakulta Matematiky, Fyziky a Informatiky)",
+        "Aplikovaná informatika"
       ],
-      "dates": "2023 - present",
-      "popupTitle": "Comenius University - Applied Informatics",
-      "popupDetailsText": "At bold:(Matfyz (Comenius University)), I am in the Applied Informatics program, maintaining a bold:(GPA of ~1.04 over two years). The challenging curriculum 'forces' me to continuously learn and solve complex problems. I've gained practical experience in web development (bold:(HTML), bold:(CSS), bold:(JS), bold:(PHP)), concurrency (bold:(Go)), functional programming (bold:(Haskell)), specification-verification (bold:(CL)), system programming (bold:(C)), and further honed my problem-solving skills in bold:(Python), bold:(Java), and bold:(C++).\n\nThis school has also taught me a great deal about bold:(advanced probability) and bold:(hypothesis testing). It has allowed me to utilize my knowledge in bold:(mathematical analysis) and bold:(linear algebra). Most recently I've learned how to bold:(write formal proofs), an area with which I previously struggled."
+      "dates": "2023 - súčasnosť",
+      "popupTitle": "Matfyz - Aplikovaná informatika",
+      "popupDetailsText": "Na bold:(Matfyze) študujem program Aplikovaná informatika a za posledné dva roky si udržiavam bold:(vážený študijný priemer okolo 1,04). Náročný študijný plán ma 'núti' neustále sa učiť a riešiť komplexné problémy. Získal som praktické skúsenosti s webovým vývojom (bold:(HTML), bold:(CSS), bold:(JS), bold:(PHP)), konkurenciou (bold:(Go)), funkcionálnym programovaním (bold:(Haskell)), špecifikáciou a verifikáciou (bold:(CL)), systémovým programovaním (bold:(C)) a ďalej som si zdokonalil zručnosti v riešení problémov v jazykoch bold:(Python), bold:(Java) a bold:(C++).\n\nTáto škola ma tiež veľa naučila o bold:(pokročilej teórii pravdepodobnosti) a bold:(testovaní hypotéz). Umožnila mi využiť moje vedomosti z bold:(matematickej analýzy) a bold:(lineárnej algebry). V poslednom čase som sa naučil, ako bold:(písať formálne dôkazy), čo je oblasť, s ktorou som predtým zápasil."
     }
   ],
   "aboutMe": [
-    "Born 30.04.2004, Gender: Male, Nationality: Slovak",
-    "bold:(Informatics student) with a strong foundation in math and problem-solving, honed through years of competing in math and informatics.",
-    "Seeking a part-time or internship opportunity where I can contribute to innovative projects, further develop my technical skills, and learn from experienced professionals. I am not searching for a specific type of role. I would genuinely enjoy any role involving programming and critical thinking, such as bold:(Web Development), bold:(Data Science), bold:(AI), bold:(Game Development), bold:(Automation), bold:(applied Mathematics), or even bold:(Research/Science). I prefer working from office to working from home."
+    "Dátum narodenia: 30.04.2004, Pohlavie: Muž, Národnosť: Slovenská",
+    "bold:(Študent informatiky) so silnými základmi v matematike a riešení problémov, zdokonalenými rokmi súťaženia v matematike a informatike.",
+    "Hľadám si brigádu alebo stáž, kde by som mohol prispieť k projektom, ďalej sa rozvíjať a učiť sa od profesionálov. Nehľadám konkrétny typ pozície. Som presvedčený, že by ma bavila akákoľvek rola zahŕňajúca programovanie a kritické myslenie, ako napríklad bold:(Web Development), bold:(Dátová veda), bold:(Umelá inteligencia), bold:(Vývoj hier), bold:(Automatizácia), bold:(aplikovaná Matematika), alebo kľudne aj bold:(Výskum/Veda). Preferujem prácu z kancelárie pred prácou z domu."
   ],
   "projects": [
     {
       "id": "proj1",
-      "summary": "Graph Neural Networks - Partial automorphism extendability",
-      "popupTitle": "GNNs - My bachelor thesis",
-      "popupDetailsText": "This is my bachelor thesis, which I am currently working on. It involves the use of Graph Neural Networks (GNNs) to solve the problem of partial automorphism extendability. The goal is to develop a GNN model that can predict whether a given partial automorphism can be extended to a full automorphism given graph and some partial automorphism. This project combines my interests in graph theory and machine learning. There is no dataset available for this, so I had to create one from scratch. It was okay. Regarding GNN and whether or not this AI will or will not be able to predict the extendability, I am not sure yet. I am still in the process of training the model and evaluating its performance."
+      "summary": "Graph Neural Networks - Rozšíriteľnosť čiastočného automorfizmu",
+      "popupTitle": "GNNs - Moja téma na bakalársku prácu",
+      "popupDetailsText": "Toto je moja bakalárska práca, na ktorej momentálne pracujem. Zahŕňa použitie grafových neurónových sietí (GNN) na riešenie problému rozšíriteľnosti čiastočného automorfizmu. Cieľom je vyvinúť GNN model, ktorý dokáže predpovedať, či daný čiastočný automorfizmus môže byť rozšírený na úplný automorfizmus pre daný graf a nejaký čiastočný automorfizmus. Tento projekt spája moje záujmy v teórii grafov a strojovom učení. Pre tento problém neexistuje žiaden dostupný dataset, takže som si ho musel vytvoriť od základov sám. Šlo to v poriadku. Čo sa týka GNN a toho, či táto umelá inteligencia bude alebo nebude schopná predpovedať rozšíriteľnosť, si zatiaľ nie som istý. Stále som v procese trénovania modelu a hodnotenia jeho výkonnosti."
     },
     {
       "id": "proj2",
-      "summary": "Pocket Maturita - app that has helped hundreds of students prepare for Maturita",
-      "popupTitle": "Maturita App - High School project",
-      "popupDetailsText": "I worked on this in team in high school. It was my first collaborative project. I understood that the hardest part was to actually fill in the data needed to create an app for study. There was no ChatGPT back then :D. Regarding the development there sure were complications, but they were there mostly because we were beginners."
+      "summary": "Maturita vo vrecku - aplikácia, ktorá pomohla stovkám študentov pripraviť sa na maturitu zo Slovenčiny",
+      "popupTitle": "Maturita vo vrecku - Projekt zo strednej školy",
+      "popupDetailsText": "Na tomto projekte som pracoval v tíme na strednej škole. Bol to môj prvý tímový projekt. Prekvapil som sa v tom, že najťažšou časťou bolo v naplniť dáta potrebné na vytvorenie aplikácie na štúdium. Vtedy ešte žiaden 'ChatGPT' nebol :D. Čo sa týka vývoja, určite sa vyskytli aj mnohé komplikácie, ale tie tam boli hlavne preto, že sme boli začiatočníci."
     },
     {
       "id": "proj3",
-      "summary": "Excel - Office scripts for accounting specialist that saved hours",
+      "summary": "Excel - Office skripty pre účtovníka, ktoré ušetrili hodiny práce.",
       "popupTitle": "Excel Automation - Office Scripts",
-      "popupDetailsText": "I created several automation scripts in Excel using Office Scripts for my mother, who is an accounting specialist. These scripts automate tasks that require a lot of focus and stamina, while not being really interesting to do (i.e. checking if all data are correct, or creating summaries), significantly reducing the time she spends on these tasks. This project not only improved my skills in Excel and scripting, but also showed me that if I put myself into something, I can do it."
+      "popupDetailsText": "Vytvoril som niekoľko automatizačných skriptov v Exceli pomocou Office Scripts pre môjho príbuzného, ktorý je špecialista na účtovníctvo. Tieto skripty automatizujú úlohy, ktoré si vyžadujú veľa sústredenia a výdrže, pričom nie sú vôbec zaujímavé (t.j. kontrola správnosti všetkých dát alebo vytváranie súhrnov). Skripty výrazne skracujú čas, ktorý týmto úloham musí venovať. Tento projekt zlepšil moje zručnosti v Exceli a skriptovaní."
     },
     {
       "id": "proj4",
-      "summary": "Catan Board Generator that generates balanced boards",
+      "summary": "Generátor vyvážených máp pre hru Catan",
       "popupTitle": "Catan Board Generator",
-      "popupDetailsText": "Whenever I won a game of Catan, I had to listen to my friends complaining that the board was unbalanced, that it was pure luck, etc. So I decided to create a Catan Board Generator that generates balanced boards. It is basic backtracking algorithm that generates boards until it finds a balanced one based on some rules, that I try to check optimally. I use it as PWA on my phone.\n\nGithub: link:github.com/Vl4dk0/CatanBoardGenerator\n\nWebsite: link:catanboardgen.netlify.app"
+      "popupDetailsText": "Vždy, keď som vyhral partiu Katanu, musel som počúvať kamarátov: 'Herný plán bol nevyvážený!', alebo 'To bolo čisté šťastie!'. Tak som sa rozhodol vytvoriť bold:(Generátor), ktorý generuje vyvážené herné plány. Je to základný backtracking, ktorý generuje herné plány, a�������� kým nenájde vyvážený na základe určitých pravidiel, ktoré sa snažím čo najoptimálnejšie kontrolovať. Používam to ako PWA na svojom mobile.\n\nGithub: link:github.com/Vl4dk0/CatanBoardGenerator\n\nWebstránka: link:catanboardgen.netlify.app"
     },
     {
       "id": "proj5",
-      "summary": "API for PONG game that allows you to create your own Racket-controlling AI",
-      "popupTitle": "Project for school",
-      "popupDetailsText": "I had a great teacher in high school, who asked me to teach students for 2 lessons when she was absent. I decided to follow some tutorial to create a PONG game in python and then created an API so that you could program a Bot that will play. I then explained the topic of classes and inheritance. We then ran a tournament of our bots.\n\nGithub: link:github.com/Vl4dk0/pOnG"
+      "summary": "API pre hru PONG, ktoré umožňuje vytvárať Botov (AI), ktorí budú ovládať raketu",
+      "popupTitle": "Projekt na hodinu informatiky na strednej škole",
+      "popupDetailsText": "Na strednej škole som mal skvelú učite���ku, ktorá ma poprosila, aby som za ňu odučil dve hodiny, keď chýbala. Rozhodol som sa pod��a jedného tutoriálu vytvoriť hru PONG v Pythone a k nej som spravil API, aby si každý mohol naprogramovať Bota, ktorý bude môcť ovládať raketku. Potom som na tom vysvetľoval tému tried a dedičnosti. Nakoniec sme si v triede spravili turnaj medzi našimi Botmi.\n\nGithub: link:github.com/Vl4dk0/pOnG"
+    },
+    {
+      "id": "proj6",
+      "summary": "Simulátor hodu mince v Unity na nájdenie 'férovej' mince",
+      "popupTitle": "Simulovaný experiment pre Turnaj mladých fyzikov",
+      "popupDetailsText": "Zúčastnil som sa Turnaja mladých fyzikov, kde jednou z úloh bolo nájsť 'férovú' mincu. To znamená, že pravdepodobnosť padnutia hlavy, znaku aj bold:(hrany) je rovnaká! Bol to projekt v Unity a C#, ktorý mi pomohol overiť si moje matematické výpočty. Tiež som vytvoril algoritmus, ktorý našiel rozmery takéhoto valca. Fungoval dobre a výsledky boli veľmi blízke teoretickej odpovedi, ktorá vyšla v pomere 1 ku sqrt(3) (1 pre výšku a sqrt(3) pre priemer valca). Toto bol môj jediný projekt v Unity a v C#, takže by som zatiaľ nepovedal, že ich ovládam. Ale C# mi pripadá podobný Jave.\n\nMimochodom, v ten deň sme vyhrali 1. miesto v krajskom kole (Košice)."
     }
   ],
   "experience": [
     {
       "id": "exp1",
-      "summary": "Azteka, Pizza delivery, Summer 2022",
-      "popupTitle": "Azteka - Pizza Delivery Boy",
-      "popupDetailsText": "While this role is different from the positions I am currently seeking, it was my bold:(first job) and I learned a lot about myself from it. I learned how to bold:(communicate with frustrated customers), how to bold:(work in a team), and how to bold:(plan my time effectively). I also learned about myself that I can finish a job even if I don't particularly enjoy it. bold:(I won't collapse under pressure)."
+      "summary": "Aztéka, Donáška pizze, Leto 2022",
+      "popupTitle": "Aztéka - Donáška pizze",
+      "popupDetailsText": "Hoci sa táto pozícia líši od tých, ktoré aktuálne hľadám, bola to moja bold:(prvá práca) a veľa som sa z nej o sebe naučil. Naučil som sa, ako bold:(komunikovať s frustrovanými zákazníkmi), ako bold:(pracovať v tíme) a ako si bold:(efektívne plánovať čas). Tiež som o sebe zistil, že dokážem dokončiť prácu, aj keď ma obzvlášť nebaví. bold:(Nezrútim sa pod tlakom)."
     },
     {
       "id": "exp2",
       "summary": "SmartBase s.r.o, Junior, Fullstack developer, 2024-2025",
       "popupTitle": "SmartBase s.r.o - Junior Django Fullstack developer",
-      "popupDetailsText": "At SmartBase s.r.o (June 2024 - April 2025), I worked as a bold:(Junior Fullstack Developer) on e-commerce projects like link:alo.sk, link:argus.sk, and link:najlekaren.sk. Initially focused on frontend tasks (HTML, CSS, JavaScript from Figma templates), I quickly transitioned to backend responsibilities as well. Most interesting backend tasks were about bold:(integrating payment APIs) and bold:(optimizing image loading) to reduce users' mobile data consumption.\n\nI greatly valued the learning experience and the team environment. We parted ways amicably as my university commitments required more time than I could dedicate to the role, and for me, bold:(studies come first)."
+      "popupDetailsText": "V spoločnosti SmartBase s.r.o (jún 2024 - apríl 2025) som pracoval ako bold:(Junior Fullstack Developer) na e-commerce projektoch ako link:alo.sk, link:argus.sk a link:najlekaren.sk. Spočiatku som sa zameriaval na frontendové úlohy (HTML, CSS, JavaScript podľa Figmy), no rýchlo ma priradili aj na backendové úlohy. Medzi najzaujímavejšie backendové úlohy patrili bold:(integrácia platobných API) a bold:(optimalizácia načítavania obrázkov) s cieľom znížiť spotrebu mobilných dát používateľov.\n\nVeľmi som si cenil túto vzdelávaciu skúsenosť a tímové prostredie. Rozišli sme sa v dobrom. Moje univerzitné povinnosti si vyžadovali viac času, a teda som sa pozícii nemohol naplno venovať."
     }
   ],
   "achievements": {
-    "introText": "Since the 5th grade of primary school I have regularly placed in bold:(top positions) in various mathematical competitions. Thanks to a bold:(good foundation in math), I learned to bold:(program) and solve bold:(algorithmic problems very quickly and easily), which is why I started to bold:(compete in programming) as well.",
+    "introText": "Od piateho ročníka základnej školy som sa pravidelne umiestňoval na bold:(popredných priečkach) v rôznych matematických súťažiach. Vďaka bold:(dobrým základom v matematike) som sa naučil bold:(programovať) a riešiť bold:(algoritmické problémy veľmi rýchlo a ľahko), preto som začal bold:(súťažiť aj v programovaní).",
     "subsections": [
       {
         "id": "achieveSub1",
-        "title": "My greatest accomplishments in High School:",
+        "title": "Najlepšie úspechy zo Strednej školy:",
         "items": [
           {
             "id": "achieveHS1",
-            "summary": "Qualifying for the national round of Math Olympiad",
-            "popupTitle": "Math Olympiad National Round",
-            "popupDetailsText": "Qualifying for the bold:(national round of the Math Olympiad) was a bold:(significant personal achievement). It involved months of preparation, tackling complex problems, and it was an honor to compete at that level. This experience greatly sharpened my analytical and problem-solving abilities."
+            "summary": "Kvalifikácia na celoštátne kolo MO",
+            "popupTitle": "Celoštátne kolo Matematickej olympiády",
+            "popupDetailsText": "Kvalifikácia na bold:(celoštátne kolo Matematickej olympiády) bola pre mňa bold:(významným osobným úspechom). Táto skúsenosť výrazne zdokonalila moje analytické schopnosti a schopnosti riešiť problémy.\n\nHlavne som sa stretol s ostatnými ľuďmi, ktorých matematika baví rovnako ako mňa."
           },
           {
             "id": "achieveHS2",
-            "summary": "Top 10 (of 150+) in KSP Seminar",
-            "popupTitle": "KSP Programming Seminar",
-            "popupDetailsText": "bold:(KSP (Korešpondenčný Seminár z Programovania)) was a turning point. To qualify, I dedicated immense effort to solving difficult problems, often working through the night. Achieving a bold:(top 10 rank twice in a row) wasn't just about skill; it was a testament to my ability to endure and persevere. This success directly contributed to my acceptance into bold:(Matfyz) with a bold:(motivational scholarship). I am now a proud member of the KSP team, where I help prepare problems for contests."
+            "summary": "Top 10 (of 150+) v KSP",
+            "popupTitle": "Korešpondenčný Seminár z Programovania",
+            "popupDetailsText": "bold:(Korešpondenčný Seminár z Programovania) bol pre mňa zlomovým bodom. Aby som sa kvalifikoval, venoval som obrovské úsilie riešeniu náročných problémov, často pracujúc aj celú noc. Dosiahnutie bold:(umiestnenia v top 10 dvakrát po sebe) nebolo len o šikovnosti; bolo to aj dôkazom mojej vytrvalosti. Za tento úspech som bol prijatý na bold:(Matfyz) s bold:(motivačným štipendiom). Teraz som hrdým členom tímu KSP, kde pomáham pripravovať úlohy na súťaže."
           },
           {
             "id": "achieveHSZenit",
-            "summary": "2nd place, Zenit regional (10th nationwide)",
-            "popupTitle": "Zenit Programming Competition",
-            "popupDetailsText": "This competition sparked my interest in competitive programming. It was my first programming competition. In my last year of high school, I achieved bold:(2nd place in the regional round) of the Zenit competition in programming (Košice region), which also corresponded to a bold:(10th place finish nationwide). This was a great success for me."
+            "summary": "2. miesto, Krajské Kolo Zenitu (10. miesto celoštátne)",
+            "popupTitle": "Zenit v programovaní",
+            "popupDetailsText": "Táto súťaž vo mne vzbudila záujem o súťažné programovanie. Bola to moja prvá programátorská súťaž. V poslednom ročníku strednej školy som dosiahol bold:(2. miesto v krajskom kole) súťaže Zenit v programovaní (Košický kraj), čo zároveň zodpovedalo bold:(10. miestu v celoštátnom meradle). Bol to pre mňa veľký úspech."
           },
           {
             "id": "achieveHSMaturitaMath",
-            "summary": ">96th percentile in Maturita (Math)",
-            "popupTitle": "Maturita Exam - Math",
-            "popupDetailsText": "Scored in the bold:(>96th percentile) in the written part of the bold:(Maturita (Slovak school-leaving exam)) in Math, demonstrating a strong proficiency in the subject.\n\nHowever, I was not entirely satisfied with my result, as I was aiming for 100% and I missed it by 3 points. This experience taught me the importance of double-checking, as all the mistakes came from incorrectly rewriting/misspelling data from the statement."
+            "summary": "top 5% Maturantov v matematike (v danom roku)",
+            "popupTitle": "Maturita z matematiky",
+            "popupDetailsText": "V písomnej časti bold:(Maturity) z matematiky som dosiahol výsledok, ktorý ma umiestňuje do viac ako bold:(96. percentilu).\n\nS výsledkom som však nebol úplne spokojný, keďže som mieril na 100% z testu a ušlo mi to o 3 body. Táto skúsenosť ma naučila dôležitosti dôkladnej kontroly, keďže všetky chyby vznikli z nesprávneho prepísania údajov zo zadania."
           },
           {
             "id": "achieveHSPythonCup",
-            "summary": "Python Cup 1st place",
-            "popupTitle": "Python Cup Victory",
-            "popupDetailsText": "This competition involved creating three games using Python's Tkinter module. There were over 40 winners, that (for unknown reasons) were not sorted by submition time. The contest was intended to be fun rather than prestigious, but achieving a bold:(100% score) was necessary to be recognized as a winner."
+            "summary": "Python Cup 1. miesto",
+            "popupTitle": "Python Cup",
+            "popupDetailsText": "Táto súťaž zahŕňala vytvorenie troch hier pomocou modulu Tkinter v Pythone. Bolo viac ako 40 víťazov, ktorí (z neznámych dôvodov) neboli zoradení podľa času odovzdania. Súťaž mala byť skôr zábavná než prestížna, ale na uznanie za víťaza bolo potrebné dosiahnuť bold:(100% skóre).\n\nCelkovo sa zúčastnilo stovky študentov z celého Slovenska."
           },
           {
             "id": "achieveHSPalmaStrom",
-            "summary": "3rd place National round Palma-Strom",
-            "popupTitle": "Palma-Strom National Round",
-            "popupDetailsText": "This was a pair-programming competition focused on solving four challenging problems within four hours. I participated with my friend, and we achieved bold:(3rd place in the national round), which was a great achievement for us."
+            "summary": "3. miesto na celoštátnom kole Palma-Strom",
+            "popupTitle": "Palma-Strom celoštátne kolo",
+            "popupDetailsText": "Išlo o súťaž v párovom programovaní, zameranú na riešenie štyroch náročných úloh v časovom limite štyroch hodín. Zúčastnil som sa jej s kamarátom a dosiahli sme bold:(3. miesto v celoštátnom kole), čo bol pre nás veľký úspech."
           }
         ]
       },
       {
         "id": "achieveSub2",
-        "title": "University:",
+        "title": "Vysoká škola:",
         "items": [
           {
             "id": "achieveUni1",
-            "summary": "1.04 GPA (Where 1.0 is best)",
-            "popupTitle": "Academic Excellence at University",
-            "popupDetailsText": "Maintaining a bold:(1.04 GPA) in my initial semesters reflects my dedication to my studies and my ability to grasp complex concepts in informatics and math quickly. (Note: In Slovakia, 1.0 is the best possible grade)."
+            "summary": "Vážený študijný priemer 1.04 (za celé štúdium)",
+            "popupTitle": "Na Matfyze",
+            "popupDetailsText": "Môj bold:(vážený študijný priemer 1,04) odráža moju schopnosť rýchlo chápať komplexné koncepty."
           }
         ]
       },
       {
         "id": "achieveSubPersonal",
-        "title": "Other Interests & Achievements",
+        "title": "Iné osobné úspechy:",
         "items": [
           {
             "id": "achieveVolleyball",
-            "summary": "U15 Volleyball (3rd in Nationals)",
-            "popupTitle": "Volleyball – Teamwork & Dedication",
-            "popupDetailsText": "I've actively played volleyball since 5th grade in primary school, competing at a national level. Our team achieved bold:(3rd place in the U15 Nationals) one year and 6th the following. This sport has taught me valuable lessons in bold:(teamwork), bold:(discipline), bold:(respect) (particularly for our coach), and maintaining an active lifestyle."
+            "summary": "U15 Volejbal (3. miesto na Majstrovstvách Slovenska)",
+            "popupTitle": "Volejbal",
+            "popupDetailsText": "Aktívne hrám volejbal od piateho ročníka základnej školy a súťažil som na celoštátnej úrovni. Náš tím dosiahol bold:(3. miesto na Majstrovstvách Slovenska U15) v jednom roku a 6. miesto v nasledujúcom. Tento šport ma naučil cenné lekcie o bold:(tímovej práci), bold:(disciplíne), bold:(rešpekte) (najmä voči nášmu trénerovi) a udržiavaní aktívneho životného štýlu."
           }
         ]
       }

@@ -14,7 +14,7 @@ html {
 
 /* Language Switcher Styling */
 .language-toggle {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
   z-index: 1002;
@@ -56,10 +56,20 @@ html {
 }
 
 /* Hint Popup Styling */
-.hint-popup {
+.hint-wrapper {
   position: fixed;
+  display: flex;
+  flex-direction: column;
   top: 20px;
   left: 20px;
+  z-index: 1000;
+  gap: 10px;
+}
+
+.hint-popup {
+  /* position: fixed; */
+  /* top: 20px; */
+  /* left: 20px; */
   background-color: #eef6ff;
   color: #334e68;
   padding: 15px 20px;
@@ -68,7 +78,7 @@ html {
   z-index: 1001;
   display: flex;
   align-items: center;
-  max-width: 300px;
+  max-width: 60%;
   opacity: 1;
   visibility: visible;
   transform: translateX(0);
@@ -99,7 +109,7 @@ html {
   font-weight: bold;
   color: #334e68;
   cursor: pointer;
-  padding: 0 5px;
+  padding: 2px 6px;
   line-height: 1;
 }
 
@@ -257,14 +267,13 @@ a:hover {
   color: inherit;
   text-decoration: none;
   position: relative;
-  transition:
-    font-weight 0.1s ease-in-out,
-    transform 0.1s ease-in-out;
+  transition: transform 0.1s ease-in-out;
 }
 
 .interactive-item:hover {
   transform: scale(1.02) rotate(-0.8deg);
-  font-weight: bolder;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* Popup Overlay Styling */
@@ -373,5 +382,9 @@ a:hover {
   }
   .popup {
     width: 90%;
+  }
+  .language-toggle {
+    padding: 5px 8px;
+    font-size: 0.7em;
   }
 }

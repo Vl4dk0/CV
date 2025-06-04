@@ -6,10 +6,22 @@
     <title>{{DOCUMENT_TITLE}}</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="interactive-hint" class="hint-popup">
-      <p id="interactive-hint-p">{{HINT_TEXT}}</p>
-      <button id="close-hint-button" class="close-hint-button">&times;</button>
+    <div class="hint-wrapper">
+      <div id="language-hint" class="hint-popup">
+        <p id="language-hint-p">{{HINT_TEXT}}</p>
+        <button id="close-hint-language" class="close-hint-button">
+          &times;
+        </button>
+      </div>
+
+      <div id="interactive-hint" class="hint-popup">
+        <p id="interactive-hint-p">{{HINT_TEXT}}</p>
+        <button id="close-hint-interactive" class="close-hint-button">
+          &times;
+        </button>
+      </div>
     </div>
 
     <div id="language-toggle-button" class="language-toggle"></div>
@@ -31,7 +43,7 @@
               ><span id="contact-email-text">{{CONTACT_EMAIL_TEXT}}</span></a
             >
           </p>
-          <address id="contact-address"></address>
+          <p id="contact-address"></p>
         </section>
 
         <section class="skills">
