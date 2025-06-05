@@ -25,7 +25,7 @@
       "id": "skillProg",
       "summary": "Programming",
       "popupTitle": "Programming Experience",
-      "popupDetailsText": "My programming journey began in my freshman year of high school, sparked by the bold:(Zenit competition). I started with bold:(Python), then quickly adopted bold:(C++) for its performance in competitive programming, including the bold:(Informatics Olympiad) (twice succeeded in regionals, both times bold:(very close to nationals)). This honed my skills in bold:(optimization), bold:(graph theory) or generally in bold:(logical thinking). I also played with bold:(LeetCode) for additional programming challenges.\n\nIn university, I've expanded my toolkit with bold:(Java) (OOP), bold:(Go) (concurrency), bold:(Haskell) (functional programming), bold:(C) (system programming), bold:(CL) (a Specification and Verification paradigm, a university special), and web technologies (bold:(HTML), bold:(CSS), bold:(JS), bold:(PHP)). I have applied these skills to solve diverse problems, from competitive algorithms to practical automation scripts in Excel or other tools that make life easier or better."
+      "popupDetailsText": "My programming journey began in my freshman year of high school, sparked by the bold:(Zenit competition). I started with bold:(Python), then quickly adopted bold:(C++) for its performance in competitive programming, including the bold:(Informatics Olympiad) (twice succeeded in regionals, both times bold:(very close to nationals)). This honed my skills in bold:(optimization), bold:(graph theory) or generally in bold:(logical thinking). I also played with bold:(LeetCode) for additional programming challenges.\n\nIn university, I've expanded my toolkit with bold:(Java) (OOP), bold:(Go) (concurrency), bold:(Haskell) (functional programming), bold:(C) (system programming), bold:(CL) (a Specification and Verification paradigm, a university special), and web technologies (bold:(HTML), bold:(CSS), bold:(JS), bold:(PHP)). I have applied these skills to solve diverse problems, from competitive algorithms to practical automation scripts in Excel or other tools that make life easier or better.\n\nMy Github profile: link:github.com/Vl4dk0"
     },
     {
       "id": "skillMath",
@@ -44,6 +44,12 @@
       "summary": "Automation & Scripting",
       "popupTitle": "Practical Automation",
       "popupDetailsText": "I enjoy identifying opportunities for automation.\n\nFor example, I developed bold:(TypeScript scripts) to automate repetitive data checking and summarization tasks in Excel for my relative who works as accountant, bold:(saving him significant time).\n\nOr created tools that helped me save huge amounts of time with my homework. For example, a program that would parse the online editor, designed by our teachers, to a text file and integrating tools that have found closed tableaus and formalizations in seconds, then automatically re-parsing it back into the required online editor format. Saving around half and hour for each tableau I didn't have to solve by hand.\n\nThis highlights my ability to apply programming skills to bold:(solve real-world problems efficiently)."
+    },
+    {
+      "id": "skillLinux",
+      "summary": "Linux",
+      "popupTitle": "Linux in WSL",
+      "popupDetailsText": "I have been using bold:(Linux) within bold:(WSL) (Windows Subsystem for Linux) for a year now. I use it for most of my programming tasks.\n\nI am comfortable with the command line. I also have experience with bold:(Docker).\n\nI started using Linux because I wanted to learn bold:(Neovim), which I currently use as my bold:(main code editor).\n\nlink:github.com/Vl4dk0/dotfiles"
     },
     {
       "id": "skillEng",

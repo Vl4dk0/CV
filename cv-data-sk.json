@@ -46,6 +46,12 @@
       "popupDetailsText": "Baví ma hľadať príležitosti na automatizáciu.\n\nNapríklad som pre rodinného príslušníka, účtovníka, vyvinul bold:(TypeScript skripty) na automatizáciu repetetívnych a vyčerpávajúcich úloh kontroly a sumarizácie dát v Exceli, bold:(čím som mu ušetril značné množstvo času).\n\nAlebo som si vytvoril nástroje, ktoré mi pomohli ušetriť čas pri domácich úlohách. Najzaujímaveší bol asi program, ktorý parsoval online editor (vytvorený našimi učiteľmi) do textového súboru, integroval nástroje, ktoré v priebehu sekúnd našli uzavreté tablá a formalizácie, a následne to automaticky reparsoval späť do požadovaného formátu online editora, pripravené na odovzdanie. Ušetril som tak približne pol hodinu za každé tablo, ktoré som nemusel riešiť ručne.\n\nTo dokazuje moju schopnosť aplikovať programátorské zručnosti na bold:(efektívne riešenie problémov z reálneho sveta)."
     },
     {
+      "id": "skillLinux",
+      "summary": "Linux",
+      "popupTitle": "Linux vo WSL",
+      "popupDetailsText": "Už rok používam bold:(Linux) v rámci bold:(WSL) (Windows Subsystem for Linux). Používam ho pre väčšinu svojich programátorských úloh.\n\nSom komfortný s príkazovým riadkom. Mám tiež skúsenosti s bold:(Dockerom).\n\nLinux som začal používať, pretože som sa chcel naučiť bold:(Neovim), ktorý momentálne používam ako svoj bold:(hlavný textový editor) na kódovanie.\n\nlink:github.com/Vl4dk0/dotfiles"
+    },
+    {
       "id": "skillEng",
       "summary": "English Language (B2)",
       "popupTitle": "English Language",
