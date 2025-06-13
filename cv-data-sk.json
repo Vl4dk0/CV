@@ -116,7 +116,7 @@
   "aboutMe": [
     "Dátum narodenia: 30.04.2004, Pohlavie: Muž, Národnosť: Slovenská",
     "bold:(Študent informatiky) so silnými základmi v matematike a riešení problémov, zdokonalenými rokmi súťaženia v matematike a informatike.",
-    "Hľadám si brigádu alebo stáž, kde by som mohol prispieť k projektom, ďalej sa rozvíjať a učiť sa od profesionálov. Nehľadám konkrétny typ pozície. Som presvedčený, že by ma bavila akákoľvek rola zahŕňajúca programovanie a kritické myslenie, ako napríklad bold:(Web Development), bold:(Dátová veda), bold:(Umelá inteligencia), bold:(Vývoj hier), bold:(Automatizácia), bold:(aplikovaná Matematika), alebo kľudne aj bold:(Výskum/Veda). Preferujem prácu z kancelárie pred prácou z domu."
+    "Hľadám si brigádu alebo stáž (počas leta ideálne bold:(TPP)), kde by som mohol prispieť k projektom, ďalej sa rozvíjať a učiť sa od profesionálov. Nehľadám konkrétny typ pozície. Som presvedčený, že by ma bavila akákoľvek rola zahŕňajúca programovanie a kritické myslenie, ako napríklad bold:(Web Development), bold:(Dátová veda), bold:(Umelá inteligencia), bold:(Vývoj hier), bold:(Automatizácia), bold:(aplikovaná Matematika), alebo kľudne aj bold:(Výskum/Veda). Preferujem prácu z kancelárie pred prácou z domu."
   ],
   "projects": [
     {
@@ -141,7 +141,7 @@
       "id": "proj4",
       "summary": "Generátor vyvážených máp pre hru Catan",
       "popupTitle": "Catan Board Generator",
-      "popupDetailsText": "Vždy, keď som vyhral partiu bold:(Catanu), musel som počúvať kamarátov: 'Herný plán bol bold:(nevyvážený)!', alebo 'To bolo čisté šťastie!'. Tak som sa rozhodol vytvoriť bold:(Generátor), ktorý generuje bold:(vyvážené) herné plány. Je to základný bold:(backtracking), ktorý generuje herné plány, až kým nenájde vyvážený na základe určitých bold:(pravidiel), ktoré sa snažím čo najoptimálnejšie kontrolovať. Používam to ako bold:(PWA) na svojom mobile.\n\nGithub: link:github.com/Vl4dk0/CatanBoardGenerator\n\nWebstránka: link:catanboardgen.netlify.app"
+      "popupDetailsText": "Vždy, keď som vyhral partiu bold:(Catanu), musel som počúvať kamarátov: 'Herný plán bol bold:(nevyvážený)!', alebo 'To bolo čisté š��astie!'. Tak som sa rozhodol vytvoriť bold:(Generátor), ktorý generuje bold:(vyvážené) herné plány. Je to základný bold:(backtracking), ktorý generuje herné plány, až kým nenájde vyvážený na základe určitých bold:(pravidiel), ktoré sa snažím čo najoptimálnejšie kontrolovať. Používam to ako bold:(PWA) na svojom mobile.\n\nGithub: link:github.com/Vl4dk0/CatanBoardGenerator\n\nWebstránka: link:catanboardgen.netlify.app"
     },
     {
       "id": "proj5",
