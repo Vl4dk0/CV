@@ -15,6 +15,16 @@ document.addEventListener("DOMContentLoaded", () => {
     "language-toggle-button",
   );
 
+  function isMobile() {
+    const userAgent = navigator.userAgent;
+    if (/Mobi|Android/i.test(userAgent)) {
+      return true;
+    } else if (/Tablet|iPad/i.test(userAgent)) {
+      return true;
+    }
+    return false;
+  }
+
   function updateLanguageToggleText() {
     if (!languageToggleButton) return;
 
@@ -94,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const data = await response.json();
       populateCV(data);
       initializePopups();
-      showHint(languageHint);
+      // showHint(languageHint);
       showHint(interactiveHint);
     } catch (error) {
       console.error("Could not load CV data:", error);

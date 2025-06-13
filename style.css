@@ -132,11 +132,18 @@ html {
   display: none;
 }
 
-/* Hint Popup Styling */
-.hint-popup {
+.hint-wrapper {
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   top: 20px;
   left: 20px;
+  z-index: 1000;
+}
+
+/* Hint Popup Styling */
+.hint-popup {
   background-color: #eef6ff;
   color: #334e68;
   padding: 15px 20px;
@@ -153,10 +160,6 @@ html {
     opacity 0.1s ease-in-out,
     visibility 0.1s ease-in-out,
     transform 0.1s ease-in-out;
-}
-
-.hint-popup:nth-child(2) {
-  transform: translateY(110%);
 }
 
 .hint-popup p {
@@ -458,5 +461,8 @@ a:hover {
     padding: 5px 8px;
     font-size: 0.7em;
     right: 10px;
+  }
+  .hint-popup {
+    padding: 8px 10px;
   }
 }

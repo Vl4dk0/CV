@@ -12,7 +12,7 @@
   },
   "headerName": "VLADIMÍR JANČÁR",
   "headerTagline": "I CAN SOLVE RUBIK'S CUBE BLINDFOLDED",
-  "hintText": "💡 Many bold:(items in this CV are interactive!) Click them to discover more details.",
+  "hintText": "💡 Many items in this CV are bold:(interactive!) Click them to discover more details.",
   "languageHintText": "💡 bold:(Jazyk životopisu zmeníte) kliknutím na tlačidlo v pravom hornom rohu.",
   "contact": {
     "phone": "+421 903 979 659",
@@ -123,7 +123,7 @@
       "id": "proj1",
       "summary": "Graph Neural Networks - Partial automorphism extendability",
       "popupTitle": "GNNs - My bachelor thesis",
-      "popupDetailsText": "This is my bachelor thesis, which I am currently working on. It involves the use of bold:(Graph Neural Networks) (GNNs) to solve the problem of partial automorphism extendability. The goal is to develop a bold:(GNN) model that can bold:(predict) whether a given partial automorphism can be extended to a bold:(full automorphism) given graph and some partial automorphism. This project combines my interests in bold:(graph theory) and bold:(machine learning). There is no bold:(dataset) available for this, so I had to bold:(create one from scratch). It was okay. Regarding GNN and whether or not this AI will or will not be able to predict the extendability, I am bold:(not sure yet). I am still in the process of bold:(training) the model and bold:(evaluating) its performance."
+      "popupDetailsText": "This is my bachelor thesis, which I am currently working on. It involves the use of bold:(Graph Neural Networks) (GNNs) to solve the problem of partial automorphism extendability. The goal is to develop a bold:(GNN) model that can bold:(predict) whether a given partial automorphism can be extended to a bold:(full automorphism) given graph and some partial automorphism. This project combines my interests in bold:(graph theory) and bold:(machine learning). There is no bold:(dataset) available for this, so I had to bold:(create one from scratch). It was okay. Regarding GNN and whether or not this AI will or will not be able to predict the extendability: It is a still work in progress, but bold:(preliminary) results look bold:(promising)."
     },
     {
       "id": "proj2",
@@ -154,6 +154,12 @@
       "summary": "Coin toss simulator in Unity to find the so-called 'fair' coin",
       "popupTitle": "Youth Physics Tournament simulated experiment",
       "popupDetailsText": "I participated in the bold:(Youth Physics Tournament), where there was a task to find a 'fair' coin. Meaning there is bold:(equal probability) of heads, tails and bold:(edge)! It was a bold:(Unity) and bold:(C#) project that helped me check my calculations. I also created an bold:(algorithm) that would find the dimensions of such cylinder, and it bold:(worked well), results were very bold:(close to theoretical) answer, which came out to be 1:√3, 1 for height and √3 for diameter of a cylinder.\n\nThis was my only project in Unity and in C#, so I wouldn't say I am proficient in it yet. But C# feels similar to Java.\n\nBy the way, we bold:(won the regionals) (Kosice) that day."
+    },
+    {
+      "id": "proj7",
+      "summary": "LocalBridge - Local Network Chat app",
+      "popupTitle": "Simple Chat App",
+      "popupDetailsText": "This was a group project in my second year at university. The goal was to create an app that would enable us to chat and send files fast and securely over a local network. It is an bold:(Electron) project, written in bold:(Typescript), tests are written in bold:(vitest), and we used bold:(React) for the frontend. I worked on the backend, mainly on bold:(state machine) that manages connections and messages and schedules all internal processes.\n\nGithub: link:github.com/Hackder/xp_project"
     }
   ],
   "experience": [

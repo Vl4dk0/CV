@@ -12,7 +12,7 @@
   },
   "headerName": "VLADIMÍR JANČÁR",
   "headerTagline": "Viem poskladať rubikovú kocku naslepo",
-  "hintText": "💡 Mnohé bold:(položky v tomto životopise sú interaktívne!) Kliknite na ne.",
+  "hintText": "💡 Mnohé položky v tomto životopise sú bold:(interaktívne!) Kliknite na ne.",
   "languageHintText": "💡 You can bold:(change the CV language) by clicking the button in the top right corner.",
   "contact": {
     "phone": "+421 903 979 659",
@@ -49,7 +49,7 @@
       "id": "skillLinux",
       "summary": "Linux",
       "popupTitle": "Linux vo WSL",
-      "popupDetailsText": "Už rok používam bold:(Linux) v rámci bold:(WSL) (Windows Subsystem for Linux). Používam ho pre väčšinu svojich programátorských úloh.\n\nSom komfortný s príkazovým riadkom. Mám tiež skúsenosti s bold:(Dockerom).\n\nLinux som začal používať, pretože som sa chcel naučiť bold:(Neovim), ktorý momentálne používam ako svoj bold:(hlavný textový editor) na kódovanie.\n\nlink:github.com/Vl4dk0/dotfiles"
+      "popupDetailsText": "Približne rok používam bold:(Linux) v rámci bold:(WSL) (Windows Subsystem for Linux). Používam ho pre väčšinu svojich programátorských úloh.\n\nSom komfortný s príkazovým riadkom. Mám tiež skúsenosti s bold:(Dockerom).\n\nLinux som začal používať, pretože som sa chcel naučiť bold:(Neovim), ktorý momentálne používam ako svoj bold:(hlavný textový editor) na kódovanie.\n\nlink:github.com/Vl4dk0/dotfiles"
     },
     {
       "id": "skillEng",
@@ -123,7 +123,7 @@
       "id": "proj1",
       "summary": "Graph Neural Networks - Rozšíriteľnosť čiastočného automorfizmu",
       "popupTitle": "GNNs - Moja téma na bakalársku prácu",
-      "popupDetailsText": "Toto je moja bakalárska práca, na ktorej momentálne pracujem. Zahŕňa použitie bold:(grafových neurónových sietí) (GNN) na riešenie problému rozšíriteľnosti čiastočného automorfizmu. Cieľom je vyvinúť GNN model, ktorý dokáže bold:(predpovedať), či daný čiastočný automorfizmus môže byť bold:(rozšírený na úplný automorfizmus) pre daný graf a nejaký čiastočný automorfizmus. Tento projekt spája moje záujmy v bold:(teórii grafov) a bold:(strojovom učení). Pre tento problém bold:(neexistuje) žiaden dostupný bold:(dataset), takže som si ho musel bold:(vytvoriť) od základov sám. Šlo to v poriadku. Čo sa týka GNN a toho, či táto umelá inteligencia bude alebo nebude schopná predpovedať rozšíriteľnosť, si zatiaľ nie som istý. Stále som bold:(v procese trénovania) modelu a hodnotenia jeho výkonnosti."
+      "popupDetailsText": "Toto je moja bakalárska práca, na ktorej momentálne pracujem. Zahŕňa použitie bold:(grafových neurónových sietí) (GNN) na riešenie problému rozšíriteľnosti čiastočného automorfizmu. Cieľom je vyvinúť GNN model, ktorý dokáže bold:(predpovedať), či daný čiastočný automorfizmus môže byť bold:(rozšírený na úplný automorfizmus) pre daný graf a nejaký čiastočný automorfizmus. Tento projekt spája moje záujmy v bold:(teórii grafov) a bold:(strojovom učení). Pre tento problém bold:(neexistuje) žiaden dostupný bold:(dataset), takže som si ho musel bold:(vytvoriť) od základov sám. Šlo to hladko. Čo sa týka GNN a toho, či táto umelá inteligencia bude alebo nebude schopná predpovedať rozšíriteľnosť: Je to stále work in progress... No predbežné výsledky vyzerajú bold:(sľubne)."
     },
     {
       "id": "proj2",
@@ -135,7 +135,7 @@
       "id": "proj3",
       "summary": "Excel - Office skripty pre účtovníka, ktoré ušetrili hodiny práce.",
       "popupTitle": "Excel Automation - Office Scripts",
-      "popupDetailsText": "Vytvoril som bold:(niekoľko) automatizačných skriptov v bold:(Exceli) pomocou Office Scripts pre môjho príbuzného, ktorý je bold:(skúseným účtovníkom). Tieto skripty automatizujú úlohy, ktoré si bold:(vyžadujú) veľa bold:(sústredenia) a bold:(výdrže), pričom bold:(nie sú) vôbec bold:(zaujímavé) (t.j. kontrola správnosti všetkých dát alebo vytváranie súhrnov). Skripty výrazne bold:(skracujú čas), ktorý týmto úloham musí venovať. Tento projekt zlepšil moje zručnosti v bold:(Exceli) a bold:(skriptovaní)."
+      "popupDetailsText": "Vytvoril som bold:(niekoľko) automatizačných skriptov v bold:(Exceli) pomocou Office Scripts pre môjho príbuzného, ktorý je bold:(skúseným účtovníkom). Tieto skripty automatizujú ����lohy, ktoré si bold:(vyžadujú) veľa bold:(sústredenia) a bold:(výdrže), pričom bold:(nie sú) vôbec bold:(zaujímavé) (t.j. kontrola správnosti všetkých dát alebo vytváranie súhrnov). Skripty výrazne bold:(skracujú čas), ktorý týmto úloham musí venovať. Tento projekt zlepšil moje zručnosti v bold:(Exceli) a bold:(skriptovaní)."
     },
     {
       "id": "proj4",
@@ -147,13 +147,19 @@
       "id": "proj5",
       "summary": "API pre hru PONG, ktoré umožňuje vytvárať Botov (AI), ktorí budú ovládať raketu",
       "popupTitle": "Projekt na hodinu informatiky na strednej škole",
-      "popupDetailsText": "Na strednej škole som mal skvelú učiteľku, ktorá ma poprosila, aby som za ňu bold:(odučil dve hodiny), keď chýbala. Rozhodol som sa podľa jedného tutoriálu vytvoriť hru bold:(PONG) v Pythone a k nej som spravil bold:(API), aby si každý mohol naprogramovať bold:(Bota/AI), ktorý bude môcť ovládať raketku. Potom som na tom vysvetľoval tému bold:(tried) a bold:(dedičnosti). Nakoniec sme si v triede spravili bold:(turnaj) medzi našimi Botmi.\n\nGithub: link:github.com/Vl4dk0/pOnG"
+      "popupDetailsText": "Na strednej škole som mal skvelú učiteľku, ktorá ma poprosila, aby som za ňu bold:(odučil dve hodiny), kým chýbala. Rozhodol som sa podľa nejakého tutoriálu naprogramovať hru bold:(PONG) v Pythone (pygame). K nej som spravil bold:(API), ktorá umožňovala naprogramovať si bold:(Bota/AI), ktorý ovláda raketku. Potom som na tom vysvetľoval tému bold:(tried) a bold:(dedenia). Nakoniec sme si v triede spravili bold:(turnaj) medzi našimi Botmi.\n\nGithub: link:github.com/Vl4dk0/pOnG"
     },
     {
       "id": "proj6",
       "summary": "Simulátor hodu mince v Unity na nájdenie 'férovej' mince",
       "popupTitle": "Simulovaný experiment pre Turnaj mladých fyzikov",
       "popupDetailsText": "Zúčastnil som sa bold:(Turnaja mladých fyzikov), kde jednou z úloh bolo nájsť 'férovú' mincu. To znamená, že pravdepodobnosť padnutia hlavy, znaku aj bold:(hrany) je rovnaká! Bol to projekt v bold:(Unity) a bold:(C#), ktorý mi pomohol overiť si moje výpočty. Tiež som vytvoril bold:(algoritmus), ktorý hľadal rozmery takéhoto valca. Fungoval dobre a výsledky boli veľmi bold:(blízke teórii), ktorá vyšla v pomere 1 ku √3 (1 pre výšku a √3 pre priemer valca). Toto bol môj jediný projekt v Unity a v C#, takže by som nepovedal, že ich ovládam, no C# mi pripadá podobný Jave.\n\nMimochodom, v ten deň sme bold:(vyhrali) 1. miesto v bold:(krajskom kole) (Košice)."
+    },
+    {
+      "id": "proj7",
+      "summary": "LocalBridge - Appka na chatovanie po lokálnej sieti",
+      "popupTitle": "Jednoduchá chatovacia appka",
+      "popupDetailsText": "Toto bol skupinový projekt v druhom ročníku na univerzite. Cieľom bolo vytvoriť aplikáciu, ktorá by nám umožnila rýchlo a bezpečne chatovať a posielať súbory v rámci lokálnej siete. Je to bold:(Electron) projekt, napísaný v bold:(TypeScripte), testy sú napísané vo bold:(vitest)-e a na frontende sme použili bold:(React). Ja som pracoval na backende, hlavne na bold:(state machine), ktorá spravuje pripojenia, správy a plánuje všetky interné procesy.\n\nGithub: link:github.com/Hackder/xp_project"
     }
   ],
   "experience": [
