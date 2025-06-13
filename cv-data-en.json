@@ -147,7 +147,7 @@
       "id": "proj5",
       "summary": "API for PONG game that allows you to create your own Racket-controlling AI",
       "popupTitle": "Project for school",
-      "popupDetailsText": "I had a great teacher in high school, who asked me to bold:(teach Python to my classmates for 2 lessons) when she was absent. I decided to follow some tutorial to create a bold:(PONG) game in python and then created an bold:(API) so that you could program a bold:(Bot/AI) that will control one of the rackets. I then explained the topic of bold:(classes) and bold:(inheritance). We then ran a tournament of our bots.\n\nGithub: link:github.com/Vl4dk0/pOnG"
+      "popupDetailsText": "I had a great teacher in high school, who asked me to bold:(teach Python to my classmates for 2 lessons) when she was absent. I decided to follow some tutorial to create a bold:(PONG) game in python and then created an bold:(API) so that you could program a bold:(Bot/AI) that will control one of the rackets. I then explained the topic of bold:(classes) and bold:(inheritance).\n\nGithub: link:github.com/Vl4dk0/pOnG"
     },
     {
       "id": "proj6",
