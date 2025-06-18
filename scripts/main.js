@@ -2,6 +2,7 @@ import { loadCVData } from "./dataLoader.js";
 import { populateCV } from "./uiBuilder.js";
 import {
   initializeInteractions,
+  triggerInteractiveHighlight,
   updateLanguageToggleText,
 } from "./interactions.js";
 
@@ -24,7 +25,20 @@ async function setLanguage(lang) {
       interactionInitializer.initializePopups();
     }
   }
+
+  setTimeout(triggerInteractiveHighlight, 500);
 }
+
+function isMobile() {
+  const userAgent = navigator.userAgent;
+  if (/Mobi|Android/i.test(userAgent)) {
+    return true;
+  } else if (/Tablet|iPad/i.test(userAgent)) {
+    return true;
+  }
+  return false;
+}
+
 
 document.addEventListener("DOMContentLoaded", () => {
   interactionInitializer = initializeInteractions(setLanguage);

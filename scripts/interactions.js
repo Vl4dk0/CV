@@ -110,3 +110,20 @@ export function updateLanguageToggleText(currentLang) {
       `;
   }
 }
+
+export function triggerInteractiveHighlight() {
+  const interactiveItems = document.querySelectorAll(".interactive-item");
+  if (interactiveItems.length === 0) return;
+
+  console.log("Triggering interactive highlight...");
+
+  interactiveItems.forEach((item, index) => {
+    setTimeout(() => {
+      item.classList.add("highlight-pulse");
+
+      setTimeout(() => {
+        item.classList.remove("highlight-pulse");
+      }, 150);
+    }, index * 75);
+  });
+}
