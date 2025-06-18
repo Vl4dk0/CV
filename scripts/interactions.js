@@ -70,7 +70,6 @@ export function initializeInteractions(setLanguageCallback) {
         closeAllPopups();
       }
     });
-    console.log("Interactive CV popups initialized!");
   }
 
   if (languageToggleButton) {
@@ -114,8 +113,6 @@ export function updateLanguageToggleText(currentLang) {
 export function triggerInteractiveHighlight() {
   const interactiveItems = document.querySelectorAll(".interactive-item");
   if (interactiveItems.length === 0) return;
-
-  console.log("Triggering interactive highlight...");
 
   interactiveItems.forEach((item, index) => {
     setTimeout(() => {
