@@ -73,7 +73,6 @@ document.addEventListener("DOMContentLoaded", () => {
       hint.classList.add("hidden");
       setTimeout(() => {
         if (hint.classList.contains("hidden")) {
-          // hint.style.display = "none";
           hint.remove();
         }
       }, 200);
