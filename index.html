@@ -4,19 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vladimír Jančár</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
 
   <body>
-    <div class="hint-wrapper">
-      <!-- <div id="language-hint" class="hint-popup hidden"> -->
-      <!--   <p id="language-hint-p"></p> -->
-      <!--   <button id="close-hint-language" class="close-hint-button"> -->
-      <!--     &times; -->
-      <!--   </button> -->
-      <!-- </div> -->
-
-      <div id="interactive-hint" class="hint-popup hidden">
+    <div class="hint-wrapper" id="hint-wrapper">
+      <div id="interactive-hint" class="hint-popup">
         <p id="interactive-hint-p"></p>
         <button id="close-hint-interactive" class="close-hint-button">
           &times;
@@ -89,6 +83,6 @@
     <!-- Container for Dynamically Generated Popups -->
     <div id="popups-container"></div>
 
-    <script src="script.js"></script>
+    <script type="module" src="scripts/main.js"></script>
   </body>
 </html>
