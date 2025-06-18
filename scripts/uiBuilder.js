@@ -1,5 +1,5 @@
 function applyTextFormatting(paragraphElement, text) {
-  paragraphElement.innerHTML = ""; // Clear existing content
+  paragraphElement.innerHTML = "";
 
   const linkRegex = /\blink:(\S+)\b/g;
   const boldRegex = /\bbold:\((.+?)\)/g;
@@ -154,18 +154,6 @@ export function populateCV(data) {
 
   const popupsContainer = document.getElementById("popups-container");
   if (popupsContainer) popupsContainer.innerHTML = "";
-
-  // Set hint text
-  const hintText = document.getElementById("interactive-hint-p");
-  if (hintText && data.hintText) {
-    applyTextFormatting(hintText, data.hintText.trim());
-  }
-
-  // Set language hint text
-  const languageHintText = document.getElementById("language-hint-p");
-  if (languageHintText && data.languageHintText) {
-    applyTextFormatting(languageHintText, data.languageHintText.trim());
-  }
 
   // Populate Skills
   const skillsList = document.getElementById("skills-list");
@@ -323,3 +311,28 @@ export function populateCV(data) {
     }
   }
 }
+
+export function initalizeHints(data) {
+  const hintText = document.getElementById("interactive-hint-p");
+  if (hintText && data.hintText) {
+    applyTextFormatting(hintText, data.hintText.trim());
+  }
+
+  function dismissHint(hint) {
+    if (hint) {
+      hint.classList.add("hidden");
+      setTimeout(() => {
+        hint.remove()
+      }, 200)
+    }
+  }
+
+  const hint = document.getElementById("interactive-hint");
+  const closeButton = document.getElementById("close-hint-interactive");
+  if (closeButton) {
+    closeButton.addEventListener("click", () => {
+      dismissHint.bind(null, hint)();
+    });
+  }
+}
+

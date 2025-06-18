@@ -1,5 +1,5 @@
 import { loadCVData } from "./dataLoader.js";
-import { populateCV } from "./uiBuilder.js";
+import { populateCV, initalizeHints } from "./uiBuilder.js";
 import {
   initializeInteractions,
   triggerInteractiveHighlight,
@@ -24,6 +24,7 @@ async function setLanguage(lang) {
     if (interactionInitializer) {
       interactionInitializer.initializePopups();
     }
+    initalizeHints(data);
   }
 
   setTimeout(triggerInteractiveHighlight, 500);
