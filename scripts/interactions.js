@@ -46,7 +46,6 @@ export function initializeInteractions(setLanguageCallback) {
 
   function initializePopups() {
     const interactiveItems = document.querySelectorAll(".interactive-item");
-    const currentLang = document.documentElement.lang;
     interactiveItems.forEach((item) => {
       if (item.dataset.popupTarget) {
         item.addEventListener("click", (event) => {
@@ -60,6 +59,7 @@ export function initializeInteractions(setLanguageCallback) {
             openPopup(popupId);
           }
 
+          const currentLang = document.documentElement.lang;
           logInteraction(popupId, currentLang);
         });
       }
@@ -90,6 +90,7 @@ export function initializeInteractions(setLanguageCallback) {
     languageToggleButton.addEventListener("click", () => {
       const anyPopupActive = document.querySelector(".popup.active");
       if (anyPopupActive) return;
+      const currentLang = document.documentElement.lang;
       const newLang = currentLang === "en" ? "sk" : "en";
       setLanguageCallback(newLang);
     });
