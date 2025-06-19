@@ -1,9 +1,19 @@
+import { prettyPrintTimestamp } from "./utils.js";
+
 export function initializeInteractions(setLanguageCallback) {
   const popupOverlay = document.getElementById("popup-overlay");
   const popupsContainer = document.getElementById("popups-container");
   const languageToggleButton = document.getElementById(
     "language-toggle-button",
   );
+
+  let interactions = [];
+
+  function logInteraction(itemId, lang) {
+    const ts = new Date().toISOString();
+    interactions.push(`${prettyPrintTimestamp(ts)}: ${lang}-${itemId}`);
+    sessionStorage.setItem("userInteractions", JSON.stringify(interactions));
+  }
 
   function openPopup(popupId) {
     const popup = popupsContainer.querySelector(`#${popupId}`);
@@ -36,6 +46,7 @@ export function initializeInteractions(setLanguageCallback) {
 
   function initializePopups() {
     const interactiveItems = document.querySelectorAll(".interactive-item");
+    const currentLang = document.documentElement.lang;
     interactiveItems.forEach((item) => {
       if (item.dataset.popupTarget) {
         item.addEventListener("click", (event) => {
@@ -43,10 +54,13 @@ export function initializeInteractions(setLanguageCallback) {
             return;
           }
           event.preventDefault();
+
           const popupId = item.getAttribute("data-popup-target");
           if (popupId) {
             openPopup(popupId);
           }
+
+          logInteraction(popupId, currentLang);
         });
       }
     });
@@ -76,7 +90,6 @@ export function initializeInteractions(setLanguageCallback) {
     languageToggleButton.addEventListener("click", () => {
       const anyPopupActive = document.querySelector(".popup.active");
       if (anyPopupActive) return;
-      const currentLang = document.documentElement.lang;
       const newLang = currentLang === "en" ? "sk" : "en";
       setLanguageCallback(newLang);
     });
