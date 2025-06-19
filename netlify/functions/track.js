@@ -12,6 +12,15 @@ exports.handler = async (event) => {
     return { statusCode: 400, body: "Invalid JSON" };
   }
 
+  console.log(
+    "SMTP_USER:",
+    process.env.SMTP_USER?.slice(0, 5) + "…",
+    "SMTP_PASS set?",
+    !!process.env.SMTP_PASS,
+    "TO_EMAIL:",
+    process.env.TO_EMAIL,
+  );
+
   // only send email on the 'end' event
   if (p.event === "end") {
     const transporter = nodemailer.createTransport({
