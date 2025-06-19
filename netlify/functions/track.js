@@ -1,3 +1,8 @@
+import {
+  prettyPrintTimestamp,
+  prettyPrintDuration,
+} from "../../scripts/utils.js";
+
 const nodemailer = require("nodemailer");
 
 exports.handler = async (event) => {
@@ -24,11 +29,24 @@ exports.handler = async (event) => {
       },
     });
 
-    const subject = `⏱️ CV - (session ${p.sessionId})`;
-    const text =
-      `Started at: ${p.timestampStart}\n` +
-      `Ended at:   ${p.timestamp}\n` +
-      `Duration:   ${p.durationSec}s`;
+    const interactions = JSON.parse(p.interactions);
+
+    const subject = `📝 CV - (${p.userId})`;
+    let text =
+      `Duration:   ${prettyPrintDuration(p.durationSec)}s\n` +
+      `Start: ${prettyPrintTimestamp(p.timestampStart)}\n` +
+      `End:   ${prettyPrintTimestamp(p.timestamp)}\n` +
+      `Visit count: ${p.visitCount}`;
+
+    console.log(interactions, interactions.length, typeof interactions);
+    if (interactions.length > 0) {
+      text += `\n\nInteractions:\n`;
+      interactions.forEach((interaction) => {
+        text += `- ${interaction}\n`;
+      });
+    } else {
+      text += `\n\nNo interactions recorded.`;
+    }
 
     try {
       await transporter.sendMail({

@@ -14,18 +14,32 @@
     sessionStorage.setItem("sessionId", sessionId);
   }
 
+  let userId = localStorage.getItem("userId");
+  if (!userId) {
+    userId = uuidv4();
+    localStorage.setItem("userId", userId);
+  }
+  console.log("userId", userId);
+
+  let visitCount = parseInt(localStorage.getItem("visitCount") || "0", 10) + 1;
+  localStorage.setItem("visitCount", visitCount.toString());
+
   const startedAt = new Date().toISOString();
   const startedMs = Date.now();
   const endpoint = "/.netlify/functions/track";
 
   window.addEventListener("beforeunload", () => {
     const durationSec = Math.round((Date.now() - startedMs) / 1000);
+    const interactions = sessionStorage.getItem("userInteractions") || "[]";
     const payload = {
       sessionId,
+      userId,
+      visitCount,
       event: "end",
       timestampStart: startedAt,
       timestamp: new Date().toISOString(),
       durationSec,
+      interactions,
     };
     const body = JSON.stringify(payload);
     if (navigator.sendBeacon) {
