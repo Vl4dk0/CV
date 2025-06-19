@@ -140,7 +140,7 @@
       "id": "proj4",
       "summary": "Generátor vyvážených máp pre hru Catan",
       "popupTitle": "Catan Board Generator",
-      "popupDetailsText": "Vždy, keď som vyhral partiu bold:(Catanu), musel som počúvať kamarátov: 'Herný plán bol bold:(nevyvážený)!', alebo 'To bolo čisté š��astie!'. Tak som sa rozhodol vytvoriť bold:(Generátor), ktorý generuje bold:(vyvážené) herné plány. Je to základný bold:(backtracking), ktorý generuje herné plány, až kým nenájde vyvážený na základe určitých bold:(pravidiel), ktoré sa snažím čo najoptimálnejšie kontrolovať. Používam to ako bold:(PWA) na svojom mobile.\n\nGithub: link:github.com/Vl4dk0/CatanBoardGenerator\n\nWebstránka: link:catanboardgen.netlify.app"
+      "popupDetailsText": "Vždy, keď som vyhral partiu bold:(Catanu), musel som počúvať kamarátov: 'Herný plán bol bold:(nevyvážený)!', alebo 'To bolo čisté štastie!'. Tak som sa rozhodol vytvoriť bold:(Generátor), ktorý generuje bold:(vyvážené) herné plány. Je to základný bold:(backtracking), ktorý generuje herné plány, až kým nenájde vyvážený na základe určitých bold:(pravidiel), ktoré sa snažím čo najoptimálnejšie kontrolovať. Používam to ako bold:(PWA) na svojom mobile.\n\nGithub: link:github.com/Vl4dk0/CatanBoardGenerator\n\nWebstránka: link:catanboardgen.netlify.app"
     },
     {
       "id": "proj5",
