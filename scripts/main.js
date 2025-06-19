@@ -30,16 +30,6 @@ async function setLanguage(lang) {
   setTimeout(triggerInteractiveHighlight, 500);
 }
 
-function isMobile() {
-  const userAgent = navigator.userAgent;
-  if (/Mobi|Android/i.test(userAgent)) {
-    return true;
-  } else if (/Tablet|iPad/i.test(userAgent)) {
-    return true;
-  }
-  return false;
-}
-
 document.addEventListener("DOMContentLoaded", () => {
   interactionInitializer = initializeInteractions(setLanguage);
   setLanguage(currentLang);
