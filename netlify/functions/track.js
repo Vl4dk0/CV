@@ -38,7 +38,6 @@ exports.handler = async (event) => {
       `End:   ${prettyPrintTimestamp(p.timestamp)}\n` +
       `Visit count: ${p.visitCount}`;
 
-    console.log(interactions, interactions.length, typeof interactions);
     if (interactions.length > 0) {
       text += `\n\nInteractions:\n`;
       interactions.forEach((interaction) => {

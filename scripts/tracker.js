@@ -19,7 +19,6 @@
     userId = uuidv4();
     localStorage.setItem("userId", userId);
   }
-  console.log("userId", userId);
 
   let visitCount = parseInt(localStorage.getItem("visitCount") || "0", 10) + 1;
   localStorage.setItem("visitCount", visitCount.toString());
