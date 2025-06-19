@@ -40,7 +40,6 @@ function isMobile() {
   return false;
 }
 
-
 document.addEventListener("DOMContentLoaded", () => {
   interactionInitializer = initializeInteractions(setLanguage);
   setLanguage(currentLang);

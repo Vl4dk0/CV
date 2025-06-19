@@ -1,60 +1,47 @@
-const nodemailer = require('nodemailer');
+const nodemailer = require("nodemailer");
 
 exports.handler = async (event) => {
-	if (event.httpMethod !== 'POST') {
-		return { statusCode: 405, body: 'Method Not Allowed' };
-	}
+  if (event.httpMethod !== "POST") {
+    return { statusCode: event.httpMethod === "GET" ? 200 : 405, body: "" };
+  }
 
-	let payload;
-	try {
-		payload = JSON.parse(event.body);
-	} catch (e) {
-		return { statusCode: 400, body: 'Invalid JSON' };
-	}
+  let p;
+  try {
+    p = JSON.parse(event.body);
+  } catch {
+    return { statusCode: 400, body: "Invalid JSON" };
+  }
 
-	const {
-		sessionId,
-		event: evt,
-		timestamp,
-		timestampStart,
-		durationSec
-	} = payload;
+  // only send email on the 'end' event
+  if (p.event === "end") {
+    const transporter = nodemailer.createTransport({
+      host: process.env.SMTP_HOST || "smtp.gmail.com",
+      port: process.env.SMTP_PORT || 587,
+      secure: false,
+      auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
+      },
+    });
 
-	const transporter = nodemailer.createTransport({
-		host: process.env.SMTP_HOST || 'smtp.gmail.com',
-		port: process.env.SMTP_PORT || 587,
-		secure: false,
-		auth: {
-			user: process.env.SMTP_USER,
-			pass: process.env.SMTP_PASS
-		}
-	});
+    const subject = `⏱️ CV - (session ${p.sessionId})`;
+    const text =
+      `Started at: ${p.timestampStart}\n` +
+      `Ended at:   ${p.timestamp}\n` +
+      `Duration:   ${p.durationSec}s`;
 
-	let subject, text;
-	if (evt === 'start') {
-		subject = `👀 CV Viewed (session ${sessionId})`;
-		text = `Visitor session ${sessionId} started at ${timestamp}.`;
-	} else if (evt === 'end') {
-		subject = `⏱️ CV Session (session ${sessionId})`;
-		text =
-			`Visitor session ${sessionId}:\n` +
-			` • started at ${timestampStart}\n` +
-			` • ended   at ${timestamp}\n` +
-			` • duration: ${durationSec}s`;
-	} else {
-		return { statusCode: 400, body: 'Unknown event' };
-	}
+    try {
+      await transporter.sendMail({
+        from: process.env.SMTP_USER,
+        to: process.env.TO_EMAIL,
+        subject,
+        text,
+      });
+      console.log("Email sent for session:", p.sessionId);
+    } catch (err) {
+      console.error("Email send error:", err);
+    }
+  }
 
-	try {
-		await transporter.sendMail({
-			from: process.env.SMTP_USER,
-			to: process.env.TO_EMAIL,
-			subject,
-			text
-		});
-	} catch (err) {
-	}
-
-	return { statusCode: 200, body: 'OK' };
+  return { statusCode: 200, body: "ok" };
 };
-

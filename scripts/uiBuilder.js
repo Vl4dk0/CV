@@ -322,8 +322,8 @@ export function initalizeHints(data) {
     if (hint) {
       hint.classList.add("hidden");
       setTimeout(() => {
-        hint.remove()
-      }, 200)
+        hint.remove();
+      }, 200);
     }
   }
 
@@ -335,4 +335,3 @@ export function initalizeHints(data) {
     });
   }
 }
-

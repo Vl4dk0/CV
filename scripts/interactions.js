@@ -86,7 +86,9 @@ export function initializeInteractions(setLanguageCallback) {
 }
 
 export function updateLanguageToggleText(currentLang) {
-  const languageToggleButton = document.getElementById("language-toggle-button");
+  const languageToggleButton = document.getElementById(
+    "language-toggle-button",
+  );
   if (!languageToggleButton) return;
 
   let currentLangDisplay, otherLangDisplay;
