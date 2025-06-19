@@ -35,9 +35,9 @@
       userId,
       visitCount,
       event: "end",
-      timestampStart: startedAt,
-      timestamp: new Date().toISOString(),
-      durationSec,
+      timestampStart: prettyPrintTimestamp(startedAt),
+      timestamp: prettyPrintTimestamp(new Date().toISOString()),
+      durationSec: prettyPrintDuration(durationSec),
       interactions,
     };
     const body = JSON.stringify(payload);

@@ -1,8 +1,3 @@
-import {
-  prettyPrintTimestamp,
-  prettyPrintDuration,
-} from "../../scripts/utils.js";
-
 const nodemailer = require("nodemailer");
 
 exports.handler = async (event) => {
@@ -33,9 +28,9 @@ exports.handler = async (event) => {
 
     const subject = `📝 CV - (${p.userId})`;
     let text =
-      `Duration:   ${prettyPrintDuration(p.durationSec)}s\n` +
-      `Start: ${prettyPrintTimestamp(p.timestampStart)}\n` +
-      `End:   ${prettyPrintTimestamp(p.timestamp)}\n` +
+      `Duration:   ${p.durationSec}s\n` +
+      `Start: ${p.timestampStart}\n` +
+      `End:   ${p.timestamp}\n` +
       `Visit count: ${p.visitCount}`;
 
     if (interactions.length > 0) {
