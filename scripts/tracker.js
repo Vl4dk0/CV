@@ -16,6 +16,11 @@ import { prettyPrintTimestamp, prettyPrintDuration } from "./utils.js";
     localStorage.setItem("userId", userId);
   }
 
+  if (userId === "03d328a1-09cd-42b1-b11f-9c5fb22a134a") {
+    // this is myself
+    return;
+  }
+
   let visitCount = parseInt(localStorage.getItem("visitCount") || "0", 10) + 1;
   localStorage.setItem("visitCount", visitCount.toString());
 
