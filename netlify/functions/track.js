@@ -27,7 +27,7 @@ exports.handler = async (event) => {
 
   const subject = `📝 CV - (${p.userId})`;
   let text =
-    `Duration:   ${p.duration}s\n` +
+    `Duration:   ${p.duration}\n` +
     `Start: ${p.tsStart}\n` +
     `End:   ${p.tsEnd}\n` +
     `Visit count: ${p.visitCount}`;
