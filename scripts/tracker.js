@@ -1,3 +1,5 @@
+import { prettyPrintTimestamp, prettyPrintDuration } from "./utils.js";
+
 (function () {
   function uuidv4() {
     return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, (c) =>
@@ -6,12 +8,6 @@
         (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))
       ).toString(16),
     );
-  }
-
-  let sessionId = sessionStorage.getItem("sessionId");
-  if (!sessionId) {
-    sessionId = uuidv4();
-    sessionStorage.setItem("sessionId", sessionId);
   }
 
   let userId = localStorage.getItem("userId");
@@ -29,15 +25,21 @@
 
   window.addEventListener("beforeunload", () => {
     const durationSec = Math.round((Date.now() - startedMs) / 1000);
+    if (durationSec < 45) {
+      // Dont send short visits
+      console.log("Visit too short, not sending data.", durationSec);
+      return;
+    }
+
     const interactions = sessionStorage.getItem("userInteractions") || "[]";
+    sessionStorage.removeItem("userInteractions");
+
     const payload = {
-      sessionId,
       userId,
       visitCount,
-      event: "end",
-      timestampStart: prettyPrintTimestamp(startedAt),
-      timestamp: prettyPrintTimestamp(new Date().toISOString()),
-      durationSec: prettyPrintDuration(durationSec),
+      tsStart: prettyPrintTimestamp(startedAt),
+      tsEnd: prettyPrintTimestamp(new Date().toISOString()),
+      duration: prettyPrintDuration(durationSec),
       interactions,
     };
     const body = JSON.stringify(payload);
