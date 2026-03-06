@@ -89,7 +89,7 @@
       ],
       "dates": "2023 - present",
       "popupTitle": "Comenius University - Applied Informatics",
-      "popupDetailsText": "At bold:(Matfyz (Comenius University)), I am in the Applied Informatics program, maintaining a bold:(GPA of ~1.04 over three years). The challenging curriculum 'forces' me to continuously learn and solve complex problems. It taught me to be language neutral (read and learn to code fast in different programming languages) thank to various courses simply requiring to know some new language. I've gained experience in wide range of current problems in computer science. Best thing was that this gave me ideas and time to explore and experiment with various projects."
+      "popupDetailsText": "At bold:(Matfyz (Comenius University)), I am in the Applied Informatics program, maintaining a bold:(GPA of ~1.04 over three years). The challenging curriculum 'forces' me to continuously learn and solve complex problems.\n\nMatfyz taught me to be language neutral (read and code in different programming languages) thank to various courses simply requiring to know some new language. I've gained experience in wide range of current problems in computer science.\n\nBest thing was that this gave me bold:(space and time) to explore and experiment with various projects."
     }
   ],
   "characteristics": [
@@ -172,13 +172,13 @@
       "id": "exp2",
       "summary": "SmartBase s.r.o, Junior, Fullstack developer",
       "popupTitle": "SmartBase s.r.o - Junior Django Fullstack developer",
-      "popupDetailsText": "At SmartBase s.r.o, I worked as a bold:(Junior Fullstack Developer) on e-commerce projects like link:alo.sk, link:argus.sk, and link:najlekaren.sk. Initially focused on frontend tasks (HTML, CSS, JavaScript from Figma templates), I quickly transitioned to backend responsibilities as well. Most interesting backend tasks were about bold:(integrating payment APIs) and bold:(optimizing image loading) to reduce users' mobile data consumption.\n\nI greatly valued the learning experience and the team environment. We parted ways amicably as my university commitments required more time than I could dedicate to the role, and for me, bold:(studies come first)."
+      "popupDetailsText": "SmartBase s.r.o, bold:(Junior Fullstack Developer) of e-commerce projects like link:alo.sk, link:argus.sk, and link:najlekaren.sk. Initially focused on frontend tasks (HTML, CSS, JavaScript from Figma templates), I quickly transitioned to backend responsibilities as well. Most interesting backend tasks were about bold:(integrating payment APIs) and bold:(optimizing image loading) to reduce users' mobile data consumption.\n\nI greatly valued the learning experience and the team environment. We parted ways amicably as my university commitments required more time than I could dedicate to the role, and for me, bold:(studies come first)."
     },
     {
       "id": "exp3",
       "summary": "Nabu Technologies, Data source engineer",
       "popupTitle": "nexana.ai - Your Legal Assistant",
-      "popupDetailsText": "At Nabu Technologies, I worked as a bold:(Data Source Engineer) on the link:nexana.ai project, which is RAG-powered legal assistant.\n\nMy role is to build automated scripts to obtain legal documents from official sources, that are used to help the assistant answer users' questions. I built a bold:(web scraper framework) that takes care of everything you might need when scraping official source. It can handle rate-limiting, BOT protection challenges, logging errors and retrying them on the fly,...\n\nIt is designed to be bold:(trivial) to add new sources, so that they can be added with minimal effort and resistance - (bold:(with one prompt to AI))."
+      "popupDetailsText": "Nabu Technologies, bold:(Data Source Engineer).\n\nlink:nexana.ai project, which is RAG-powered legal assistant.\n\nMy role is to build automated scripts to obtain legal documents from official sources, that are used to help the assistant answer users' questions. I built a bold:(web scraper framework) that takes care of everything you might need when scraping official source. It can handle rate-limiting, BOT protection challenges, logging errors and retrying them on the fly,...\n\nIt is designed to be bold:(trivial) to add new sources, so that they can be added with minimal effort and resistance - (bold:(with one prompt to AI))."
     }
   ],
   "achievements": {
